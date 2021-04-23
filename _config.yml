@@ -38,21 +38,21 @@ environment: staging
 create_indicators:
   layout: indicator
 create_goals:
-  lyout: goal-by-target
-#  layout: goal-by-target-vertical
+#  lyout: goal-by-target
+  layout: goal-by-target-vertical
 create_pages: true
-#  pages:
-#    - folder: /
+  pages:
+    - folder: /
       layout: frontpage-alt
-#    - folder: /goals
-#      layout: goals
-#    - folder: /reporting-status
-#      layout: reportingstatus
-#    - filename: indicators.json
-#      folder: /
-#      layout: indicator-json
-#    - folder: /search
-#      layout: search
+    - folder: /goals
+      layout: goals
+    - folder: /reporting-status
+      layout: reportingstatus
+    - filename: indicators.json
+      folder: /
+      layout: indicator-json
+    - folder: /search
+      layout: search
 
 analytics:
   ga_prod: ''
@@ -79,8 +79,8 @@ frontpage_introduction_banner:
   description: frontpage.intro_body
 
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
-  description: Click on each goal for our Sustainable Development Goal global indicator data.
+  title: Integrationsmonitoring Niedersachsen
+  description: Einfach einen Indikator anklicken.
 
 frontpage_cards:
   - title: frontpage.download_all
@@ -137,7 +137,8 @@ footer_menu:
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
-
+  - path: /imprint/
+    translations_key: menue.imprint
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
 non_global_metadata: indicator.national_metadata
