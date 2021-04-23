@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'http://wohnungNDS.github.io/IM_Data/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'de',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Indicators For The Sustainable Development Goals</title>
+    <title>Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210422113341">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210423071133">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-reportingstatus">
+<body class="language-de layout-reportingstatus">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alpha-Version</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href="mailto:test@example.com">Kommentare</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/IM_Site/" id="home">
-    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/reporting-status/">
-              Español
+            <a href="/IM_Site/en/reporting-status/">
+              English
             </a>
           </li></ul>
   </div>
@@ -191,9 +191,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Suche</label>
+    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -209,11 +209,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/reporting-status/">
-              Español
+            <a href="/IM_Site/en/reporting-status/">
+              English
             </a>
           </li></ul>
   </div>
@@ -228,21 +228,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link active">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -254,11 +254,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/reporting-status/">
-              Español
+            <a href="/IM_Site/en/reporting-status/">
+              English
             </a>
           </li></ul>
   </div>
@@ -271,31 +271,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Suche</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link active">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li>
 </ul>
 
@@ -320,7 +320,7 @@ var translations = {
 
   <h1>
   
-    Reporting status
+    Berichtsstatus
   
 </h1>
 
@@ -333,697 +333,697 @@ var translations = {
   <div class="goal goal-overall">
     <div class="details">
         <h2 class="status-goal">
-            Overall reporting status
+            Gesamtstatus der Berichterstattung
         </h2>
-        <span class="total"><span>244</span> indicators</span>
+        <span class="total"><span>244</span> indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">0%</span>
+                <span class="status complete"><span class="status-inner">1</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
             </div><div>
-                <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
             </div><div>
-                <span class="status notstarted"><span class="status-inner">243</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                <span class="status notstarted"><span class="status-inner">243</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
             </div><div>
-                <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
             </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
             
             
-            <span class="complete" style="width:0.4098360655737705%" title="Reported online: 0%"></span>
+            <span class="complete" style="width:0.4098360655737705%" title="Daten verfügbar: 0%"></span>
             
             
-            <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+            <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
             
             
-            <span class="notstarted" style="width:99.59016393442623%" title="Exploring data sources: 100%"></span>
+            <span class="notstarted" style="width:99.59016393442623%" title="Datenquellenanalyse: 100%"></span>
             
             
-            <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+            <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
     </div>
     <br style="clear:both;">
 </div>
-  <h2>Status by goal</h2><div class="goal reporting-status-item">
+  <h2>Status nach Ziel</h2><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/1">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/1.png" alt="No poverty - Goal 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/1.png" alt="Keine Armut - Ziel 1" width="100" height="100" class="goal-icon-1 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/1">No poverty</a>
+            <a href="/IM_Site/1">Keine Armut</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">1</span></span><strong>Reported online</strong><span class="value">7%</span>
+                    <span class="status complete"><span class="status-inner">1</span></span><strong>Daten verfügbar</strong><span class="value">7%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">93%</span>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Datenquellenanalyse</strong><span class="value">93%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:7.142857142857142%" title="Reported online: 7%"></span>
+                <span class="complete" style="width:7.142857142857142%" title="Daten verfügbar: 7%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:92.85714285714286%" title="Exploring data sources: 93%"></span>
+                <span class="notstarted" style="width:92.85714285714286%" title="Datenquellenanalyse: 93%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/2">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/2.png" alt="Zero hunger - Goal 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/2.png" alt="Kein Hunger - Ziel 2" width="100" height="100" class="goal-icon-2 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/2">Zero hunger</a>
+            <a href="/IM_Site/2">Kein Hunger</a>
         </h3>
-        <span class="total">13 indicators</span>
+        <span class="total">13 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/3">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/3.png" alt="Gesundheit und Wohlergehen - Ziel 3" width="100" height="100" class="goal-icon-3 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/3">Good health and well-being</a>
+            <a href="/IM_Site/3">Gesundheit und Wohlergehen</a>
         </h3>
-        <span class="total">27 indicators</span>
+        <span class="total">27 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">27</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">27</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/4">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/4.png" alt="Quality education - Goal 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/4.png" alt="Hochwertige Bildung - Ziel 4" width="100" height="100" class="goal-icon-4 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/4">Quality education</a>
+            <a href="/IM_Site/4">Hochwertige Bildung</a>
         </h3>
-        <span class="total">11 indicators</span>
+        <span class="total">11 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/5">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/5.png" alt="Gender equality - Goal 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/5.png" alt="Geschlechtergleichstellung - Ziel 5" width="100" height="100" class="goal-icon-5 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/5">Gender equality</a>
+            <a href="/IM_Site/5">Geschlechtergleichstellung</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/6">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/6.png" alt="Clean water and sanitation - Goal 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/6.png" alt="Sauberes Wasser und Sanitärversorgung - Ziel 6" width="100" height="100" class="goal-icon-6 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/6">Clean water and sanitation</a>
+            <a href="/IM_Site/6">Sauberes Wasser und Sanitärversorgung</a>
         </h3>
-        <span class="total">11 indicators</span>
+        <span class="total">11 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/7">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/7.png" alt="Affordable and clean energy - Goal 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/7.png" alt="Bezahlbare und saubere Energie - Ziel 7" width="100" height="100" class="goal-icon-7 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/7">Affordable and clean energy</a>
+            <a href="/IM_Site/7">Bezahlbare und saubere Energie</a>
         </h3>
-        <span class="total">6 indicators</span>
+        <span class="total">6 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">6</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/8">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/8.png" alt="Decent jobs and economic growth - Goal 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/8.png" alt="Menschenwürdige Arbeit und Wirtschaftswachstum - Ziel 8" width="100" height="100" class="goal-icon-8 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/8">Decent jobs and economic growth</a>
+            <a href="/IM_Site/8">Menschenwürdige Arbeit und Wirtschaftswachstum</a>
         </h3>
-        <span class="total">17 indicators</span>
+        <span class="total">17 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">17</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">17</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/9">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/9.png" alt="Industry, innovation and infrastructure - Goal 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/9.png" alt="Industrie, Innovationen und Infrastruktur - Ziel 9" width="100" height="100" class="goal-icon-9 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/9">Industry, innovation and infrastructure</a>
+            <a href="/IM_Site/9">Industrie, Innovationen und Infrastruktur</a>
         </h3>
-        <span class="total">12 indicators</span>
+        <span class="total">12 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">12</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/10">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/10.png" alt="Weniger Ungleichheiten - Ziel 10" width="100" height="100" class="goal-icon-10 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/10">Reduced inequalities</a>
+            <a href="/IM_Site/10">Weniger Ungleichheiten</a>
         </h3>
-        <span class="total">11 indicators</span>
+        <span class="total">11 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">11</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/11">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/11.png" alt="Nachhaltige Städte und Gemeinden - Ziel 11" width="100" height="100" class="goal-icon-11 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/11">Sustainable cities & communities</a>
+            <a href="/IM_Site/11">Nachhaltige Städte und Gemeinden</a>
         </h3>
-        <span class="total">15 indicators</span>
+        <span class="total">15 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">15</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">15</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/12">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/12.png" alt="Verantwortungsvolle Konsum- und Produktionsmuster - Ziel 12" width="100" height="100" class="goal-icon-12 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/12">Responsible consumption and production</a>
+            <a href="/IM_Site/12">Verantwortungsvolle Konsum- und Produktionsmuster</a>
         </h3>
-        <span class="total">13 indicators</span>
+        <span class="total">13 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">13</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/13">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/13.png" alt="Climate action - Goal 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/13.png" alt="Maßnahmen zum Klimaschutz - Ziel 13" width="100" height="100" class="goal-icon-13 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/13">Climate action</a>
+            <a href="/IM_Site/13">Maßnahmen zum Klimaschutz</a>
         </h3>
-        <span class="total">8 indicators</span>
+        <span class="total">8 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">8</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">8</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/14">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/14.png" alt="Life below water - Goal 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/14.png" alt="Leben unter Wasser - Ziel 14" width="100" height="100" class="goal-icon-14 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/14">Life below water</a>
+            <a href="/IM_Site/14">Leben unter Wasser</a>
         </h3>
-        <span class="total">10 indicators</span>
+        <span class="total">10 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">10</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/15">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/15.png" alt="Leben an Land - Ziel 15" width="100" height="100" class="goal-icon-15 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/15">Life on land</a>
+            <a href="/IM_Site/15">Leben an Land</a>
         </h3>
-        <span class="total">14 indicators</span>
+        <span class="total">14 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">14</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/16">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/16.png" alt="Frieden, Gerechtigkeit und starke Institutionen - Ziel 16" width="100" height="100" class="goal-icon-16 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/16">Peace and justice - strong institutions</a>
+            <a href="/IM_Site/16">Frieden, Gerechtigkeit und starke Institutionen</a>
         </h3>
-        <span class="total">23 indicators</span>
+        <span class="total">23 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">23</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">23</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
 </div><div class="goal reporting-status-item">
     <div class="frame goal-tiles">
         <a href="/IM_Site/17">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/17.png" alt="Partnerschaften zur Erreichung der Ziele - Ziel 17" width="100" height="100" class="goal-icon-17 goal-icon-image goal-icon-image-"/>
         </a>
     </div>
     <div class="details">
         <h3 class="status-goal">
-            <a href="/IM_Site/17">Partnerships for the goals</a>
+            <a href="/IM_Site/17">Partnerschaften zur Erreichung der Ziele</a>
         </h3>
-        <span class="total">25 indicators</span>
+        <span class="total">25 indikatoren</span>
         <div class="summary">
             <div class="statuses"><div>
-                    <span class="status complete"><span class="status-inner">0</span></span><strong>Reported online</strong><span class="value">0%</span>
+                    <span class="status complete"><span class="status-inner">0</span></span><strong>Daten verfügbar</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>Statistics in progress</strong><span class="value">0%</span>
+                    <span class="status inprogress"><span class="status-inner">0</span></span><strong>in Bearbeitung</strong><span class="value">0%</span>
                 </div><div>
-                    <span class="status notstarted"><span class="status-inner">25</span></span><strong>Exploring data sources</strong><span class="value">100%</span>
+                    <span class="status notstarted"><span class="status-inner">25</span></span><strong>Datenquellenanalyse</strong><span class="value">100%</span>
                 </div><div>
-                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Not applicable</strong><span class="value">0%</span>
+                    <span class="status notapplicable"><span class="status-inner">0</span></span><strong>Nicht zutreffend</strong><span class="value">0%</span>
                 </div><br style="clear:both;">
             </div>
         </div>
         <div class="goal-stats">
                 
                 
-                <span class="complete" style="width:0.0%" title="Reported online: 0%"></span>
+                <span class="complete" style="width:0.0%" title="Daten verfügbar: 0%"></span>
                 
                 
-                <span class="inprogress" style="width:0.0%" title="Statistics in progress: 0%"></span>
+                <span class="inprogress" style="width:0.0%" title="in Bearbeitung: 0%"></span>
                 
                 
-                <span class="notstarted" style="width:100.0%" title="Exploring data sources: 100%"></span>
+                <span class="notstarted" style="width:100.0%" title="Datenquellenanalyse: 100%"></span>
                 
                 
-                <span class="notapplicable" style="width:0.0%" title="Not applicable: 0%"></span></div>
+                <span class="notapplicable" style="width:0.0%" title="Nicht zutreffend: 0%"></span></div>
         <div class="divider"></div>
     </div>
     <br style="clear:both;">
@@ -1045,11 +1045,11 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Erstellt mit Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Kontakt</a>
                 
                 </li>
               <li>
@@ -1095,17 +1095,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210422113341'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210423071133'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210422113341"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210423071133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

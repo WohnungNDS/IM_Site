@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'http://wohnungNDS.github.io/IM_Data/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'de',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 10 - Reduced inequalities - Indicators For The Sustainable Development Goals</title>
+    <title>Ziel 10 - Weniger Ungleichheiten - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210422113341">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210423071133">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-de layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alpha-Version</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href="mailto:test@example.com">Kommentare</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/IM_Site/" id="home">
-    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/10/">
-              Español
+            <a href="/IM_Site/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -191,9 +191,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Suche</label>
+    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -209,11 +209,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/10/">
-              Español
+            <a href="/IM_Site/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -228,21 +228,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -254,11 +254,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/10/">
-              Español
+            <a href="/IM_Site/en/10/">
+              English
             </a>
           </li></ul>
   </div>
@@ -271,31 +271,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Suche</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li>
 </ul>
 
@@ -313,7 +313,7 @@ var translations = {
   <ol class="breadcrumb">
   
   <li><a href="/IM_Site/">Home</a></li>
-  <li><a href="/IM_Site/goals">Goals</a></li>
+  <li><a href="/IM_Site/goals">Ziele</a></li>
   
   
 </ol>
@@ -325,11 +325,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/10.png" alt="Reduced inequalities - Goal 10" id="goal-10" class="goal-icon-image goal-icon-image-" />
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/10.png" alt="Weniger Ungleichheiten - Ziel 10" id="goal-10" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 10: </span>Reduce inequality within and among countries
+          <span class="hidden-sm hidden-md hidden-lg">Ziel 10: </span>Ungleichheit in und zwischen Ländern verringern
         </h1>
       </div>
     </div>
@@ -343,16 +343,16 @@ var translations = {
 
 
   <div class="container">
-    <h2>Targets and indicators</h2>
+    <h2>Ziele und Indikatoren</h2>
 
     
     
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.1</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.1</span>
         </h3>
-        <span class="target-name">By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average</span>
+        <span class="target-name">Bis 2030 nach und nach ein über dem nationalen Durchschnitt liegendes Einkommenswachstum der ärmsten 40 Prozent der Bevölkerung erreichen und aufrechterhalten</span>
         
 
           
@@ -366,12 +366,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-1-1">Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-1-1">Wachstumsraten der Haushaltsausgaben oder -einkommen pro Kopf der unteren 40 Prozent der Bevölkerung und der Gesamtbevölkerung</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -382,9 +382,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.2</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.2</span>
         </h3>
-        <span class="target-name">By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion or economic or other status</span>
+        <span class="target-name">Bis 2030 alle Menschen unabhängig von Alter, Geschlecht, Behinderung, Rasse, Ethnizität, Herkunft, Religion oder wirtschaftlichem oder sonstigem Status zu Selbstbestimmung befähigen und ihre soziale, wirtschaftliche und politische Inklusion fördern</span>
         
 
           
@@ -398,12 +398,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-2-1">Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-2-1">Anteil der Bevölkerung, die mit weniger als 50% des Medianeinkommens leben, nach Geschlecht, Alter und Menschen mit Behinderung</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -414,9 +414,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.3</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.3</span>
         </h3>
-        <span class="target-name">Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard</span>
+        <span class="target-name">Chancengleichheit gewährleisten und Ungleichheit der Ergebnisse reduzieren, namentlich durch die Abschaffung diskriminierender Gesetze, Politiken und Praktiken und die Förderung geeigneter gesetzgeberischer, politischer und sonstiger Maßnahmen in dieser Hinsicht</span>
         
 
           
@@ -430,12 +430,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.3.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-3-1">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-3-1">Anteil der Bevölkerung, die angibt sich in den vergangenen 12 Monaten persönlich diskriminiert oder belästigt gefühlt zu haben basierend auf einem Diskriminierungsgrund, der nach internationalem Menschenrechtsgesetzen verboten ist</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -446,9 +446,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.4</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.4</span>
         </h3>
-        <span class="target-name">Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality</span>
+        <span class="target-name">Politische Maßnahmen beschließen, insbesondere fiskalische, lohnpolitische und den Sozialschutz betreffende Maßnahmen, und schrittweise größere Gleichheit erzielen</span>
         
 
           
@@ -462,12 +462,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.4.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-4-1">Labour share of GDP, comprising wages and social protection transfers</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-4-1">Anteil des Arbeitsnehmerentgelts am BIP, bestehend aus Löhnen, Gehältern und Sozialversicherungsbeiträgen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -478,9 +478,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.5</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.5</span>
         </h3>
-        <span class="target-name">Improve the regulation and monitoring of global financial markets and institutions and strengthen the implementation of such regulations</span>
+        <span class="target-name">Die Regulierung und Überwachung der globalen Finanzmärkte und -institutionen verbessern und die Anwendung der einschlägigen Vorschriften verstärken</span>
         
 
           
@@ -494,12 +494,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.5.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-5-1">Financial Soundness Indicators (FSIs)</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-5-1">Financial Soundness Indicators</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -510,9 +510,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.6</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.6</span>
         </h3>
-        <span class="target-name">Ensure enhanced representation and voice for developing countries in decision-making in global international economic and financial institutions in order to deliver more effective, credible, accountable and legitimate institutions</span>
+        <span class="target-name">Eine bessere Vertretung und verstärkte Mitsprache der Entwicklungsländer bei der Entscheidungsfindung in den globalen internationalen Wirtschafts- und Finanzinstitutionen sicherstellen, um die Wirksamkeit, Glaubwürdigkeit, Rechenschaftslegung und Legitimation dieser Institutionen zu erhöhen</span>
         
 
           
@@ -526,12 +526,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.6.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-6-1">Proportion of members and voting rights of developing countries in international organizations</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-6-1">Anteil der Mitglieder und Stimmrechte der Entwicklungsländer  in internationalen Organisationen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -542,9 +542,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.7</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.7</span>
         </h3>
-        <span class="target-name">Facilitate orderly, safe, regular and responsible migration and mobility of people, including through the implementation of planned and well-managed migration policies</span>
+        <span class="target-name">Eine geordnete, sichere, reguläre und verantwortungsvolle Migration und Mobilität von Menschen erleichtern, unter anderem durch die Anwendung einer planvollen und gut gesteuerten Migrationspolitik</span>
         
 
           
@@ -558,12 +558,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.7.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-7-1">Recruitment cost borne by employee as a proportion of yearly income earned in country of destination</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-7-1">Von Beschäftigten getragene Einstellungskosten als Anteil des Jahreseinkommens des Bestimmungslandes</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -581,44 +581,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.7.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.7.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-7-2">Number of countries that have implemented well-managed migration policies</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-7-2">Anzahl der Staaten mit gut umgesetzter Migrationspolitik</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
-            </span>
-            
-
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.a</span>
-        </h3>
-        <span class="target-name">Implement the principle of special and differential treatment for developing countries, in particular least developed countries, in accordance with World Trade Organization agreements</span>
-        
-
-          
-          
-          
-          
-          
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.a.1</span>
-            </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-a-1">Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff</a></span>
-            <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -629,9 +597,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.b</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.a</span>
         </h3>
-        <span class="target-name">Encourage official development assistance and financial flows, including foreign direct investment, to States where the need is greatest, in particular least developed countries, African countries, small island developing States and landlocked developing countries, in accordance with their national plans and programmes</span>
+        <span class="target-name">Den Grundsatz der besonderen und differenzierten Behandlung der Entwicklungsländer, insbesondere der am wenigsten entwickelten Länder, im Einklang mit den Übereinkünften der Welthandelsorganisation anwenden</span>
         
 
           
@@ -645,12 +613,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.b.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-b-1">Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-a-1">Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -661,9 +629,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 10.c</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.b</span>
         </h3>
-        <span class="target-name">By 2030, reduce to less than 3 per cent the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 per cent</span>
+        <span class="target-name">Öffentliche Entwicklungshilfe und Finanzströme einschließlich ausländischer Direktinvestitionen in die Staaten fördern, in denen der Bedarf am größten ist, insbesondere in die am wenigsten entwickelten Länder, die afrikanischen Länder, die kleinen Inselentwicklungsländer und die Binnenentwicklungsländer, im Einklang mit ihren jeweiligen nationalen Plänen und Programmen</span>
         
 
           
@@ -677,12 +645,44 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 10.c.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/10-c-1">Remittance costs as a proportion of the amount remitted</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/10-b-1">Gesamte Kapitalströme für Entwicklung, nach Nehmer- und Geberländern und Art des Zahlungsstroms (z. B. öffentliche Entwicklungszusammenarbeit, ausländische Direktinvestitionen und sonstige Geldströme)</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
+            </span>
+            
+
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Unterziel</span> 10.c</span>
+        </h3>
+        <span class="target-name">Bis 2030 die Transaktionskosten für Heimatüberweisungen von Migranten auf weniger als 3 Prozent senken und Überweisungskorridore mit Kosten von über 5 Prozent beseitigen</span>
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 10.c.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/IM_Site/10-c-1">Überweisungskosten  als Anteil am überwiesenen Betrag</a></span>
+            <span class="sr-only">Status des Indikators</span>
+            <span class="status notstarted">
+              Datenquellenanalyse
             </span>
             
 
@@ -699,11 +699,11 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Erstellt mit Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Kontakt</a>
                 
                 </li>
               <li>
@@ -749,17 +749,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210422113341'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210423071133'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210422113341"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210423071133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

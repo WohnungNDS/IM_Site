@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'http://wohnungNDS.github.io/IM_Data/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'de',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 3 - Good health and well-being - Indicators For The Sustainable Development Goals</title>
+    <title>Ziel 3 - Gesundheit und Wohlergehen - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210422113341">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210423071133">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-de layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alpha-Version</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href="mailto:test@example.com">Kommentare</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/IM_Site/" id="home">
-    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/3/">
-              Español
+            <a href="/IM_Site/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -191,9 +191,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Suche</label>
+    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -209,11 +209,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/3/">
-              Español
+            <a href="/IM_Site/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -228,21 +228,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -254,11 +254,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/3/">
-              Español
+            <a href="/IM_Site/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -271,31 +271,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Suche</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li>
 </ul>
 
@@ -313,7 +313,7 @@ var translations = {
   <ol class="breadcrumb">
   
   <li><a href="/IM_Site/">Home</a></li>
-  <li><a href="/IM_Site/goals">Goals</a></li>
+  <li><a href="/IM_Site/goals">Ziele</a></li>
   
   
 </ol>
@@ -325,11 +325,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/3.png" alt="Gesundheit und Wohlergehen - Ziel 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 3: </span>Ensure healthy lives and promote well-being for all at all ages
+          <span class="hidden-sm hidden-md hidden-lg">Ziel 3: </span>Ein gesundes Leben für alle Menschen jeden Alters gewährleisten und ihr Wohlergehen fördern
         </h1>
       </div>
     </div>
@@ -343,16 +343,16 @@ var translations = {
 
 
   <div class="container">
-    <h2>Targets and indicators</h2>
+    <h2>Ziele und Indikatoren</h2>
 
     
     
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.1</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.1</span>
         </h3>
-        <span class="target-name">By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</span>
+        <span class="target-name">Bis 2030 die weltweite Müttersterblichkeit auf unter 70 je 100.000 Lebendgeburten senken</span>
         
 
           
@@ -366,12 +366,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-1-1">Maternal mortality ratio</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-1-1">Müttersterblichkeitsrate</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -389,12 +389,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.1.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.1.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-1-2">Proportion of births attended by skilled health personnel</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-1-2">Anteil der Geburten unter der Aufsicht von qualifiziertem Gesundheitspersonal</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -405,9 +405,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.2</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.2</span>
         </h3>
-        <span class="target-name">By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under‐5 mortality to at least as low as 25 per 1,000 live births</span>
+        <span class="target-name">Bis 2030 den vermeidbaren Todesfällen bei Neugeborenen und Kindern unter 5 Jahren ein Ende setzen, mit dem von allen Ländern zu verfolgenden Ziel, die Sterblichkeit bei Neugeborenen mindestens auf 12 je 1.000 Lebendgeburten und bei Kindern unter 5 Jahren mindestens auf 25 je 1.000 Lebendgeburten zu senken</span>
         
 
           
@@ -421,12 +421,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-2-1">Under‐five mortality rate</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-2-1">Sterblichkeitsrate von Kindern unter 5 Jahren</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -444,12 +444,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.2.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.2.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-2-2">Neonatal mortality rate</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-2-2">Sterblichkeitsrate von Neugeborenen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -460,9 +460,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.3</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.3</span>
         </h3>
-        <span class="target-name">By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases</span>
+        <span class="target-name">Bis 2030 die Aids-, Tuberkulose- und Malariaepidemien und die vernachlässigten Tropenkrankheiten beseitigen und Hepatitis, durch Wasser übertragene Krankheiten und andere übertragbare Krankheiten bekämpfen</span>
         
 
           
@@ -476,12 +476,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-3-1">Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-3-1">Anzahl der HIV-Neuinfektionen je 1.000 nicht infizierter Einwohner, nach Geschlecht, Alter und Risikogruppen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -499,12 +499,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.3.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-3-2">Tuberculosis incidence per 100,000 population</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-3-2">Tuberkulose-Inzidenz je 100.000 Einwohner</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -522,12 +522,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.3</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.3.3</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-3-3">Malaria incidence per 1,000 population</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-3-3">Malaria-Inzidenz je 1.000 Einwohner</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -545,12 +545,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.4</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.3.4</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-3-4">Hepatitis B incidence per 100,000 population</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-3-4">Hepatitis-B-Inzidenz je 100.000 Einwohner</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -568,12 +568,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.3.5</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.3.5</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-3-5">Number of people requiring interventions against neglected tropical diseases</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-3-5">Anzahl der Personen, die Maßnahmen gegen vernachlässigte Tropenkrankheiten benötigen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -584,9 +584,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.4</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.4</span>
         </h3>
-        <span class="target-name">By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being</span>
+        <span class="target-name">Bis 2030 die Frühsterblichkeit aufgrund von nichtübertragbaren Krankheiten durch Prävention und Behandlung um ein Drittel senken und die psychische Gesundheit und das Wohlergehen fördern</span>
         
 
           
@@ -600,12 +600,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.4.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-4-1">Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-4-1">Sterblichkeitsrate infolge von Herz-Kreislauf-Erkrankungen, Krebs, Diabetes oder chronischen Atemwegserkrankungen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -623,12 +623,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.4.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-4-2">Suicide mortality rate</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-4-2">Sterblichkeitsrate bei Suizid</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -639,9 +639,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.5</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.5</span>
         </h3>
-        <span class="target-name">Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol</span>
+        <span class="target-name">Die Prävention und Behandlung des Substanzmissbrauchs, namentlich des Suchtstoffmissbrauchs und des schädlichen Gebrauchs von Alkohol, verstärken</span>
         
 
           
@@ -655,12 +655,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.5.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-5-1">Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-5-1">Abdeckung durch Behandlungsmaßnahmen (pharmakologische, psychosoziale und Rehabilitations- und Nachsorgeleistungen) bei Substanzmissbrauch</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -678,12 +678,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.5.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.5.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-5-2">Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-5-2">Schädlicher Alkoholkonsum, definiert gemäß den nationalen Gegebenheiten als Alkoholkonsum pro Kopf (15 Jahre und älter) innerhalb eines Kalenderjahres in Litern reinem Alkohol</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -694,9 +694,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.6</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.6</span>
         </h3>
-        <span class="target-name">By 2020, halve the number of global deaths and injuries from road traffic accidents</span>
+        <span class="target-name">Bis 2020 die Zahl der Todesfälle und Verletzungen infolge von Verkehrsunfällen weltweit halbieren</span>
         
 
           
@@ -710,12 +710,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.6.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-6-1">Death rate due to road traffic injuries</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-6-1">Sterblichkeitsrate aufgrund von Straßenverkehrsunfällen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -726,9 +726,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.7</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.7</span>
         </h3>
-        <span class="target-name">By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes</span>
+        <span class="target-name">Bis 2030 den allgemeinen Zugang zu sexual- und reproduktionsmedizinischer Versorgung, einschließlich Familienplanung, Information und Aufklärung, und die Einbeziehung der reproduktiven Gesundheit in nationale Strategien und Programme gewährleisten</span>
         
 
           
@@ -742,12 +742,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.7.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-7-1">Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-7-1">Anteil der Frauen im gebärfähigen Alter (15-49 Jahre), die ihren Anspruch auf Familienplanung durch moderne Methoden umsetzen können</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -765,12 +765,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.7.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.7.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-7-2">Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-7-2">Geburtenrate von Jugendlichen (10-14 Jahre 15-19 Jahre) je 1.000 Frauen derselben Altersgruppe</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -781,9 +781,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.8</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.8</span>
         </h3>
-        <span class="target-name">Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all</span>
+        <span class="target-name">Die allgemeine Gesundheitsversorgung, einschließlich der Absicherung gegen finanzielle Risiken, den Zugang zu hochwertigen grundlegenden Gesundheitsdiensten und den Zugang zu sicheren, wirksamen, hochwertigen und bezahlbaren unentbehrlichen Arzneimitteln und Impfstoffen für alle erreichen</span>
         
 
           
@@ -797,12 +797,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.8.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.8.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-8-1">Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-8-1">Abdeckung der grundlegenden Gesundheitsleistungen (definiert als durchschnittliche Abdeckung der grundlegenden Leistungen basierend auf Tracer-Interventionen, einschließlich reproduktiver, Mütter-, Neugeborenen- und Kindergesundheit, infektiöser Krankheiten und nicht übertragbarer Krankheiten sowie Kapazitäten und Zugang zu Serviceleistungen, innerhalb der allgemein und der überwiegend benachteiligten Bevölkerung)</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -820,12 +820,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.8.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.8.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-8-2">Proportion of population with large household expenditures on health as a share of total household expenditure or income</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-8-2">Anteil der Bevölkerung mit hohen Haushaltsausgaben für Gesundheit als Anteil an den gesamten Haushaltsausgaben oder -einkommen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -836,9 +836,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.9</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.9</span>
         </h3>
-        <span class="target-name">By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination</span>
+        <span class="target-name">Bis 2030 die Zahl der Todesfälle und Erkrankungen aufgrund gefährlicher Chemikalien und der Verschmutzung und Verunreinigung von Luft, Wasser und Boden erheblich verringern</span>
         
 
           
@@ -852,12 +852,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.9.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-9-1">Mortality rate attributed to household and ambient air pollution</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-9-1">Sterblichkeitsrate infolge von Luftverschmutzung im Haushalt und der Umgebung</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -875,12 +875,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.9.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-9-2">Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-9-2">Sterblichkeitsrate infolge von Kontakt mit verunreinigtem Wasser, unzureichenden sanitären Verhältnissen und mangelnder Hygiene (Kontakt mit unzureichenden "Wasser, Sanitäreinrichtungen und Hygiene für alle"-Leistungen (WASH))</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -898,12 +898,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.9.3</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.9.3</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-9-3">Mortality rate attributed to unintentional poisoning</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-9-3">Sterblichkeitsrate infolge von unbeabsichtigtem Vergiften</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -914,9 +914,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.a</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.a</span>
         </h3>
-        <span class="target-name">Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate</span>
+        <span class="target-name">Die Durchführung des Rahmenübereinkommens der Weltgesundheitsorganisation zur Eindämmung des Tabakgebrauchs in allen Ländern nach Bedarf stärken</span>
         
 
           
@@ -930,12 +930,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.a.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-a-1">Age-standardized prevalence of current tobacco use among persons aged 15 years and older</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-a-1">Altersstandardisierte Prävalenz des aktuellen Tabakkonsums bei Personen im Alter von 15 Jahren und älter</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -946,9 +946,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.b</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.b</span>
         </h3>
-        <span class="target-name">Support the research and development of vaccines and medicines for the communicable and non‐communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all</span>
+        <span class="target-name">Forschung und Entwicklung zu Impfstoffen und Medikamenten für übertragbare und nichtübertragbare Krankheiten, von denen hauptsächlich Entwicklungsländer betroffen sind, unterstützen, den Zugang zu bezahlbaren unentbehrlichen Arzneimitteln und Impfstoffen gewährleisten, im Einklang mit der Erklärung von Doha über das TRIPS-Übereinkommen und die öffentliche Gesundheit, die das Recht der Entwicklungsländer bekräftigt, die Bestimmungen in dem Übereinkommen über handelsbezogene Aspekte der Rechte des geistigen Eigentums über Flexibilitäten zum Schutz der öffentlichen Gesundheit voll auszuschöpfen, und insbesondere den Zugang zu Medikamenten für alle zu gewährleisten</span>
         
 
           
@@ -962,12 +962,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-b-1">Proportion of the target population covered by all vaccines included in their national programme</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-b-1">Anteil der Zielbevölkerung, die alle Impfungen laut nationalen Programm besitzt</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -985,12 +985,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.b.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-b-2">Total net official development assistance to medical research and basic health sectors</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-b-2">Gesamte öffentliche Netto-Entwicklungszusammenarbeit für medizinische Forschung und grundlegende Gesundheitsversorgung</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -1008,12 +1008,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.b.3</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.b.3</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-b-3">Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-b-3">Anteil der Gesundheitseinrichtungen, die über einen Kernsatz relevanter und wichtiger Medikamente verfügen, die nachhaltig verfügbar und bezahlbar sind</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -1024,9 +1024,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.c</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.c</span>
         </h3>
-        <span class="target-name">Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States</span>
+        <span class="target-name">Die Gesundheitsfinanzierung und die Rekrutierung, Aus- und Weiterbildung und Bindung von Gesundheitsfachkräften in den Entwicklungsländern und insbesondere in den am wenigsten entwickelten Ländern und den kleinen Inselentwicklungsländern deutlich erhöhen</span>
         
 
           
@@ -1040,12 +1040,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.c.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.c.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-c-1">Health worker density and distribution</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-c-1">Dichte und Verteilung von medizinischem Fachpersonal</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -1056,9 +1056,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 3.d</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 3.d</span>
         </h3>
-        <span class="target-name">Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks</span>
+        <span class="target-name">Die Kapazitäten aller Länder, insbesondere der Entwicklungsländer, in den Bereichen Frühwarnung, Risikominderung und Management nationaler und globaler Gesundheitsrisiken stärken</span>
         
 
           
@@ -1072,12 +1072,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 3.d.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 3.d.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/3-d-1">International Health Regulations (IHR) capacity and health emergency preparedness</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/3-d-1">Kapazitäten für internationale Gesundheitsvorschriften (IGV) und Gesundheitsnotfallvorsorge</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -1094,11 +1094,11 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Erstellt mit Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Kontakt</a>
                 
                 </li>
               <li>
@@ -1144,17 +1144,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210422113341'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210423071133'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210422113341"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210423071133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

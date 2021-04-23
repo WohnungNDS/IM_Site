@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'http://wohnungNDS.github.io/IM_Data/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'de',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 13 - Climate action - Indicators For The Sustainable Development Goals</title>
+    <title>Ziel 13 - Maßnahmen zum Klimaschutz - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210422113341">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210423071133">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-de layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alpha-Version</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href="mailto:test@example.com">Kommentare</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/IM_Site/" id="home">
-    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/13/">
-              Español
+            <a href="/IM_Site/en/13/">
+              English
             </a>
           </li></ul>
   </div>
@@ -191,9 +191,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Suche</label>
+    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -209,11 +209,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/13/">
-              Español
+            <a href="/IM_Site/en/13/">
+              English
             </a>
           </li></ul>
   </div>
@@ -228,21 +228,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -254,11 +254,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/13/">
-              Español
+            <a href="/IM_Site/en/13/">
+              English
             </a>
           </li></ul>
   </div>
@@ -271,31 +271,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Suche</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li>
 </ul>
 
@@ -313,7 +313,7 @@ var translations = {
   <ol class="breadcrumb">
   
   <li><a href="/IM_Site/">Home</a></li>
-  <li><a href="/IM_Site/goals">Goals</a></li>
+  <li><a href="/IM_Site/goals">Ziele</a></li>
   
   
 </ol>
@@ -325,11 +325,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/13.png" alt="Climate action - Goal 13" id="goal-13" class="goal-icon-image goal-icon-image-" />
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/13.png" alt="Maßnahmen zum Klimaschutz - Ziel 13" id="goal-13" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 13: </span>Take urgent action to combat climate change and its impacts
+          <span class="hidden-sm hidden-md hidden-lg">Ziel 13: </span>Umgehend Maßnahmen zur Bekämpfung des Klimawandels und seiner Auswirkungen ergreifen
         </h1>
       </div>
     </div>
@@ -343,16 +343,16 @@ var translations = {
 
 
   <div class="container">
-    <h2>Targets and indicators</h2>
+    <h2>Ziele und Indikatoren</h2>
 
     
     
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.1</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 13.1</span>
         </h3>
-        <span class="target-name">Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries</span>
+        <span class="target-name">Die Widerstandskraft und die Anpassungsfähigkeit gegenüber klimabedingten Gefahren und Naturkatastrophen in allen Ländern stärken</span>
         
 
           
@@ -366,12 +366,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 13.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/13-1-1">Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/13-1-1">Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -389,12 +389,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.1.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 13.1.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/13-1-2">Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/13-1-2">Anzahl der Staaten, die nationale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit dem Sendai-Rahmenwerk zur Katastrophenvorsorge 2015-2030 verabschiedet und umgesetzt haben</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -412,12 +412,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.1.3</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 13.1.3</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/13-1-3">Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/13-1-3">Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -428,9 +428,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.2</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 13.2</span>
         </h3>
-        <span class="target-name">Integrate climate change measures into national policies, strategies and planning</span>
+        <span class="target-name">Klimaschutzmaßnahmen in die nationalen Politiken, Strategien und Planungen einbeziehen</span>
         
 
           
@@ -444,12 +444,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 13.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/13-2-1">Number of countries that have communicated the establishment or operationalization of an integrated policy/strategy/plan which increases their ability to adapt to the adverse impacts of climate change, and foster climate resilience and low greenhouse gas emissions development in a manner that does not threaten food production (including a national adaptation plan, nationally determined contribution, national communication, biennial update report or other)</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/13-2-1">Anzahl der Staaten, die die Ausarbeitung oder Umsetzung einer/s integrierten Politik/Strategie/Plans verkündet haben, welche/r ihre Fähigkeit zur Anpassung an die negativen Auswirkungen des Klimawandels erhöht und die Widerstandsfähigkeit gegenüber Klimaänderungen als auch eine rückläufige Entwicklung der Treibhausgasemissionen fördert ohne die Nahrungsmittelproduktion zu gefährden (einschließlich eines nationalen Anpassungsplans, national festgelegten Beitrags, nationaler Kommunikation, zweijährlichen Aktualisierungsberichts oder anderer)</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -460,9 +460,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.3</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 13.3</span>
         </h3>
-        <span class="target-name">Improve education, awareness-raising and human and institutional capacity on climate change mitigation, adaptation, impact reduction and early warning</span>
+        <span class="target-name">Die Aufklärung und Sensibilisierung sowie die personellen und institutionellen Kapazitäten im Bereich der Abschwächung des Klimawandels, der Klimaanpassung, der Reduzierung der Klimaauswirkungen sowie der Frühwarnung verbessern</span>
         
 
           
@@ -476,12 +476,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.3.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 13.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/13-3-1">Number of countries that have integrated mitigation, adaptation, impact reduction and early warning into primary, secondary and tertiary curricula</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/13-3-1">Anzahl der Staaten, die die Minderung, Anpassung, Reduzierung der Auswirkungen und Frühwarnsysteme in den primären, sekundären und tertiären Lehrplänen integriert haben</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -499,44 +499,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.3.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 13.3.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/13-3-2">Number of countries that have communicated the strengthening of institutional, systemic and individual capacity-building to implement adaptation, mitigation and technology transfer, and development actions</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/13-3-2">Anzahl der Staaten, die die Stärkung des institutionellen, systemischen und individuellen Kapazitätsaufbaus zur Umsetzung von Anpassung, Minderung und Technologietransfer und Entwicklungsmaßnahmen verkündet haben</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
-            </span>
-            
-
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.a</span>
-        </h3>
-        <span class="target-name">Implement the commitment undertaken by developed-country parties to the United Nations Framework Convention on Climate Change to a goal of mobilizing jointly $100 billion annually by 2020 from all sources to address the needs of developing countries in the context of meaningful mitigation actions and transparency on implementation and fully operationalize the Green Climate Fund through its capitalization as soon as possible</span>
-        
-
-          
-          
-          
-          
-          
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.a.1</span>
-            </h4>
-            <span class="indicator-name"><a href="/IM_Site/13-a-1">Mobilized amount of United States dollars per year between 2020 and 2025 accountable towards the $100 billion commitment</a></span>
-            <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -547,9 +515,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 13.b</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 13.a</span>
         </h3>
-        <span class="target-name">Promote mechanisms for raising capacity for effective climate change-related planning and management in least developed countries and small island developing States, including focusing on women, youth and local and marginalized communities</span>
+        <span class="target-name">Die Verpflichtung erfüllen, die von den Vertragsparteien des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen, die entwickelte Länder sind, übernommen wurde, bis 2020 gemeinsam jährlich 100 Milliarden Dollar aus allen Quellen aufzubringen, um den Bedürfnissen der Entwicklungsländer im Kontext sinnvoller Klimaschutzmaßnahmen und einer transparenten Umsetzung zu entsprechen, und den Grünen Klimafonds vollständig zu operationalisieren, indem er schnellstmöglich mit den erforderlichen Finanzmitteln ausgestattet wird</span>
         
 
           
@@ -563,12 +531,44 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 13.b.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 13.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/13-b-1">Number of least developed countries and small island developing States that are receiving specialized support, and amount of support, including finance, technology and capacity-building, for mechanisms for raising capacities for effective climate change-related planning and management, including focusing on women, youth and local and marginalized communities</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/13-a-1">Mobilisierter Betrag an US-Dollar pro Jahr zwischen 2020 und 2025, anrechenbar auf die Zusage von 100 Milliarden US-Dollar</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
+            </span>
+            
+
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Unterziel</span> 13.b</span>
+        </h3>
+        <span class="target-name">Mechanismen zum Ausbau effektiver Planungs- und Managementkapazitäten im Bereich des Klimawandels in den am wenigsten entwickelten Ländern und kleinen Inselentwicklungsländern fördern, unter anderem mit gezielter Ausrichtung auf Frauen, junge Menschen sowie lokale und marginalisierte Gemeinwesen</span>
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 13.b.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/IM_Site/13-b-1">Anzahl der am wenigsten entwickelten Länder und kleinen Inselentwicklungsstaaten, die besondere Unterstützung erhalten und der Betrag der Unterstützung (Finanzmittel, Technologie und capacity-building umfassend) für Mechanismen zum Aufbau von Kapazitäten für eine wirksame klimawandelbezogene Planung und Verwaltung, mit Fokus auf Frauen, Jugendliche und lokale und marginalisierte Gemeinschaften</a></span>
+            <span class="sr-only">Status des Indikators</span>
+            <span class="status notstarted">
+              Datenquellenanalyse
             </span>
             
 
@@ -585,11 +585,11 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Erstellt mit Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Kontakt</a>
                 
                 </li>
               <li>
@@ -635,17 +635,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210422113341'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210423071133'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210422113341"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210423071133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

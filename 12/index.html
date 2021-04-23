@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'http://wohnungNDS.github.io/IM_Data/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'de',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 12 - Responsible consumption and production - Indicators For The Sustainable Development Goals</title>
+    <title>Ziel 12 - Verantwortungsvolle Konsum- und Produktionsmuster - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210422113341">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210423071133">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-de layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alpha-Version</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href="mailto:test@example.com">Kommentare</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/IM_Site/" id="home">
-    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/12/">
-              Español
+            <a href="/IM_Site/en/12/">
+              English
             </a>
           </li></ul>
   </div>
@@ -191,9 +191,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Suche</label>
+    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -209,11 +209,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/12/">
-              Español
+            <a href="/IM_Site/en/12/">
+              English
             </a>
           </li></ul>
   </div>
@@ -228,21 +228,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -254,11 +254,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/12/">
-              Español
+            <a href="/IM_Site/en/12/">
+              English
             </a>
           </li></ul>
   </div>
@@ -271,31 +271,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Suche</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li>
 </ul>
 
@@ -313,7 +313,7 @@ var translations = {
   <ol class="breadcrumb">
   
   <li><a href="/IM_Site/">Home</a></li>
-  <li><a href="/IM_Site/goals">Goals</a></li>
+  <li><a href="/IM_Site/goals">Ziele</a></li>
   
   
 </ol>
@@ -325,11 +325,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" id="goal-12" class="goal-icon-image goal-icon-image-" />
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/12.png" alt="Verantwortungsvolle Konsum- und Produktionsmuster - Ziel 12" id="goal-12" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 12: </span>Ensure sustainable consumption and production patterns
+          <span class="hidden-sm hidden-md hidden-lg">Ziel 12: </span>Nachhaltige Konsum- und Produktionsmuster sicherstellen
         </h1>
       </div>
     </div>
@@ -343,16 +343,16 @@ var translations = {
 
 
   <div class="container">
-    <h2>Targets and indicators</h2>
+    <h2>Ziele und Indikatoren</h2>
 
     
     
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.1</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.1</span>
         </h3>
-        <span class="target-name">Implement the 10‐Year Framework of Programmes on Sustainable Consumption and Production Patterns, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries</span>
+        <span class="target-name">Den Zehnjahres-Programmrahmen für nachhaltige Konsum- und Produktionsmuster umsetzen, wobei alle Länder, an der Spitze die entwickelten Länder, Maßnahmen ergreifen, unter Berücksichtigung des Entwicklungsstands und der Kapazitäten der Entwicklungsländer</span>
         
 
           
@@ -366,12 +366,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-1-1">Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-1-1">Anzahl der Staaten mit nationalen Aktionsplänen zu nachhaltigem Konsum und Produktion (SCP) oder SCP, die als Priorität oder Ziel in nationale Politik aufgenommen wurden</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -382,9 +382,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.2</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.2</span>
         </h3>
-        <span class="target-name">By 2030, achieve the sustainable management and efficient use of natural resources</span>
+        <span class="target-name">Bis 2030 die nachhaltige Bewirtschaftung und effiziente Nutzung der natürlichen Ressourcen erreichen</span>
         
 
           
@@ -398,12 +398,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-2-1">Material footprint, material footprint per capita, and material footprint per GDP</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-2-1">Rohstoff-Fußabdruck, Rohstoff-Fußabdruck pro Kopf und Rohstoff-Fußabdruck pro BIP</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -421,12 +421,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.2.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.2.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-2-2">Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-2-2">Inländische Materialverwendung, inländische Materialverwendung pro Kopf und inländische Materialverwendung pro BIP</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -437,9 +437,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.3</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.3</span>
         </h3>
-        <span class="target-name">By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses</span>
+        <span class="target-name">Bis 2030 die weltweite Nahrungsmittelverschwendung pro Kopf auf Einzelhandels und Verbraucherebene halbieren und die entlang der Produktions- und Lieferkette entstehenden Nahrungsmittelverluste einschließlich Nachernteverlusten verringern</span>
         
 
           
@@ -453,12 +453,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.3.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-3-1">Global food loss index</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-3-1">Index zu globalen Nahrungsmittelverlusten</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -469,9 +469,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.4</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.4</span>
         </h3>
-        <span class="target-name">By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment</span>
+        <span class="target-name">Bis 2020 einen umweltverträglichen Umgang mit Chemikalien und allen Abfällen während ihres gesamten Lebenszyklus in Übereinstimmung mit den vereinbarten internationalen Rahmenregelungen erreichen und ihre Freisetzung in Luft, Wasser und Boden erheblich verringern, um ihre nachteiligen Auswirkungen auf die menschliche Gesundheit und die Umwelt auf ein Mindestmaß zu beschränken</span>
         
 
           
@@ -485,12 +485,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.4.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-4-1">Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-4-1">Anzahl der Vertragsparteien internationaler multilateraler Umweltabkommen über gefährliche Abfälle und andere Chemikalien, die ihren Bekenntnissen und Verpflichtungen nachkommen, indem sie die gemäß dem jeweiligen Übereinkommen geforderten Informationen übermitteln</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -508,44 +508,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.4.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-4-2">Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-4-2">Erzeugte gefährliche Abfälle pro Kopf und Anteil der behandelten gefährlichen Abfälle, nach Art der Behandlung</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
-            </span>
-            
-
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.5</span>
-        </h3>
-        <span class="target-name">By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse</span>
-        
-
-          
-          
-          
-          
-          
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.5.1</span>
-            </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-5-1">National recycling rate, tons of material recycled</a></span>
-            <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -556,9 +524,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.6</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.5</span>
         </h3>
-        <span class="target-name">Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle</span>
+        <span class="target-name">Bis 2030 das Abfallaufkommen durch Vermeidung, Verminderung, Wiederverwertung und Wiederverwendung deutlich verringern</span>
         
 
           
@@ -572,12 +540,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.6.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-6-1">Number of companies publishing sustainability reports</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-5-1">Nationale Recyclingquote, Tonnen an recyceltem Material</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -588,9 +556,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.7</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.6</span>
         </h3>
-        <span class="target-name">Promote public procurement practices that are sustainable, in accordance with national policies and priorities</span>
+        <span class="target-name">Die Unternehmen, insbesondere große und transnationale Unternehmen, dazu ermutigen, nachhaltige Verfahren einzuführen und in ihre Berichterstattung Nachhaltigkeitsinformationen aufzunehmen</span>
         
 
           
@@ -604,12 +572,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.7.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-7-1">Number of countries implementing sustainable public procurement policies and action plans</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-6-1">Anzahl der Unternehmen, die Nachhaltigkeitsberichte veröffentlichen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -620,9 +588,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.8</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.7</span>
         </h3>
-        <span class="target-name">By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature</span>
+        <span class="target-name">In der öffentlichen Beschaffung nachhaltige Verfahren fördern, im Einklang mit den nationalen Politiken und Prioritäten</span>
         
 
           
@@ -636,12 +604,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.8.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-8-1">Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-7-1">Anzahl der Staaten, die nachhaltige öffentliche Beschaffungspolitik und Aktionspläne umsetzen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -652,9 +620,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.a</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.8</span>
         </h3>
-        <span class="target-name">Support developing countries to strengthen their scientific and technological capacity to move towards more sustainable patterns of consumption and production</span>
+        <span class="target-name">Bis 2030 sicherstellen, dass die Menschen überall über einschlägige Informationen und das Bewusstsein für nachhaltige Entwicklung und eine Lebensweise in Harmonie mit der Natur verfügen</span>
         
 
           
@@ -668,12 +636,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.a.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.8.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-a-1">Amount of support to developing countries on research and development for sustainable consumption and production and environmentally sound technologies</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-8-1">Umfang, in dem (i) Bildung zu globaler Staatsbürgerschaft und (ii) Bildung für nachhaltige Entwicklung, einschließlich der Geschlechtergleichstellung und der Menschenrechte, auf allen Ebenen in: (a) nationale Bildungspolitik, (b) Lehrpläne, (c) Lehrerausbildung und (d) Schulleistungsuntersuchung berücksichtigt werden</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -684,9 +652,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.b</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.a</span>
         </h3>
-        <span class="target-name">Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products</span>
+        <span class="target-name">Die Entwicklungsländer bei der Stärkung ihrer wissenschaftlichen und technologischen Kapazitäten im Hinblick auf den Übergang zu nachhaltigeren Konsum- und Produktionsmustern unterstützen</span>
         
 
           
@@ -700,12 +668,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.b.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-b-1">Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-a-1">Umfang der Unterstützung für Entwicklungsländer bei Forschung und Entwicklung im Hinblick auf nachhaltigen Konsum und nachhaltige Produktion sowie umweltfreundliche Technologien</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -716,9 +684,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 12.c</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.b</span>
         </h3>
-        <span class="target-name">Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities</span>
+        <span class="target-name">Instrumente zur Beobachtung der Auswirkungen eines nachhaltigen Tourismus, der Arbeitsplätze schafft und die lokale Kultur und lokale Produkte fördert, auf die nachhaltige Entwicklung entwickeln und anwenden</span>
         
 
           
@@ -732,12 +700,44 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 12.c.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/12-c-1">Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/12-b-1">Anzahl der Strategien oder Politiken für einen nachhaltigen Tourismus und umgesetzte Aktionspläne mit vereinbarten Kontroll- und Bewertungsinstrumenten</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
+            </span>
+            
+
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Unterziel</span> 12.c</span>
+        </h3>
+        <span class="target-name">Die ineffiziente Subventionierung fossiler Brennstoffe, die zu verschwenderischem Verbrauch verleitet, durch Beseitigung von Marktverzerrungen entsprechend den nationalen Gegebenheiten rationalisieren, unter anderem durch eine Umstrukturierung der Besteuerung und die allmähliche Abschaffung dieser schädlichen Subventionen, um ihren Umweltauswirkungen Rechnung zu tragen, wobei die besonderen Bedürfnisse und Gegebenheiten der Entwicklungsländer in vollem Umfang berücksichtigt und die möglichen nachteiligen Auswirkungen auf ihre Entwicklung in einer die Armen und die betroffenen Gemeinwesen schützenden Weise so gering wie möglich gehalten werden</span>
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 12.c.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/IM_Site/12-c-1">Betrag der Subventionen für fossile Energieträger je Einheit BIP (Produktion und Konsum) und als Anteil an den gesamten nationalen Ausgaben für fossile Energieträger</a></span>
+            <span class="sr-only">Status des Indikators</span>
+            <span class="status notstarted">
+              Datenquellenanalyse
             </span>
             
 
@@ -754,11 +754,11 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Erstellt mit Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Kontakt</a>
                 
                 </li>
               <li>
@@ -804,17 +804,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210422113341'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210423071133'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210422113341"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210423071133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

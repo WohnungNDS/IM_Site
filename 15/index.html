@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://open-sdg.org/open-sdg-data-starter/en',
+  remoteDataBaseUrl: 'http://wohnungNDS.github.io/IM_Data/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'de',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 15 - Life on land - Indicators For The Sustainable Development Goals</title>
+    <title>Ziel 15 - Leben an Land - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210422113341">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210423071133">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -144,19 +144,19 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-de layout-goal-by-target-vertical">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Alpha-Version</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href="mailto:test@example.com">Kommentare</a>.
   </div>
 </div>
 
@@ -167,7 +167,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/IM_Site/" id="home">
-    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/IM_Site/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
@@ -175,11 +175,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/15/">
-              Español
+            <a href="/IM_Site/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -191,9 +191,9 @@ var translations = {
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Suche</label>
+    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -209,11 +209,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/15/">
-              Español
+            <a href="/IM_Site/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -228,21 +228,21 @@ var translations = {
     <div class="navbar navbar-default menu-without-widgets" id="main-nav">
       <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -254,11 +254,11 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/IM_Site/es/15/">
-              Español
+            <a href="/IM_Site/en/15/">
+              English
             </a>
           </li></ul>
   </div>
@@ -271,31 +271,31 @@ var translations = {
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
   <form action="/IM_Site/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Suche</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/IM_Site/goals">Goals</a>
+    <a href="/IM_Site/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/reporting-status">Reporting Status</a>
+    <a href="/IM_Site/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/about">About</a>
+    <a href="/IM_Site/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/guidance">Guidance</a>
+    <a href="/IM_Site/guidance">Technische Hinweise</a>
 </li><li class="nav-link ">
     <a href="/IM_Site/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/IM_Site/news">Updates</a>
+    <a href="/IM_Site/news">Aktualisierungen</a>
 </li>
 </ul>
 
@@ -313,7 +313,7 @@ var translations = {
   <ol class="breadcrumb">
   
   <li><a href="/IM_Site/">Home</a></li>
-  <li><a href="/IM_Site/goals">Goals</a></li>
+  <li><a href="/IM_Site/goals">Ziele</a></li>
   
   
 </ol>
@@ -325,11 +325,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/en/15.png" alt="Life on land - Goal 15" id="goal-15" class="goal-icon-image goal-icon-image-" />
+        <img src="https://Wohnung_NDS/IM_translations/assets/img/goals/de/15.png" alt="Leben an Land - Ziel 15" id="goal-15" class="goal-icon-image goal-icon-image-" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 15: </span>Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
+          <span class="hidden-sm hidden-md hidden-lg">Ziel 15: </span>Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und
         </h1>
       </div>
     </div>
@@ -343,16 +343,16 @@ var translations = {
 
 
   <div class="container">
-    <h2>Targets and indicators</h2>
+    <h2>Ziele und Indikatoren</h2>
 
     
     
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.1</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.1</span>
         </h3>
-        <span class="target-name">By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements</span>
+        <span class="target-name">Bis 2020 im Einklang mit den Verpflichtungen aus internationalen Übereinkünften die Erhaltung, Wiederherstellung und nachhaltige Nutzung der Land- und Binnensüßwasser- Ökosysteme und ihrer Dienstleistungen, insbesondere der Wälder, der Feuchtgebiete, der Berge und der Trockengebiete, gewährleisten</span>
         
 
           
@@ -366,12 +366,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.1.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.1.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-1-1">Forest area as a proportion of total land area</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-1-1">Waldfläche als Anteil an der gesamten Landfläche</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -389,12 +389,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.1.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.1.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-1-2">Proportion of important sites for terrestrial and freshwater biodiversity that are covered by protected areas, by ecosystem type</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-1-2">Anteil der bedeutenden Gebiete für Biodiversität an Land und im Süßwasser, die in Schutzgebieten liegen, nach Ökosystemtyp</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -405,9 +405,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.2</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.2</span>
         </h3>
-        <span class="target-name">By 2020, promote the implementation of sustainable management of all types of forests, halt deforestation, restore degraded forests and substantially increase afforestation and reforestation globally</span>
+        <span class="target-name">Bis 2020 die nachhaltige Bewirtschaftung aller Waldarten fördern, die Entwaldung beenden, geschädigte Wälder wiederherstellen und die Aufforstung und Wiederaufforstung weltweit beträchtlich erhöhen</span>
         
 
           
@@ -421,12 +421,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.2.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.2.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-2-1">Progress towards sustainable forest management</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-2-1">Fortschritt bei der nachhaltigen Waldbewirtschaftung</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -437,9 +437,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.3</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.3</span>
         </h3>
-        <span class="target-name">By 2030, combat desertification, restore degraded land and soil, including land affected by desertification, drought and floods, and strive to achieve a land degradation-neutral world</span>
+        <span class="target-name">Bis 2030 die Wüstenbildung bekämpfen, die geschädigten Flächen und Böden einschließlich der von Wüstenbildung, Dürre und Überschwemmungen betroffenen Flächen sanieren und eine Welt anstreben, in der die Landverödung neutralisiert wird</span>
         
 
           
@@ -453,12 +453,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.3.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.3.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-3-1">Proportion of land that is degraded over total land area</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-3-1">Anteil der Fläche, die von Bodendegradation betroffenen ist, an der gesamten Landfläche</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -469,9 +469,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.4</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.4</span>
         </h3>
-        <span class="target-name">By 2030, ensure the conservation of mountain ecosystems, including their biodiversity, in order to enhance their capacity to provide benefits that are essential for sustainable development</span>
+        <span class="target-name">Bis 2030 die Erhaltung der Bergökosysteme einschließlich ihrer biologischen Vielfalt sicherstellen, um ihre Fähigkeit zur Erbringung wesentlichen Nutzens für die nachhaltige Entwicklung zu stärken</span>
         
 
           
@@ -485,12 +485,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.4.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.4.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-4-1">Coverage by protected areas of important sites for mountain biodiversity</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-4-1">Abdeckung der wichtigen Gebiete für Biodiversität in den Bergen durch Schutzgebiete</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -508,44 +508,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.4.2</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.4.2</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-4-2">Mountain Green Cover Index</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-4-2">Index der Grünbedeckung in den Bergen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
-            </span>
-            
-
-          </div>
-        
-      </div>
-    
-      
-      <div class="row no-gutters goal-target-and-indicators">
-        <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.5</span>
-        </h3>
-        <span class="target-name">Take urgent and significant action to reduce the degradation of natural habitats, halt the loss of biodiversity and, by 2020, protect and prevent the extinction of threatened species</span>
-        
-
-          
-          
-          
-          
-          
-          
-          
-          
-
-          <div class="goal-indicator">
-            <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.5.1</span>
-            </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-5-1">Red List Index</a></span>
-            <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -556,9 +524,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.6</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.5</span>
         </h3>
-        <span class="target-name">Promote fair and equitable sharing of the benefits arising from the utilization of genetic resources and promote appropriate access to such resources, as internationally agreed</span>
+        <span class="target-name">Umgehende und bedeutende Maßnahmen ergreifen, um die Verschlechterung der natürlichen Lebensräume zu verringern, dem Verlust der biologischen Vielfalt ein Ende zu setzen und bis 2020 die bedrohten Arten zu schützen und ihr Aussterben zu verhindern</span>
         
 
           
@@ -572,12 +540,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.6.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.5.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-6-1">Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-5-1">Rote Liste Index</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -588,9 +556,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.7</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.6</span>
         </h3>
-        <span class="target-name">Take urgent action to end poaching and trafficking of protected species of flora and fauna and address both demand and supply of illegal wildlife products</span>
+        <span class="target-name">Die ausgewogene und gerechte Aufteilung der sich aus der Nutzung der genetischen Ressourcen ergebenden Vorteile und den angemessenen Zugang zu diesen Ressourcen fördern, wie auf internationaler Ebene vereinbart</span>
         
 
           
@@ -604,12 +572,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.7.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.6.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-7-1">Proportion of traded wildlife that was poached or illicitly trafficked</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-6-1">Anzahl der Staaten, die gesetzliche, administrative und politische Rahmenbedingungen geschaffen haben, um Vorteile gerecht und gleichmäßig zu verteilen</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -620,9 +588,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.8</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.7</span>
         </h3>
-        <span class="target-name">By 2020, introduce measures to prevent the introduction and significantly reduce the impact of invasive alien species on land and water ecosystems and control or eradicate the priority species</span>
+        <span class="target-name">Dringend Maßnahmen ergreifen, um der Wilderei und dem Handel mit geschützten Pflanzen- und Tierarten ein Ende zu setzen und dem Problem des Angebots illegaler Produkte aus wildlebenden Pflanzen und Tieren und der Nachfrage danach zu begegnen</span>
         
 
           
@@ -636,12 +604,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.8.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.7.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-8-1">Proportion of countries adopting relevant national legislation and adequately resourcing the prevention or control of invasive alien species</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-7-1">Anteil der gehandelten Wildtiere, die gewildert oder geschmuggelt wurden</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -652,9 +620,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.9</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.8</span>
         </h3>
-        <span class="target-name">By 2020, integrate ecosystem and biodiversity values into national and local planning, development processes, poverty reduction strategies and accounts</span>
+        <span class="target-name">Bis 2020 Maßnahmen einführen, um das Einbringen invasiver gebietsfremder Arten zu verhindern, ihre Auswirkungen auf die Land- und Wasserökosysteme deutlich zu reduzieren und die prioritären Arten zu kontrollieren oder zu beseitigen</span>
         
 
           
@@ -668,12 +636,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.9.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.8.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-9-1">Progress towards national targets established in accordance with Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-8-1">Anteil der Staaten, die relevante nationale Rechtsvorschriften verabschiedet haben und Maßnahmen zur Vermeidung oder Bekämpfung von invasiven, gebietsfremden Arten angemessen finanzieren</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -684,9 +652,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.a</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.9</span>
         </h3>
-        <span class="target-name">Mobilize and significantly increase financial resources from all sources to conserve and sustainably use biodiversity and ecosystems</span>
+        <span class="target-name">Bis 2020 Ökosystem- und Biodiversitätswerte in die nationalen und lokalen Planungen, Entwicklungsprozesse, Armutsbekämpfungsstrategien und Gesamtrechnungssysteme einbeziehen</span>
         
 
           
@@ -700,12 +668,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.a.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.9.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-a-1">Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-9-1">Fortschritte bei der Erreichung nationaler Ziele, die in Übereinstimmung mit dem Aichi-Biodiversitätsziel 2 des Strategischen Plans zur Biodiversität 2011-2020 beschlossen wurden</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -716,9 +684,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.b</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.a</span>
         </h3>
-        <span class="target-name">Mobilize significant resources from all sources and at all levels to finance sustainable forest management and provide adequate incentives to developing countries to advance such management, including for conservation and reforestation</span>
+        <span class="target-name">Finanzielle Mittel aus allen Quellen für die Erhaltung und nachhaltige Nutzung der biologischen Vielfalt und der Ökosysteme aufbringen und deutlich erhöhen</span>
         
 
           
@@ -732,12 +700,12 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.b.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.a.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-b-1">Official development assistance and public expenditure on conservation and sustainable use of biodiversity and ecosystems</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-a-1">Öffentliche Entwicklungszusammenarbeit und öffentliche Ausgaben für den Erhalt und die nachhaltige Nutzung biologischer Vielfalt und der Ökosysteme</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
             </span>
             
 
@@ -748,9 +716,9 @@ var translations = {
       
       <div class="row no-gutters goal-target-and-indicators">
         <h3 class="goal-target">
-          <span class="target-number"><span class="sr-only">Target</span> 15.c</span>
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.b</span>
         </h3>
-        <span class="target-name">Enhance global support for efforts to combat poaching and trafficking of protected species, including by increasing the capacity of local communities to pursue sustainable livelihood opportunities</span>
+        <span class="target-name">Erhebliche Mittel aus allen Quellen und auf allen Ebenen für die Finanzierung einer nachhaltigen Bewirtschaftung der Wälder aufbringen und den Entwicklungsländern geeignete Anreize für den vermehrten Einsatz dieser Bewirtschaftungsform bieten, namentlich zum Zweck der Walderhaltung und Wiederaufforstung</span>
         
 
           
@@ -764,12 +732,44 @@ var translations = {
 
           <div class="goal-indicator">
             <h4>
-              <span class="indicator-number"><span class="sr-only">Indicator</span> 15.c.1</span>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.b.1</span>
             </h4>
-            <span class="indicator-name"><a href="/IM_Site/15-c-1">Proportion of traded wildlife that was poached or illicitly trafficked</a></span>
-            <span class="sr-only">Indicator status</span>
+            <span class="indicator-name"><a href="/IM_Site/15-b-1">Öffentliche Entwicklungszusammenarbeit und öffentliche Ausgaben für den Erhalt und die nachhaltige Nutzung biologischer Vielfalt und der Ökosysteme</a></span>
+            <span class="sr-only">Status des Indikators</span>
             <span class="status notstarted">
-              Exploring data sources
+              Datenquellenanalyse
+            </span>
+            
+
+          </div>
+        
+      </div>
+    
+      
+      <div class="row no-gutters goal-target-and-indicators">
+        <h3 class="goal-target">
+          <span class="target-number"><span class="sr-only">Unterziel</span> 15.c</span>
+        </h3>
+        <span class="target-name">Die weltweite Unterstützung von Maßnahmen zur Bekämpfung der Wilderei und des Handels mit geschützten Arten verstärken, unter anderem durch die Stärkung der Fähigkeit lokaler Gemeinwesen, Möglichkeiten einer nachhaltigen Existenzsicherung zu nutzen</span>
+        
+
+          
+          
+          
+          
+          
+          
+          
+          
+
+          <div class="goal-indicator">
+            <h4>
+              <span class="indicator-number"><span class="sr-only">Indikator</span> 15.c.1</span>
+            </h4>
+            <span class="indicator-name"><a href="/IM_Site/15-c-1">Anteil der gehandelten Wildtiere, die gewildert oder geschmuggelt wurden</a></span>
+            <span class="sr-only">Status des Indikators</span>
+            <span class="status notstarted">
+              Datenquellenanalyse
             </span>
             
 
@@ -786,11 +786,11 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Erstellt mit Open SDG</a></li>
             
               <li>
                 
-                  <a href="mailto:my-email-address@example.com" target="_blank">Contact us</a>
+                  <a href="mailto:my-email-address@example.com" target="_blank">Kontakt</a>
                 
                 </li>
               <li>
@@ -836,17 +836,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210422113341'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210423071133'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210422113341"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210423071133"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
