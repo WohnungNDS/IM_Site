@@ -21,7 +21,7 @@ metadata_edit_url: http://prose.io/#WohnungNDS/IM_Data/edit/develop/meta/[id].md
 languages:
  - de
  - en
- 
+
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
@@ -38,20 +38,21 @@ environment: staging
 create_indicators:
   layout: indicator
 create_goals:
-  layout: goal-by-target-vertical
-create_pages:
-  pages:
-    - folder: /
+  lyout: goal-by-target
+#  layout: goal-by-target-vertical
+create_pages: true
+#  pages:
+#    - folder: /
       layout: frontpage-alt
-    - folder: /goals
-      layout: goals
-    - folder: /reporting-status
-      layout: reportingstatus
-    - filename: indicators.json
-      folder: /
-      layout: indicator-json
-    - folder: /search
-      layout: search
+#    - folder: /goals
+#      layout: goals
+#    - folder: /reporting-status
+#      layout: reportingstatus
+#    - filename: indicators.json
+#      folder: /
+#      layout: indicator-json
+#    - folder: /search
+#      layout: search
 
 analytics:
   ga_prod: ''
