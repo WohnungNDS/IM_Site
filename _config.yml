@@ -38,9 +38,8 @@ environment: staging
 create_indicators:
   layout: indicator
 create_goals:
-#  lyout: goal-by-target
   layout: goal-by-target-vertical
-create_pages: 
+create_pages:
   pages:
     - folder: /
       layout: frontpage-alt
