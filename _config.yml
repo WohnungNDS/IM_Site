@@ -84,18 +84,16 @@ frontpage_goals_grid:
 frontpage_cards:
   - title: frontpage.download_all
     include: components/download-all-data.html
-  - title: Lorem ipsum
+  - title: Schon gewusst?
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    button_label: Read more
-    button_link: https://example.com
-  - title: Nam vestibulum
+      Legiglich im Jahr 2015 überstieg die Fluchtmigration die Arbeitsmigration...
+    button_label: Mehr erfahren
+    button_link: https://wohnungnds.github.io/IM_Site/11-2-3/
+  - title: Eine Neue Folge von "Der Dr. rrlklärt"
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    button_label: Read more
-    button_link: https://example.com
+      Das Statistische Bundesamt zum Migraitonshintergrund
+    button_label: Anschauen
+    button_link: https://www.youtube.com/watch?v=TAZw2NVfjCw
 
 # Pages
 collections:
