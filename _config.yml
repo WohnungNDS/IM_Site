@@ -163,6 +163,33 @@ exclude:
 # Optionally uncomment and update the settings below to control the mapping functionality.
 # These are only a few of the possible settings. For more details, see:
 # https://open-sdg.readthedocs.io/en/latest/maps/
+
+map_options:
+  minZoom: 5
+  maxZoom: 10
+  tileURL: https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}
+  tileOptions:
+    id: mapbox.light
+    accessToken: pk.eyJ1IjoiY2hyaXN0b3BoNDcxMSIsImEiOiJjanp1cjdpbzQwMTFwM29tdzJ2ZTh3Ymo4In0.C7_7e3AFcMaF_QBg6MaT0Q
+    attribution: <a href="https://www.mapbox.com">Mapbox</a> | <a href="http://www.bkg.bund.de">© GeoBasis-DE / BKG</a>
+
+
+map_layers:
+-
+# The subfolder under 'geojson' in the data repository holding the GeoJSON files:
+    subfolder: maps
+    # The label to use in the "Download GeoJSON" button:
+    label: indicator.map
+    # The minimum zoom at which this layer should be visible.
+    min_zoom: 0
+    # The maximum zoom at which this layer should be visible.
+    max_zoom: 20
+    # Whether or not these boundaries should display statically on lower layers.
+    staticBorders: false
+
+
+
+
 #map_options:
 #  minZoom: 5
 #  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
