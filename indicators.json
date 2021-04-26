@@ -2,12 +2,12 @@
   {
     "goal": {
       "id": "1",
-      "title": "Gebäude in Niedersachsen",
+      "title": "Bevölkerung in Niedersachsen",
       "indicators": [
         
         {
           "id": "1-1-1",
-          "title": "Bestand an Wohnungen in Wohn- und  Nichtwohngebäuden zu Jahresbeginn und Jahresende",
+          "title": "Menschen in Niedersachsen",
           "description": "Der Indikator Wohnungen in Wohn- und Nichtwohngebäuden zeigt die Entwicklung des Wohnungsbestandes in Niedersachsen seit 2011. Für jeden Kreis und für jede kreisfreie Stadt, werden Daten zum Wohnungsbestand jeweils zum Jahresanfang und zum Jahresende abgebildet. Der Wohnungszuwachs durch Neubau wird neben der Veränderung des Wohnungsbestandes Insgesamt gesondert ausgewiesen.",
           "keywords": "",
           "href": "/IM_Site/1-1-1",
@@ -15,7 +15,7 @@
         },
         {
           "id": "1-1-2",
-          "title": "Veränderung der Anzahl der Wohnungen in Wohn- und Nichtwohngebäuden (Neubau)",
+          "title": "Menschen in Niedersachsen nach Alter und Geschlecht",
           "description": "Der Indikator bildet die Veränderung des Wohnungsangebotes in Niedersachsen, den Statistischen Regionen sowie den Landkreisen und Kreisfreien Städten ab.",
           "keywords": "",
           "href": "/IM_Site/1-1-2",
@@ -23,7 +23,7 @@
         },
         {
           "id": "1-1-3",
-          "title": "Neubauanteil in Prozent",
+          "title": "Menschen in Niedersachsen nach Nationalität",
           "description": "",
           "keywords": "",
           "href": "/IM_Site/1-1-3",
@@ -34,12 +34,12 @@
   {
     "goal": {
       "id": "2",
-      "title": "Eigenheime in Niedersachsen",
+      "title": "Ausländerinnen und Ausländer",
       "indicators": [
         
         {
           "id": "2-1-1",
-          "title": "Eigenheime 1 Anzahl der Eigenheime",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen",
           "description": "",
           "keywords": "",
           "href": "/IM_Site/2-1-1",
