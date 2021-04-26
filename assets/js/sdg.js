@@ -2685,8 +2685,8 @@ var mapView = function () {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
-      mapOptions: null,
-      mapLayers: null,
+      mapOptions: {"minZoom":5,"maxZoom":10,"tileURL":"https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}","tileOptions":{"id":"mapbox.light","accessToken":"pk.eyJ1IjoiY2hyaXN0b3BoNDcxMSIsImEiOiJjanp1cjdpbzQwMTFwM29tdzJ2ZTh3Ymo4In0.C7_7e3AFcMaF_QBg6MaT0Q","attribution":"<a href=\"https://www.mapbox.com\">Mapbox</a> | <a href=\"http://www.bkg.bund.de\">© GeoBasis-DE / BKG</a>"}},
+      mapLayers: [{"subfolder":"maps","label":"indicator.map","min_zoom":0,"max_zoom":20,"staticBorders":false}],
       precision: precision,
       decimalSeparator: decimalSeparator,
     });
