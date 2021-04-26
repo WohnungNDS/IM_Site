@@ -61,9 +61,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: christoph@biester.info
+  suggestions: christoph@biester.info
+  functional: christoph@biester.info
 
 # International Support
 # Eg name: Australia and adjective: Australian
@@ -89,7 +89,7 @@ frontpage_cards:
       Legiglich im Jahr 2015 überstieg die Fluchtmigration die Arbeitsmigration...
     button_label: Mehr erfahren
     button_link: https://wohnungnds.github.io/IM_Site/11-2-3/
-  - title: Eine Neue Folge von "Der Dr. rrlklärt"
+  - title: Der Migraitonshintergrund auf youtube
     content: |
       Das Statistische Bundesamt zum Migraitonshintergrund
     button_label: Anschauen
