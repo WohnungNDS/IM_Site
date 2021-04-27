@@ -20,7 +20,6 @@ metadata_edit_url: http://prose.io/#WohnungNDS/IM_Data/edit/develop/meta/[id].md
 # The list of languages that are translated. The first one is the default.
 languages:
  - de
- - en
 
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
@@ -128,12 +127,12 @@ menu:
 footer_menu:
   - path: mailto:my-email-address@example.com
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
-    translation_key: general.twitter
-  - path: https://facebook.com/MyFacebookAccount
-    translation_key: general.facebook
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+#  - path: https://twitter.com/MyTwitterAccount
+#    translation_key: general.twitter
+#  - path: https://facebook.com/MyFacebookAccount
+#    translation_key: general.facebook
+#  - path: /about/cookies-and-privacy/
+#    translation_key: menu.cookies
   - path: /imprint/
     translations_key: menue.imprint
 # Configure the text (or "translation key") to be used on the
@@ -223,22 +222,22 @@ header:
 series_toggle: true
 
 # Control the behavior of breadcrumbs for certain types of content.
-breadcrumbs:
-  post:
-    - label: general.home
-      path: /
-    - label: menu.updates
-      path: /news
-  goal:
-    - label: general.home
-      path: /
-    - label: general.goals
-      path: /goals
-  indicator:
-    - label: general.home
-      path: /
-    - label: general.goals
-      path: /goals
+#breadcrumbs:
+#  post:
+#    - label: general.home
+#      path: /
+#    - label: menu.updates
+#      path: /news
+#  goal:
+#    - label: general.home
+#      path: /
+#    - label: general.goals
+#      path: /goals
+#  indicator:
+#    - label: general.home
+#      path: /
+#    - label: general.goals
+#      path: /goals
 
 # Specify the style of header to use.
 header:
