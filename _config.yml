@@ -108,21 +108,21 @@ collections:
     output: true
 
 # Menu
-menu:
+#menu:
   # Use these to customise the main navigation.
-  - path: /goals
-    # The "translation_key" refers to the key in the SDG Translations repository.
-    translation_key: general.goals
-  - path: /reporting-status
-    translation_key: menu.reporting_status
-  - path: /about
-    translation_key: menu.about
-  - path: /guidance
-    translation_key: menu.guidance
-  - path: /faq
-    translation_key: menu.faq
-  - path: /news
-    translation_key: menu.updates
+#  - path: /goals
+#    # The "translation_key" refers to the key in the SDG Translations repository.
+#    translation_key: general.goals
+#  - path: /reporting-status
+#    translation_key: menu.reporting_status
+#  - path: /about
+#    translation_key: menu.about
+#  - path: /guidance
+#    translation_key: menu.guidance
+#  - path: /faq
+#    translation_key: menu.faq
+#  - path: /news
+#    translation_key: menu.updates
 
 footer_menu:
   - path: mailto:my-email-address@example.com
@@ -134,7 +134,7 @@ footer_menu:
 #  - path: /about/cookies-and-privacy/
 #    translation_key: menu.cookies
   - path: /imprint/
-    translations_key: menue.imprint
+    translations_key: menu.imprint
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
 non_global_metadata: indicator.national_metadata
