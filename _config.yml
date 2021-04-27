@@ -1,4 +1,4 @@
-# Jekyll configuration for Open SDG platform
+## Jekyll configuration for Open SDG platform
 
 # Doing the Quick start? Here are the settings to update during installation:
 #
@@ -9,7 +9,7 @@ baseurl: "/IM_Site"
 # The next line should be the URL of your data repository published site. To find this,
 # go to your data repository in Github, and click "Settings", then scroll down to the
 # "Github Pages" section. Copy/paste the link in the green section.
-remote_data_prefix: "http://wohnungNDS.github.io/IM_Data/"
+remote_data_prefix: "https://wohnungNDS.github.io/IM_Data/"
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 # URL for the "Edit Data" button on indicators.
@@ -38,9 +38,8 @@ environment: staging
 create_indicators:
   layout: indicator
 create_goals:
-#  lyout: goal-by-target
-  layout: goal-by-target-vertical
-create_pages: 
+  layout: goal-by-target
+create_pages:
   pages:
     - folder: /
       layout: frontpage-alt
@@ -62,9 +61,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: christoph@biester.info
+  suggestions: christoph@biester.info
+  functional: christoph@biester.info
 
 # International Support
 # Eg name: Australia and adjective: Australian
@@ -85,18 +84,16 @@ frontpage_goals_grid:
 frontpage_cards:
   - title: frontpage.download_all
     include: components/download-all-data.html
-  - title: Lorem ipsum
+  - title: Schon gewusst?
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    button_label: Read more
-    button_link: https://example.com
-  - title: Nam vestibulum
+      Legiglich im Jahr 2015 überstieg die Fluchtmigration die Arbeitsmigration...
+    button_label: Mehr erfahren
+    button_link: https://wohnungnds.github.io/IM_Site/11-2-3/
+  - title: Der Migraitonshintergrund auf youtube
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    button_label: Read more
-    button_link: https://example.com
+      Das Statistische Bundesamt zum Migraitonshintergrund
+    button_label: Anschauen
+    button_link: https://www.youtube.com/watch?v=TAZw2NVfjCw
 
 # Pages
 collections:
@@ -166,6 +163,33 @@ exclude:
 # Optionally uncomment and update the settings below to control the mapping functionality.
 # These are only a few of the possible settings. For more details, see:
 # https://open-sdg.readthedocs.io/en/latest/maps/
+
+map_options:
+  minZoom: 5
+  maxZoom: 10
+  tileURL: https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}
+  tileOptions:
+    id: mapbox.light
+    accessToken: pk.eyJ1IjoiY2hyaXN0b3BoNDcxMSIsImEiOiJjanp1cjdpbzQwMTFwM29tdzJ2ZTh3Ymo4In0.C7_7e3AFcMaF_QBg6MaT0Q
+    attribution: <a href="https://www.mapbox.com">Mapbox</a> | <a href="http://www.bkg.bund.de">© GeoBasis-DE / BKG</a>
+
+
+map_layers:
+-
+# The subfolder under 'geojson' in the data repository holding the GeoJSON files:
+    subfolder: maps
+    # The label to use in the "Download GeoJSON" button:
+    label: indicator.map
+    # The minimum zoom at which this layer should be visible.
+    min_zoom: 0
+    # The maximum zoom at which this layer should be visible.
+    max_zoom: 20
+    # Whether or not these boundaries should display statically on lower layers.
+    staticBorders: false
+
+
+
+
 #map_options:
 #  minZoom: 5
 #  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
