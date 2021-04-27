@@ -85,7 +85,7 @@ frontpage_cards:
     include: components/download-all-data.html
   - title: Schon gewusst?
     content: |
-      Legiglich im Jahr 2015 überstieg die Fluchtmigration die Arbeitsmigration...
+      Lediglich im Jahr 2015 überstieg die Fluchtmigration die Arbeitsmigration...
     button_label: Mehr erfahren
     button_link: https://wohnungnds.github.io/IM_Site/11-2-3/
   - title: Der Migrationshintergrund auf youtube
@@ -127,14 +127,14 @@ collections:
 footer_menu:
   - path: mailto:christoph@biester.info
     translation_key: menu.contact_us
+  - path: /imprint/
+    translations_key: menu.imprint
 #  - path: https://twitter.com/MyTwitterAccount
 #    translation_key: general.twitter
 #  - path: https://facebook.com/MyFacebookAccount
 #    translation_key: general.facebook
 #  - path: /about/cookies-and-privacy/
 #    translation_key: menu.cookies
-  - path: /imprint/
-    translations_key: menu.imprint
 # Configure the text (or "translation key") to be used on the
 # non-global metadata tab.
 non_global_metadata: indicator.national_metadata
