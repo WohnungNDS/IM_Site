@@ -49,6 +49,70 @@
   },
   {
     "goal": {
+      "id": "3",
+      "title": "Wohnheime und andere Unterkünfte in Niedersachsen",
+      "indicators": [
+        
+        {
+          "id": "3-1-1",
+          "title": "Wohnheime 1 Anzahl der Wohnheime",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/3-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "4",
+      "title": "Mieten in Niedersachsen",
+      "indicators": [
+        
+        {
+          "id": "4-1-1",
+          "title": "Mieten 1 Nettokaltmieten, Nebenkosten, Mikrozensus",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/4-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "5",
+      "title": "Bauen in Niedersachsen",
+      "indicators": [
+        
+        {
+          "id": "5-1-1",
+          "title": "Bauvorhaben 1 LSN Online Tabelle Z8090101 Baumaßnahmen und neue Gebäude, Nutzfläche, Kosten, Wohnungen insgesamt und Anzahl Räume und Nichtwohngebäude Kreisebene",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/5-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "6",
+      "title": "Baufertigstellungen in Niedersachsen",
+      "indicators": [
+        
+        {
+          "id": "6-1-1",
+          "title": "Baufertigstellungen 1 LSN Online K8100116 Wohngebäude (1-2 Wohnungen, 3 und  mehr Wohnungen), Wohngebäude, Wohngebäuden nach Anzahl der Zimmer,  Nichtwohngebäude, Nutzfläche, Veranschlagte Kochen (???)",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/6-1-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
       "id": "11",
       "title": "Geflüchtete und geduldete Personen in Niedersachsen",
       "indicators": [
