@@ -128,8 +128,8 @@ footer_menu:
   - path: mailto:christoph@biester.info
     translation_key: menu.contact_us
   - path: /imprint/
-    translations_key: menu.imprint
-#  - path: /imprint/
+    translation_key: menu.imprint
+#  - path: https://twitter.com/MyTwitterAccount
 #    translation_key: general.twitter
 #  - path: https://facebook.com/MyFacebookAccount
 #    translation_key: general.facebook
