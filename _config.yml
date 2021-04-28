@@ -92,16 +92,7 @@ frontpage_cards:
     content: |
       ... das Integrationsmonitoring
     button_label: Film ab!
-    button_link: <video src="ttps://wolke.kreativgeschoss.de/index.php/s/WWQpKRGPBifmQgp" width=320  height=240 controls poster="vorschaubild.jpg">
-Dies Video kann in Ihrem Browser nicht wiedergegeben werden.<br>
-Eine Download-Version steht unter <a href="URL">ttps://wolke.kreativgeschoss.de/index.php/s/WWQpKRGPBifmQgp</a> zum Abruf bereit. 
-</video> 
-    
-    
-    
-    
-    
-    #https://wolke.kreativgeschoss.de/index.php/s/WWQpKRGPBifmQgp
+    button_link: https://wolke.kreativgeschoss.de/index.php/s/WWQpKRGPBifmQgp
 
 # Pages
 collections:
