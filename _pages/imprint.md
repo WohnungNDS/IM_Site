@@ -73,7 +73,8 @@ Das Landesamt für Statistik Niedersachsen ist darum bemüht, in allen Publikati
 <br>
 
 <b>Copyright allgemein</b><br>
-Für die Standard-Veröffentlichungen des Landesamtes für Statistik Niedersachsen in gedruckter und elektronischer Form sowie für die Inhalte auf unserer Webseite www.statistik.niedersachsen.de einschließlich Grafiken sowie der zum Download bereitgestellten Produkte gilt folgendes Copyright, soweit bei dem jeweiligen Produkt/Internetseite keine ergänzenden oder anderslautenden Angaben ausgewiesen sind und die Inhalte keinem fremden Copyright unterliegen:
+Für die Standard-Veröffentlichungen des Landesamtes für Statistik Niedersachsen in gedruckter und elektronischer Form sowie für die Inhalte auf unserer Webseite www.statistik.niedersachsen.de einschließlich Grafiken sowie der zum Download bereitgestellten Produkte gilt folgendes Copyright, soweit bei dem jeweiligen Produkt/Internetseite keine ergänzenden oder anderslautenden Angaben ausgewiesen sind und die Inhalte keinem fremden Copyright unterliegen.
+<br>
 <br>
 <b>Bildnachweise</b>
 <br>
