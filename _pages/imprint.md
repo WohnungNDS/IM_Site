@@ -42,7 +42,7 @@ Die behördliche Datenschutzbeauftragte des Landesamts für Statistik Niedersach
 <br>
 [https://twitter.com/Statistik_NDS](https://twitter.com/Statistik_NDS)
 <br>
-
+<br>
 <b>Haftungsausschluss</b><br>
 Die Inhalte dieser Webseite werden mit größtmöglicher Sorgfalt recherchiert und implementiert. Dennoch ist das Auftreten von Fehlern nicht völlig auszuschließen. Eine Garantie für die Vollständigkeit, Richtigkeit und letzte Aktualität kann daher nicht übernommen werden. Hinweise und Korrekturen senden Sie uns bitte über unser Kontaktformular oder wenden Sie sich an die Ansprechpartnerinnen und -partner im Landesamt für Statistik Niedersachsen (siehe oben).
 <br>
