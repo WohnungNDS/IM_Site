@@ -26,7 +26,7 @@ Göttinger Chaussee 76<br>
 D-30453 Hannover<br>
 <br>
 <br>
-<b>Ansprechpartnerinnen und -partner im Landesamt für Statistik Niedersachsen:<b>
+<b>Ansprechpartnerinnen und -partner im Landesamt für Statistik Niedersachsen:</b>
 <br>
  [https://www.statistik.niedersachsen.de/startseite/presse_service/kontakt/kontakt-120962.html](https://www.statistik.niedersachsen.de/startseite/presse_service/kontakt/kontakt-120962.html)
 <br>
