@@ -74,6 +74,20 @@ Das Landesamt für Statistik Niedersachsen ist darum bemüht, in allen Publikati
 <b>Copyright allgemein</b><br>
 Für die Standard-Veröffentlichungen des Landesamtes für Statistik Niedersachsen in gedruckter und elektronischer Form sowie für die Inhalte auf unserer Webseite www.statistik.niedersachsen.de einschließlich Grafiken sowie der zum Download bereitgestellten Produkte gilt folgendes Copyright, soweit bei dem jeweiligen Produkt/Internetseite keine ergänzenden oder anderslautenden Angaben ausgewiesen sind und die Inhalte keinem fremden Copyright unterliegen:
 <br>
+
+<b>Bildnachweise</b>
+<br>
+<b>mangsaabguru</b>
+<div>Icons erstellt von <a href="https://www.flaticon.com/de/autoren/mangsaabguru" title="mangsaabguru">mangsaabguru</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a></div>
+<br>
+<b>icongeek26</b>
+<div>Icons erstellt von <a href="https://www.flaticon.com/de/autoren/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a></div>
+<br>
+<b>freepik</b>
+<div>Icons erstellt von <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a></div>
+
+
+<br>
 © Landesamt für Statistik Niedersachsen, Hannover 2020
 Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellennachweis gestattet.
 <br>
