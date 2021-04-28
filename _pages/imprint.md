@@ -43,7 +43,8 @@ Die behördliche Datenschutzbeauftragte des Landesamts für Statistik Niedersach
 [https://twitter.com/Statistik_NDS](https://twitter.com/Statistik_NDS)
 <br>
 <br>
-<b>Haftungsausschluss</b><br>
+<b>Haftungsausschluss</b>
+<br>
 Die Inhalte dieser Webseite werden mit größtmöglicher Sorgfalt recherchiert und implementiert. Dennoch ist das Auftreten von Fehlern nicht völlig auszuschließen. Eine Garantie für die Vollständigkeit, Richtigkeit und letzte Aktualität kann daher nicht übernommen werden. Hinweise und Korrekturen senden Sie uns bitte über unser Kontaktformular oder wenden Sie sich an die Ansprechpartnerinnen und -partner im Landesamt für Statistik Niedersachsen (siehe oben).
 <br>
 <br>
@@ -76,14 +77,14 @@ Für die Standard-Veröffentlichungen des Landesamtes für Statistik Niedersachs
 <br>
 <b>Bildnachweise</b>
 <br>
-<b>mangsaabguru</b>
-Icons erstellt von <a href="https://www.flaticon.com/de/autoren/mangsaabguru" title="mangsaabguru">mangsaabguru</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a>
+Icons erstellt von 
 <br>
-<b>icongeek26</b>
-Icons erstellt von <a href="https://www.flaticon.com/de/autoren/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a>
+[mangsaabguru](https://www.flaticon.com/de/autoren/mangsaabguru)  from [www.flaticon.com/de](https://www.flaticon.com/de/)
 <br>
-<b>freepik</b>
-Icons erstellt von <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/de/" title="Flaticon">www.flaticon.com</a>
+[icongeek26](https://www.flaticon.com/de/autoren/icongeek26)  from [www.flaticon.com/de](https://www.flaticon.com/de/)
+<br>
+[freepik](https://www.flaticon.com/de/autoren/freepik)  from [www.flaticon.com/de](https://www.flaticon.com/de/)
+<br>
 <br>
 © Landesamt für Statistik Niedersachsen, Hannover 2020
 Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellennachweis gestattet.
