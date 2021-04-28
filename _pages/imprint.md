@@ -7,8 +7,8 @@ layout: page
 <b>Landesamt für Statistik Niedersachsen</b>
 <br>
 <br>
-<b>Herausgeber Landesamt für Statistik Niedersachsen,<br>
-vertreten durch die Präsidentin Simone Lehmann</b>
+<b>Herausgeber Landesamt für Statistik Niedersachsen</b>,<br>
+<b>vertreten durch die Präsidentin Simone Lehmann</b>
 <br>
 <br>
 <b>Kontakt:</b>
@@ -38,7 +38,7 @@ Die behördliche Datenschutzbeauftragte des Landesamts für Statistik Niedersach
 <b>Technischer Betrieb:</b><br>
 [IT.Niedersachsen](http://www.it.niedersachsen.de/)
 <br><br>
-<b>Dieses Impressum gilt auch für das folgende Twitter-Profil:<b>
+<b>Dieses Impressum gilt auch für das folgende Twitter-Profil:</b>
 <br>
 [https://twitter.com/Statistik_NDS](https://twitter.com/Statistik_NDS)
 <br>
@@ -60,15 +60,18 @@ Bei Nutzungsausfällen der Webseite wegen technischer oder organisatorischer St�
 Die Verpflichtungen zur Entfernung oder Sperrung von Inhalten oder Links nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von Rechtsverletzungen wird das Landesamt für Statistik Niedersachsen diese Inhalte umgehend entfernen.
 <br>
 <br>
-<b>Datenschutzerklärung</b><br>
+<b>Datenschutzerklärung</b>
+<br>
 Das Landesamt für Statistik Niedersachsen nimmt den Schutz Ihrer Privat- und Persönlichkeitssphäre ernst und beachtet die [datenschutzrechtlichen Bestimmungen](https://www.statistik.niedersachsen.de/startseite/uber_uns/datenschutz/datenschutzerklaerung-164757.html).
 <br>
 
-<b>Statistische Geheimhaltung</b><br>
+<b>Statistische Geheimhaltung</b>
+<br>
 Die Statistischen Ämter des Bundes und der Länder haben nach dem Bundesstatistikgesetz (BStatG) die Aufgabe, Daten zu erheben, aufzubereiten und zu veröffentlichen. Die Erhebungen/Bundes- und Landesstatistiken werden in einzelnen fachstatistischen Rechtsvorschriften geregelt. Für die Auskunftgebenden besteht in der Regel Auskunftspflicht. Die amtliche Statistik garantiert die Geheimhaltung der erhobenen Einzelangaben.
 <br>
 
-<b>Urheber- und Kennzeichnungspflicht</b><br>
+<b>Urheber- und Kennzeichnungspflicht</b>
+<br>
 Das Landesamt für Statistik Niedersachsen ist darum bemüht, in allen Publikationen die Urheberrechte der verwendeten Bilder und Texte zu beachten. Aus diesem Grund werden insbesondere selbsterstellte Texte, Bilder und Grafiken genutzt oder es wird auf lizenzfreie Produkte zurückgegriffen.
 <br>
 
@@ -78,7 +81,7 @@ Für die Standard-Veröffentlichungen des Landesamtes für Statistik Niedersachs
 <br>
 <b>Bildnachweise</b>
 <br>
-Icons erstellt von 
+Icons erstellt von: 
 <br>
 [mangsaabguru](https://www.flaticon.com/de/autoren/mangsaabguru)  from [www.flaticon.com/de](https://www.flaticon.com/de/)
 <br>
@@ -91,5 +94,6 @@ Icons erstellt von
 Vervielfältigung und Verbreitung, auch auszugsweise, mit Quellennachweis gestattet.
 <br>
 
-<b>Allgemeine Geschäftsbedingungen (AGB)</b><br>
+<b>Allgemeine Geschäftsbedingungen (AGB)</b>
+<br>
 Es gelten die [Allgemeinen Geschäftsbedingungen](https://www.statistik.niedersachsen.de/download/49219) des Landesamtes für Statistik Niedersachsen für die Vertriebsabwicklung im Verkauf von gedruckten Publikationen sowie für die auf Datenträgern beziehungsweise für die im PDF-Format angebotenen Publikationen.
