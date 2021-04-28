@@ -127,7 +127,7 @@ collections:
 footer_menu:
   - path: mailto:christoph@biester.info
     translation_key: menu.contact_us
-  - path: /imprint/
+  - path: /LSN_imprint/
     translation_key: menu.imprint
 #  - path: https://twitter.com/MyTwitterAccount
 #    translation_key: general.twitter
