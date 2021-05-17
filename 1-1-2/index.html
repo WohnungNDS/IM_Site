@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210517013535">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210517132134">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -308,7 +308,7 @@ var translations = {
 <ol class="breadcrumb">
   
   <li><a href="/IM_Site/">Home</a></li>
-  <li><a href="/IM_Site/1" title="Bevölkerung in Niedersachsen">Themenbereich 1</a></li>
+  <li><a href="/IM_Site/1" title="Demographie 6 Bevölkerungn">Themenbereich 1</a></li>
   <li class="active">Indikator 1.1.2</li>
   
 </ol>
@@ -322,7 +322,7 @@ var translations = {
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
         <a href="/IM_Site/1" title="Zeigt die Indikatorenliste zum SDG-Ziel an.">
-          <img src="https://wohnungnds.github.io/IM_translations/www/assets/img/goals//de/1.png" alt="Demographie - Themenbereich 1" id="goal-1" class="goal-icon-image goal-icon-image-"/>
+          <img src="https://wohnungnds.github.io/IM_translations/www/assets/img/goals//de/1.png" alt="Demographie 6 Bevölkerung - Themenbereich 1" id="goal-1" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -363,7 +363,7 @@ var translations = {
   data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="true"
-  data-startvalues="null"
+  data-startvalues="[{&quot;field&quot;:&quot;Gebietseinheit&quot;,&quot;value&quot;:&quot;Niedersachsen&quot;},{&quot;field&quot;:&quot;Gebietseinheit&quot;,&quot;value&quot;:&quot;Statistische Region Braunschweig&quot;},{&quot;field&quot;:&quot;Gebietseinheit&quot;,&quot;value&quot;:&quot;Statistische Region Hannover&quot;},{&quot;field&quot;:&quot;Gebietseinheit&quot;,&quot;value&quot;:&quot;Statistische Region Lüneburg&quot;},{&quot;field&quot;:&quot;Gebietseinheit&quot;,&quot;value&quot;:&quot;Statistische Region Weser-Ems&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -835,7 +835,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definition des Indikators </th>
         <td>
           
-            <p>Der Indikator bildet die Veränderung des Wohnungsangebotes in Niedersachsen, den Statistischen Regionen sowie den Landkreisen und Kreisfreien Städten ab.</p>
+            <p>Zur Bevölkerung zählen alle Menschen, die in einem definierten Gebiet dauerhaft wohnen. Diese werden der Gemeinde zugerechnet, in der sie ihre alleinige Wohnung oder bei mehreren Wohnungen in verschiedenen Gemeinden ihren Erstwohnsitz haben („Bevölkerung am Ort der Hauptwohnung“). Zur Bevölkerung zählen auch die im Bundesgebiet gemeldeten Ausländerinnen und Ausländer (einschließlich Staatenlose). Nicht zur Bevölkerung gehören hingegen die Angehörigen der Stationierungsstreitkräfte sowie Angehörigen der ausländischen diplomatischen und konsularischen Vertretungen mit ihren Familienmitgliedern.</p>
 
           
         </td>
@@ -849,7 +849,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Methodische Hinweise </th>
         <td>
           
-            <p>Die Veränderung der Anzhl der Wohnungen eribt sich aus dem Bestand der Wohnungen zu Jahresbeginn und Jahresende mit besonderem Fokus auf den Neubau. Für eine detaillierte Analyse der Veränderungen auf dem Wohnungs und Nichtwohnungssektor siehe Indikaotr XX zu den Baugenehmigungen und Baufertisgellungen.</p>
+            <p>Bevölkerungsstandes wird, ausgehend von den Ergebnissen der jeweils letzten Volkszählung, aufgrund der Meldungen der Standesämter zu Geburten und Sterbefällen sowie der von den Einwohnermeldeämtern gemeldeten Angaben über Zu- und Fortzüge durchgeführt. Bei den hier dargestellten Bevölkerungsdaten bis 2010 handelt es sich um Fortschreibungszahlen, die auf Ergebnissen der Volkszählung 1987 basieren. Ab 2011 basieren die Bevölkerungsdaten auf der Fortschreibung der Ergebnisse des Zensus 2011. Die Angaben zum Bevölkerungsstand umfassen zum 31.12. eines jeden Jahres Geschlecht, Altersjahr und Staatsangehörigkeit (Deutsche, Ausländerinnen und Ausländer).</p>
 
           
         </td>
@@ -863,8 +863,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Analyse </th>
         <td>
           
-            <p>In Niedersachsen wird gebaut, nicht mehr soviel wie noch im Jahr 2016, dennoch ist der Trend eines kontinuierlichen Zuwachses an Wihnungen ungebrochen. Während die Anzahl der neugebauten Wochnungen im Jahr 2012 bei 19201 lag stieg sie bis zum Jahr 2016 kontinuiewrlich bist auf 26777 Wohnungen an. Für das Jahr 2018 sind mit 25131 neu gebauten Wohnungen rund 1500 Wohnungen hinzugekommen.
-Das Neubaugeschehen ist regional sehr unterschiedlich: Während rund um die Landeshaupdtstad Hannover und im Emsland ein deutlicher Zuwachs zu verzeichnen ist, wird in südniedersachsen und in den östlichen Landesteilen weniger gebaut.</p>
+            <p>Das was früher in den Erläuterungen stand, kann in einem nächsten Schritt in 2021 oder nach udn nach hinzugefügt</p>
 
           
         </td>
@@ -932,8 +931,8 @@ Das Neubaugeschehen ist regional sehr unterschiedlich: Während rund um die Land
             
 
             
-              <a href="https://wohnungnds.github.io/WK_Site/assets/excel/Wohnungen_Zimmer_Z8051011.xlsx" target="_blank">
-                LSN-Online:Tabelle Z8051011 <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://wohnungnds.github.io/IM_Site/assets/excel/A1.xlsx" target="_blank">
+                LSN-Online:Tabelle A100001G <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1174,12 +1173,12 @@ Das Neubaugeschehen ist regional sehr unterschiedlich: Während rund um die Land
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210517013535'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210517132134'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210517013535"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210517132134"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -2,7 +2,7 @@
   {
     "goal": {
       "id": "1",
-      "title": "Bevölkerung in Niedersachsen",
+      "title": "Demographie 6 Bevölkerungn",
       "indicators": [
         
         {
@@ -16,7 +16,7 @@
         {
           "id": "1-1-2",
           "title": "Menschen in Niedersachsen nach Alter und Geschlecht",
-          "description": "Der Indikator bildet die Veränderung des Wohnungsangebotes in Niedersachsen, den Statistischen Regionen sowie den Landkreisen und Kreisfreien Städten ab.",
+          "description": "Zur Bevölkerung zählen alle Menschen, die in einem definierten Gebiet dauerhaft wohnen. Diese werden der Gemeinde zugerechnet, in der sie ihre alleinige Wohnung oder bei mehreren Wohnungen in verschiedenen Gemeinden ihren Erstwohnsitz haben („Bevölkerung am Ort der Hauptwohnung“). Zur Bevölkerung zählen auch die im Bundesgebiet gemeldeten Ausländerinnen und Ausländer (einschließlich Staatenlose). Nicht zur Bevölkerung gehören hingegen die Angehörigen der Stationierungsstreitkräfte sowie Angehörigen der ausländischen diplomatischen und konsularischen Vertretungen mit ihren Familienmitgliedern.",
           "keywords": "",
           "href": "/IM_Site/1-1-2",
           "status": "complete"
@@ -34,7 +34,7 @@
   {
     "goal": {
       "id": "2",
-      "title": "Ausländerinnen und Ausländer",
+      "title": "Rechtliche Integration",
       "indicators": [
         
         {
@@ -50,7 +50,7 @@
   {
     "goal": {
       "id": "3",
-      "title": "Schulische Bildung und Ausbildung von Menschen mit Migrationshintergrund",
+      "title": "Kinderbetreuung",
       "indicators": [
         
         {
@@ -66,7 +66,7 @@
   {
     "goal": {
       "id": "4",
-      "title": "Armutsgefährdung von Menschen mit Migrationshintergrund",
+      "title": "Bildung & Qualifikation",
       "indicators": [
         
         {
@@ -82,7 +82,7 @@
   {
     "goal": {
       "id": "5",
-      "title": "Migration mit Fluchtkontext",
+      "title": "Erwerbstätigkeit & Arbeitsmarkt",
       "indicators": [
         
         {
@@ -98,7 +98,7 @@
   {
     "goal": {
       "id": "6",
-      "title": "Menschen mit Migrationshintergrund auf dem Arbeitsmarkt",
+      "title": "Lebensunterhalt & Soziale Sicherung",
       "indicators": [
         
         {
