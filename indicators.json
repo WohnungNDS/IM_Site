@@ -2,20 +2,20 @@
   {
     "goal": {
       "id": "1",
-      "title": "Demographie 6 Bevölkerungn",
+      "title": "Demographie & Bevölkerungn",
       "indicators": [
         
         {
           "id": "1-1-1",
           "title": "Menschen in Niedersachsen",
-          "description": "Der Indikator Wohnungen in Wohn- und Nichtwohngebäuden zeigt die Entwicklung des Wohnungsbestandes in Niedersachsen seit 2011. Für jeden Kreis und für jede kreisfreie Stadt, werden Daten zum Wohnungsbestand jeweils zum Jahresanfang und zum Jahresende abgebildet. Der Wohnungszuwachs durch Neubau wird neben der Veränderung des Wohnungsbestandes Insgesamt gesondert ausgewiesen.",
+          "description": "Zur Bevölkerung zählen alle Menschen, die in einem definierten Gebiet dauerhaft wohnen. Diese werden der Gemeinde zugerechnet, in der sie ihre alleinige Wohnung oder bei mehreren Wohnungen in verschiedenen Gemeinden ihren Erstwohnsitz haben („Bevölkerung am Ort der Hauptwohnung“). Zur Bevölkerung zählen auch die im Bundesgebiet gemeldeten Ausländerinnen und Ausländer (einschließlich Staatenlose). Nicht zur Bevölkerung gehören hingegen die Angehörigen der Stationierungsstreitkräfte sowie Angehörigen der ausländischen diplomatischen und konsularischen Vertretungen mit ihren Familienmitgliedern.",
           "keywords": "",
           "href": "/IM_Site/1-1-1",
           "status": "complete"
         },
         {
           "id": "1-1-2",
-          "title": "Menschen in Niedersachsen nach Alter und Geschlecht",
+          "title": "Bevölkerungsentwicklung in Niedersachsen",
           "description": "Zur Bevölkerung zählen alle Menschen, die in einem definierten Gebiet dauerhaft wohnen. Diese werden der Gemeinde zugerechnet, in der sie ihre alleinige Wohnung oder bei mehreren Wohnungen in verschiedenen Gemeinden ihren Erstwohnsitz haben („Bevölkerung am Ort der Hauptwohnung“). Zur Bevölkerung zählen auch die im Bundesgebiet gemeldeten Ausländerinnen und Ausländer (einschließlich Staatenlose). Nicht zur Bevölkerung gehören hingegen die Angehörigen der Stationierungsstreitkräfte sowie Angehörigen der ausländischen diplomatischen und konsularischen Vertretungen mit ihren Familienmitgliedern.",
           "keywords": "",
           "href": "/IM_Site/1-1-2",
