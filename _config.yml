@@ -131,6 +131,8 @@ footer_menu:
     translation_key: menu.contact_us
   - path: /imprint/
     translation_key: menu.imprint
+  - path: /notes/
+    translation_key: menu.notes
 #  - path: https://twitter.com/MyTwitterAccount
 #    translation_key: general.twitter
 #  - path: https://facebook.com/MyFacebookAccount
