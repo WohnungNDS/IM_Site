@@ -229,22 +229,23 @@ header:
 series_toggle: true
 
 # Control the behavior of breadcrumbs for certain types of content.
-#breadcrumbs:
-#  post:
-#    - label: general.home
-#      path: /
-#    - label: menu.updates
-#      path: /news
-#  goal:
-#    - label: general.home
-#      path: /
-#    - label: general.goals
-#      path: /goals
-#  indicator:
-#    - label: general.home
-#      path: /
-#    - label: general.goals
-#      path: /goals
+#
+breadcrumbs:
+  post:
+    - label: general.home
+      path: /
+    - label: menu.updates
+      path: /news
+  goal:
+    - label: general.home
+      path: /
+    - label: general.goals
+      path: /goals
+  indicator:
+    - label: general.home
+      path: /
+    - label: general.goals
+      path: /goals
 
 # Specify the style of header to use.
 header:
