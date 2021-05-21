@@ -34,7 +34,7 @@
   {
     "goal": {
       "id": "2",
-      "title": "Rechtliche Integration",
+      "title": "Rechtliche Integration & Asyl",
       "indicators": [
         
         {
@@ -43,6 +43,22 @@
           "description": "",
           "keywords": "",
           "href": "/IM_Site/2-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "2-2-1",
+          "title": "EASY-Zugänge in Niedersachsen",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/2-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "2-2-2",
+          "title": "Durchschnittliche Bewohnerzahl in der Landesaufnahmebehörde Niedersachsen (LAB NI)",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/2-2-2",
           "status": "complete"
         }]
     }
