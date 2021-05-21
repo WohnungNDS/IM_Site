@@ -1,4 +1,4 @@
-##Jekyll configuration for Open SDG platform
+#Jekyll configuration for Open SDG platform
 
 # Doing the Quick start? Here are the settings to update during installation:
 #
@@ -53,6 +53,9 @@ create_pages:
       layout: indicator-json
     - folder: /search
       layout: search
+
+hide_empty_metadata: true
+
 
 analytics:
   ga_prod: ''
