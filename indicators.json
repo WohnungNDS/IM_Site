@@ -40,7 +40,7 @@
         {
           "id": "2-1-1",
           "title": "Anteil der Ausländerinnen und Ausländeran der Gesamtbevölkerung in Prozent in Niedersachsen",
-          "description": "Der Indikator zeigt die Anzahl der über den Königsteiner Schlüsselnach Niedersachsen  zugewiesenen Asylsuchenden",
+          "description": "Der Indikator zeigt, die Niedersachsen nach dem Königsteiner Schlüssel zugewiesenen Asylsuchenden.",
           "keywords": "",
           "href": "/IM_Site/2-1-1",
           "status": "complete"
@@ -48,7 +48,7 @@
         {
           "id": "2-2-1",
           "title": "EASY-Zugänge in Niedersachsen",
-          "description": "",
+          "description": "Der Indikator zeigt die nach dem Königsteiner Schlüssel nach Niedersachsen zugewiesenen Geflüchteten",
           "keywords": "",
           "href": "/IM_Site/2-2-1",
           "status": "complete"
@@ -56,7 +56,7 @@
         {
           "id": "2-2-2",
           "title": "Durchschnittliche Bewohnerzahl in der Landesaufnahmebehörde Niedersachsen (LAB NI)",
-          "description": "",
+          "description": "Der Indikator zeigt, die durchschnittliche Anzahl der Bewohnerinnen und Bewohner in den von der Landesaufnahmebehörde zu verfügung gestellten Wohnunungen / Wohnheimen, sowie die vorhandenen Kapazitäten.",
           "keywords": "",
           "href": "/IM_Site/2-2-2",
           "status": "complete"
@@ -64,7 +64,7 @@
         {
           "id": "2-2-3",
           "title": "Abschiebungen und Überstellungen nach der Dublin III VO",
-          "description": "",
+          "description": "Der Indikator zeigt, die Anzahl Abschiebungen und Überstellungen nach der Dublin II VO.",
           "keywords": "",
           "href": "/IM_Site/2-2-3",
           "status": "complete"
@@ -72,7 +72,7 @@
         {
           "id": "2-2-4",
           "title": "In Niedersachsen gestellte Ansylanträge",
-          "description": "",
+          "description": "Der Indikator zeigt die Anzahl der in Niedersachsen gestellten Asylanträge.",
           "keywords": "",
           "href": "/IM_Site/2-2-4",
           "status": "complete"
