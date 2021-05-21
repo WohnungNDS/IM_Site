@@ -63,10 +63,18 @@
         },
         {
           "id": "2-2-3",
-          "title": "global_indicators.2-2-3-title",
+          "title": "Abschiebungen und Überstellungen nach der Dublin III VO",
           "description": "",
           "keywords": "",
           "href": "/IM_Site/2-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "2-2-4",
+          "title": "In Niedersachsen gestellte Ansylanträge",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/2-2-4",
           "status": "complete"
         }]
     }
