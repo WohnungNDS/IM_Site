@@ -167,7 +167,7 @@
         
         {
           "id": "2-1-1",
-          "title": "Geflüchtete und gedultete Menschen in Niedersachsen (A2)",
+          "title": "Geflüchtete und gedultete Menschen in Niedersachsen (A5)",
           "description": "Der Indikator zeigt, die Niedersachsen nach dem Königsteiner Schlüssel zugewiesenen Asylsuchenden.",
           "keywords": "",
           "href": "/IM_Site/2-1-1",
@@ -251,14 +251,6 @@
           "description": "",
           "keywords": "",
           "href": "/IM_Site/3-1-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-2-1",
-          "title": "global_indicators.3-2-1-title",
-          "description": "",
-          "keywords": "",
-          "href": "/IM_Site/3-2-1",
           "status": "notstarted"
         }]
     }
