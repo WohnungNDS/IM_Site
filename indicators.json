@@ -367,11 +367,59 @@
         
         {
           "id": "5-1-1",
-          "title": "Bauvorhaben 1 LSN Online Tabelle Z8090101 Baumaßnahmen und neue Gebäude, Nutzfläche, Kosten, Wohnungen insgesamt und Anzahl Räume und Nichtwohngebäude Kreisebene",
-          "description": "",
+          "title": "Erwerbstätige Menschen mit Zuwanderungsgeschichte in Niedersachsen nach Wirtschaftsabschnitten und Geschlecht (C1)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
           "keywords": "",
           "href": "/IM_Site/5-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "5-1-15",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/5-1-15",
+          "status": "complete"
+        },
+        {
+          "id": "5-2-1",
+          "title": "Erwerbsquote, Erwerbstätigenquote und Erwerbslosenanteil nach Zuwanderungsgeschichte (C2)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/5-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-2-2",
+          "title": "Sozialversicherungspflichtig beschäftigte Ausländerinnen und Ausländer nach Art der Ausbildung (C4)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/5-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "5-3-1",
+          "title": "Erwerbslosenanteil nach Zuwanderungsgeschichte (C3)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/5-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-3-2",
+          "title": "Entwicklung der Arbeitslosenquote (C6)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/5-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "5-3-3",
+          "title": "Arbeitslose nach Zuwanderungsgeschichte, Rechtskreis und Geschlecht (C7)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/5-3-3",
+          "status": "complete"
         }]
     }
   },
