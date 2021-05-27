@@ -431,11 +431,99 @@
         
         {
           "id": "6-1-1",
-          "title": "Baufertigstellungen 1 LSN Online K8100116 Wohngebäude (1-2 Wohnungen, 3 und  mehr Wohnungen), Wohngebäude, Wohngebäuden nach Anzahl der Zimmer,  Nichtwohngebäude, Nutzfläche, Veranschlagte Kochen (???)",
-          "description": "",
+          "title": "Armutsgefährdungsquoten in Niedersachsen und Deutschland (D1)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
           "keywords": "",
           "href": "/IM_Site/6-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "6-2-1",
+          "title": "Empfängerinnen und Empfänger von Mindestsicherungsleistungen (D2)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/6-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "6-2-2",
+          "title": "Empfängerinnen und Empfänger von Mindestsicherungsleistungen nach Altersgruppen (D3)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/6-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-1",
+          "title": "Bevölkerung am Ort der Hauptwohnung nach Zuwanderungsgeschichte und überwiegendem Lebensunterhalt (D6)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/6-3-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "7",
+      "title": "Familie & Wohnen",
+      "indicators": [
+        
+        {
+          "id": "7-1-1",
+          "title": "Mittlere Wohnfläche in m² und mittlere Bruttokaltmiete in Niedersachsen nach Zuwanderungsgeschichte (D5)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/7-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "7-1-2",
+          "title": "Wohneigentum",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/7-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "7-2-1",
+          "title": "Paare ohne Kinder und Familien nach Paar-Familientyp und Zuwanderungsgeschichte sowie Familien nach Zahl der Kinder (D7)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/7-2-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "8",
+      "title": "Politische & Gesellscahftliche Teilhabe",
+      "indicators": [
+        
+        {
+          "id": "8-1-1",
+          "title": "Bei Bundes- und Landtagswahlen wahlberechtigte Bevölkerung mit Zuwanderungsgeschichte (A14)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/8-1-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "9",
+      "title": "Tabelle des Monats",
+      "indicators": [
+        
+        {
+          "id": "9-1-1",
+          "title": "Tabelle des Monats",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/9-1-1",
+          "status": "complete"
         }]
     }
   },
