@@ -31,7 +31,7 @@
         },
         {
           "id": "1-2-1",
-          "title": "Wohnungen nach Anzahl der Zimmer",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen (A2)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-1",
@@ -39,7 +39,7 @@
         },
         {
           "id": "1-2-2",
-          "title": "Durchschnittliche Fläche je Wohnung",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Aufenthaltsdauer (A3)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-2",
@@ -47,7 +47,7 @@
         },
         {
           "id": "1-2-3",
-          "title": "global_indicators.1-2-3-title",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten (A4)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-3",
@@ -55,7 +55,7 @@
         },
         {
           "id": "1-2-4",
-          "title": "global_indicators.1-2-4-title",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-4",
@@ -63,7 +63,7 @@
         },
         {
           "id": "1-2-5",
-          "title": "global_indicators.1-2-5-title",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Altersgruppen (A7)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-5",
@@ -71,7 +71,7 @@
         },
         {
           "id": "1-2-6",
-          "title": "global_indicators.1-2-6-title",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Durchschnittsalter (A7x)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-6",
@@ -79,10 +79,50 @@
         },
         {
           "id": "1-2-7",
-          "title": "global_indicators.1-2-7-title",
+          "title": "Lebendgeborene Ausländerinnen und Ausländer und Deutsche (A17)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-7",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-1",
+          "title": "Menschen mit Migrationshintergrund (A10)",
+          "description": "Der Indikator gibt ...",
+          "keywords": "",
+          "href": "/IM_Site/1-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/IM_Site/1-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-3",
+          "title": "Menschen mit Migrationshintergrund nach Altersgruppen und Geschlecht (A12)",
+          "description": "Der Indikator gibt ...",
+          "keywords": "",
+          "href": "/IM_Site/1-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-4",
+          "title": "Menschen mit Migrationshintergrund nach Herkunftsland und Geschlecht (A13)",
+          "description": "Der Indikator gibt ...",
+          "keywords": "",
+          "href": "/IM_Site/1-3-4",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-2 ",
+          "title": "Menschen mit Migrationshintergrund in den regionalen Anpassungsschichten (A11)",
+          "description": "Der Indikator gibt ...",
+          "keywords": "",
+          "href": "/IM_Site/1-3-2 ",
           "status": "complete"
         }]
     }
