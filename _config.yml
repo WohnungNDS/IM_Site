@@ -260,3 +260,6 @@ header:
 
 # Use an accessible color-set for charts.
 graph_color_set: accessible
+
+#decimal seperator
+decimal_separator: ','
