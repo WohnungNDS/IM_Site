@@ -175,7 +175,7 @@ exclude:
 # https://open-sdg.readthedocs.io/en/latest/maps/
 
 map_options:
-  minZoom: 0
+  minZoom: 5
   maxZoom: 10
   colorRange: chroma.brewer.OrRd
   limits: chroma.limits(data, 'e', 2);
