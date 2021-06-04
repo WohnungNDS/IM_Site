@@ -176,7 +176,7 @@ exclude:
 
 map_options:
   minZoom: 0
-  maxZoom: 21
+  maxZoom: 10
   colorRange: chroma.brewer.OrRd
   limits: chroma.limits(data, 'e', 2);
   tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
@@ -197,7 +197,7 @@ map_layers:
     # The minimum zoom at which this layer should be visible.
     min_zoom: 1
     # The maximum zoom at which this layer should be visible.
-    max_zoom: 20
+    max_zoom: 9
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: false
 
@@ -209,7 +209,7 @@ map_layers:
     # The minimum zoom at which this layer should be visible.
     min_zoom: 1
     # The maximum zoom at which this layer should be visible.
-    max_zoom: 20
+    max_zoom: 9
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: false
 
