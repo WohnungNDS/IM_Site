@@ -209,7 +209,7 @@ map_layers:
     # The minimum zoom at which this layer should be visible.
     min_zoom: 1
     # The maximum zoom at which this layer should be visible.
-    max_zoom: 4
+    max_zoom: 6
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: false
 
