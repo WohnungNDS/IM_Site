@@ -215,7 +215,7 @@ map_layers:
     
 -
 # The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-    subfolder: world
+    subfolder: maps
     # The label to use in the "Download GeoJSON" button:
     label: indicator.map
     # The minimum zoom at which this layer should be visible.
