@@ -2787,7 +2787,7 @@ var mapView = function () {
     $('#map').sdgMap({
       indicatorId: indicatorId,
       mapOptions: {"minZoom":0,"maxZoom":10,"colorRange":"chroma.brewer.OrRd","limits":"chroma.limits(data, 'e', 2);","tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileOptions":{"id":"mapbox.light","accessToken":"pk.eyJ1IjoiY2hyaXN0b3BoNDcxMSIsImEiOiJjanp1cjdpbzQwMTFwM29tdzJ2ZTh3Ymo4In0.C7_7e3AFcMaF_QBg6MaT0Q","attribution":"<a href=\"https://www.mapbox.com\">Mapbox</a> | <a href=\"http://www.bkg.bund.de\">© GeoBasis-DE / BKG | <a href=\"https://www.openstreetmap.org/copyright\">&copy; OpenStreetMap</a>"}},
-      mapLayers: [{"subfolder":"maps","label":"indicator.map","min_zoom":6,"max_zoom":10,"staticBorders":false},{"subfolder":"worldmap","label":"indicator.map","min_zoom":0,"max_zoom":5,"staticBorders":false},{"subfolder":"world","label":"indicator.map","min_zoom":0,"max_zoom":5,"staticBorders":false}],
+      mapLayers: [{"subfolder":"maps","label":"indicator.map","min_zoom":6,"max_zoom":10,"staticBorders":false},{"subfolder":"worldmap","label":"indicator.map","min_zoom":0,"max_zoom":5,"staticBorders":false},{"subfolder":"maps","label":"indicator.map","min_zoom":0,"max_zoom":5,"staticBorders":false}],
       precision: precision,
       decimalSeparator: decimalSeparator,
     });
