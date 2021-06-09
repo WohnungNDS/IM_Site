@@ -1,4 +1,4 @@
-##Jekyll configuration for Open SDG platform
+#Jekyll configuration for Open SDG platform
 
 # Doing the Quick start? Here are the settings to update during installation:
 #
@@ -54,6 +54,10 @@ create_pages:
       layout: indicator-json
     - folder: /search
       layout: search
+
+create_config_forms:
+  layout: config-builder
+
 
 hide_empty_metadata: true
 
@@ -212,7 +216,7 @@ map_layers:
     max_zoom: 5
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: false
-    
+
 -
 # The subfolder under 'geojson' in the data repository holding the GeoJSON files:
     subfolder: maps
