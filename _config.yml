@@ -25,10 +25,10 @@ languages:
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-#remote_theme: open-sdg/open-sdg@1.3.1
+remote_theme: open-sdg/open-sdg@1.3.1
 
 #remote_theme: brockfanning/open-sdg@fix-for-get-combination-data
-remote_theme: brockfanning/open-sdg@data-schema
+#remote_theme: brockfanning/open-sdg@data-schema
 
 # Replace this title as needed.
 title: general.site_title
