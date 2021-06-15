@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210615065211">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210615071245">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -148,8 +148,12 @@ var translations = {
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
+        
+
     </head>
-<body class="language-de layout-indicator">
+<body class="language-de
+layout-indicator
+">
 <!-- <div class="container"> -->
 
 
@@ -175,7 +179,36 @@ var translations = {
     <img src="/IM_Site/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - " />
 </a>
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Hoher Kontrast deaktivieren"
+           aria-label="Hoher Kontrast deaktivieren"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Aktivieren Sie hohen Kontrast"
+           aria-label="Aktivieren Sie hohen Kontrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul></div>
     </div>
 
     <div class="search-and-desktop-widgets">
@@ -188,7 +221,35 @@ var translations = {
 </div>
 
       <div class="navbar navbar-default widgets-without-menu">
-        <ul class="nav navbar-nav contrast-switcher"></ul>
+        <ul class="nav navbar-nav contrast-switcher">
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Hoher Kontrast deaktivieren"
+           aria-label="Hoher Kontrast deaktivieren"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Aktivieren Sie hohen Kontrast"
+           aria-label="Aktivieren Sie hohen Kontrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+        </ul>
       </div>
     </div>
 
@@ -201,6 +262,36 @@ var translations = {
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
     <a href="/IM_Site/reporting-status"></a>
 </li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Hoher Kontrast deaktivieren"
+           aria-label="Hoher Kontrast deaktivieren"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Aktivieren Sie hohen Kontrast"
+           aria-label="Aktivieren Sie hohen Kontrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
 </ul>
 
     </li>
@@ -221,6 +312,7 @@ var translations = {
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
     <a href="/IM_Site/reporting-status"></a>
 </li>
+
 </ul>
 
     </div>
@@ -246,9 +338,6 @@ var translations = {
           <span class="sr-only"> <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
-      <div class="bar">
-        <div class="selected"></div>
-      </div>
       <div class="variable-options">
         <fieldset>
           <legend class="sr-only">Kategorien - <%=translations.t(fieldItem.field)%></legend>
@@ -356,6 +445,7 @@ var translations = {
   
 
 
+
 <div class="row"
   id="indicatorData"
   data-indicatorid='indicator_3-1-1'
@@ -373,6 +463,7 @@ var translations = {
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-indicatordownloads="null"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;F&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Group&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -931,10 +1022,7 @@ data-event-label="Change to Sources tab"
   
 
   
-  
-  
-  <a class="btn btn-primary" href="/IM_Site/config/3-1-1">Edit configuration</a>
-  
+
 </div>
 
   </div>
@@ -970,8 +1058,6 @@ data-event-label="Change to Sources tab"
                 </li>
               
             
-            
-            <li><a href="/IM_Site/config">Configuration</a></li>
             </ul>
         </div>
       </div>
@@ -1004,12 +1090,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210615065211'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210615071245'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210615065211"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210615071245"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -1049,6 +1135,7 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
               compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
             }),
