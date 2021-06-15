@@ -70,8 +70,7 @@ indicator_metadata_form:
 
 
 
-create_config_forms:
-  layout: config-builder
+
 
 site_config_form:
   enabled: true
@@ -91,7 +90,8 @@ indicator_data_form:
 indicator_metadata_form:
   repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/meta
 
-
+create_config_forms:
+  layout: config-builder
 
 hide_empty_metadata: true
 
