@@ -68,7 +68,8 @@ indicator_metadata_form:
     - national_data_update_url_text
   translated: true
 
-
+create_config_forms:
+  layout: config-builder
 
 
 
@@ -90,8 +91,7 @@ indicator_data_form:
 indicator_metadata_form:
   repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/meta
 
-create_config_forms:
-  layout: config-builder
+
 
 hide_empty_metadata: true
 
