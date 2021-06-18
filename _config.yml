@@ -253,15 +253,15 @@ map_layers:
 
 -
 # The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-#    subfolder: maps
-#    # The label to use in the "Download GeoJSON" button:
-#    label: indicator.map
-#    # The minimum zoom at which this layer should be visible.
-#    min_zoom: 0
+    subfolder: maps
+    # The label to use in the "Download GeoJSON" button:
+    label: indicator.map
+    # The minimum zoom at which this layer should be visible.
+    min_zoom: 0
 #    # The maximum zoom at which this layer should be visible.
-#    max_zoom: 5
+    max_zoom: 5
 #    # Whether or not these boundaries should display statically on lower layers.
-#    staticBorders: false
+    staticBorders: false
 
 
 
