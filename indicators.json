@@ -39,7 +39,7 @@
         },
         {
           "id": "1-2-2",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Aufenthaltsdauer (A3)",
+          "title": "Anteil der Ausländerinnen und Ausländer in Niedersachsen in Prozent (A2x)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-2",
@@ -47,7 +47,7 @@
         },
         {
           "id": "1-2-3",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten (A4)",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Aufenthaltsdauer (A3)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-3",
@@ -55,7 +55,7 @@
         },
         {
           "id": "1-2-4",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten (A4)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-4",
@@ -63,7 +63,7 @@
         },
         {
           "id": "1-2-5",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Altersgruppen (A7)",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-5",
@@ -71,7 +71,7 @@
         },
         {
           "id": "1-2-6",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Durchschnittsalter (A7x)",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Altersgruppen (A7)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-6",
@@ -79,7 +79,7 @@
         },
         {
           "id": "1-2-7",
-          "title": "Lebendgeborene Ausländerinnen und Ausländer und Deutsche (A17)",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Durchschnittsalter (A7x)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-7",
@@ -87,7 +87,7 @@
         },
         {
           "id": "1-2-8",
-          "title": "Neuer Indikator für 1-2-2",
+          "title": "Lebendgeborene Ausländerinnen und Ausländer und Deutsche (A17)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-2-8",
@@ -159,7 +159,7 @@
         },
         {
           "id": "1-4-5",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Altersgruppen (A7)",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-4-5",
