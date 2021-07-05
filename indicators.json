@@ -247,18 +247,10 @@
         },
         {
           "id": "2-1-10",
-          "title": "Unmöglichkeit der Ausreise aus rechtlichen oder tatsächlichen Gründen",
+          "title": "global_indicators.11-2-9-title",
           "description": "Zu den in Deutschland lebenden Ausländerinnen und Ausländern zählen alle Personen, die nicht die deutsche Staatsangehörigkeit besitzen und die sich nicht nur für einen kurzen Zeitraum in Deutschland aufhalten. Dazu gehören auch Staatenlose und Personen mit ungeklärter Staatsangehörigkeit. Deutsche, die zugleich eine fremde Staatsangehörigkeit besitzen, zählen nicht zur ausländischen Bevölkerung. Ausländerinnen und Ausländer leben in Deutschland mit einem bestimmten Aufenthaltstitel (z.B. Aufenthaltserlaubnis oder Niederlassungserlaubnis), zur Durchführung eines Asylverfahrens (Aufenthaltsgestattung) oder bei nicht rechtmäßigem Aufenthalt mit einer Duldung (Aussetzung der Abschiebung). Die Bedingungen der rechtmäßigen Einreise und des rechtmäßigen Aufenthalts werden durch unterschiedliche Aufenthaltstitel geregelt. Die nach dem Aufenthaltstitel gegliederten Daten sind ein Indikator, der die gesellschaftliche Teilhabe anhand rechtlicher Aufenthaltsbedingungen und den damit verbundenen Möglichkeiten z.B. zur Aufnahme einer Ausbildung oder Erwerbstätigkeit beschreibt.",
           "keywords": "",
           "href": "/IM_Site/2-1-10",
-          "status": "complete"
-        },
-        {
-          "id": "2-1-3_delete",
-          "title": "global_indicators.2-1-3_delete-title",
-          "description": "",
-          "keywords": "",
-          "href": "/IM_Site/2-1-3_delete",
           "status": "complete"
         },
         {
@@ -580,38 +572,6 @@
           "keywords": "",
           "href": "/IM_Site/8-1-1",
           "status": "complete"
-        }]
-    }
-  },
-  {
-    "goal": {
-      "id": "11",
-      "title": "global_goals.11-title",
-      "indicators": [
-        
-        {
-          "id": "11-1-1",
-          "title": "Aufenthaltstitel in Niedersachsen",
-          "description": "Zu den in Deutschland lebenden Ausländerinnen und Ausländern zählen alle Personen, die nicht die deutsche Staatsangehörigkeit besitzen und die sich nicht nur für einen kurzen Zeitraum in Deutschland aufhalten. Dazu gehören auch Staatenlose und Personen mit ungeklärter Staatsangehörigkeit.<br> Deutsche, die zugleich eine fremde Staatsangehörigkeit besitzen, zählen nicht zur ausländischen Bevölkerung. Ausländerinnen und Ausländer leben in Deutschland mit einem bestimmten Aufenthaltstitel (z.B. Aufenthaltserlaubnis oder Niederlassungserlaubnis), zur Durchführung eines Asylverfahrens (Aufenthaltsgestattung) oder bei nicht rechtmäßigem Aufenthalt mit einer Duldung (Aussetzung der Abschiebung). Die Bedingungen der rechtmäßigen Einreise und des rechtmäßigen Aufenthalts werden durch unterschiedliche Aufenthaltstitel geregelt. Die nach dem Aufenthaltstitel gegliederten Daten sind ein Indikator, der die gesellschaftliche Teilhabe anhand rechtlicher Aufenthaltsbedingungen und den damit verbundenen Möglichkeiten z.B. zur Aufnahme einer Ausbildung oder Erwerbstätigkeit beschreibt.",
-          "keywords": "",
-          "href": "/IM_Site/11-1-1",
-          "status": "complete"
-        },
-        {
-          "id": "11-2-1",
-          "title": "Geflüchtete und geduldete Personen insgesamt",
-          "description": "Zu den in Deutschland lebenden Ausländerinnen und Ausländern zählen alle Personen, die nicht die deutsche Staatsangehörigkeit besitzen und die sich nicht nur für einen kurzen Zeitraum in Deutschland aufhalten. Dazu gehören auch Staatenlose und Personen mit ungeklärter Staatsangehörigkeit. Deutsche, die zugleich eine fremde Staatsangehörigkeit besitzen, zählen nicht zur ausländischen Bevölkerung. Ausländerinnen und Ausländer leben in Deutschland mit einem bestimmten Aufenthaltstitel (z.B. Aufenthaltserlaubnis oder Niederlassungserlaubnis), zur Durchführung eines Asylverfahrens (Aufenthaltsgestattung) oder bei nicht rechtmäßigem Aufenthalt mit einer Duldung (Aussetzung der Abschiebung). Die Bedingungen der rechtmäßigen Einreise und des rechtmäßigen Aufenthalts werden durch unterschiedliche Aufenthaltstitel geregelt. Die nach dem Aufenthaltstitel gegliederten Daten sind ein Indikator, der die gesellschaftliche Teilhabe anhand rechtlicher Aufenthaltsbedingungen und den damit verbundenen Möglichkeiten z.B. zur Aufnahme einer Ausbildung oder Erwerbstätigkeit beschreibt.",
-          "keywords": "",
-          "href": "/IM_Site/11-2-1",
-          "status": "complete"
-        },
-        {
-          "id": "11-3-1",
-          "title": "Title 11-3-1",
-          "description": "",
-          "keywords": "",
-          "href": "/IM_Site/11-3-1",
-          "status": "notstarted"
         }]
     }
   }]
