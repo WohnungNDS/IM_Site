@@ -32,7 +32,7 @@ D-30453 Hannover<br>
 <br>
 
 <b>Hinweis gemäß EU-Datenschutz-Grundverordnung:</b><br>
-Die behördliche Datenschutzbeauftragte des Landesamts für Statistik Niedersachsen ist unter der E-Mail-Adresse [Datenschutz@statistik.niedersachsen.de](mailtoDatenschutz@statistik.niedersachsen.de) zu erreichen.
+Die behördliche Datenschutzbeauftragte des Landesamts für Statistik Niedersachsen ist unter der E-Mail-Adresse [Datenschutz@statistik.niedersachsen.de](mailto:Datenschutz@statistik.niedersachsen.de) zu erreichen.
 <br>
 
 <b>Technischer Betrieb:</b><br>
