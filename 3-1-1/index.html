@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210719012023">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210719093523">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -459,9 +459,9 @@ data-event-label="high"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;F&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Group&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Gebietseinheit&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Niedersachsen&quot;,&quot;Deutschland&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Gebietseinheit&quot;},{&quot;name&quot;:&quot;Kategorie&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Insgesamt bis unter 3 Jahre&quot;,&quot;Insgesamt 3 bis unter 6 Jahre&quot;,&quot;Kinder mit Migrationshintergrund bis unter 3 Jahre&quot;,&quot;Kinder mit Migrationshintergrund 3 bis unter 6 Jahre&quot;,&quot;Kinder ohne Migrationshintergrund bis unter 3 Jahre&quot;,&quot;Kinder ohne Migrationshintergrund 3 bis unter 6 Jahre&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Kategorie&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
-  data-precision="null"
+  data-precision="{&quot;decimals&quot;:1}"
 >
   
   <span role="status" class="sr-only" id="indicator-data-view-status"></span>
@@ -496,28 +496,8 @@ data-event-label="high"
       <caption>Betreuungsquote von Kindern bis unter 6 Jahren mit und ohne Zuwanderungsgeschichte in Kindertagesbetreuung (B1)</caption>
       <thead>
         
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
       </thead>
       <tbody>
-        
-        <tr>
-          
-          
-          <td>2015</td>
-          
-          
-          
-          <td class="table-value">2</td>
-          
-          
-        </tr>
         
       </tbody>
     </table>
@@ -919,10 +899,36 @@ data-event-label="Change to Sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Definition des Indikators </th>
+        <td>
           
+            <p>Der Indikator gibt die Betreuungsquote der Kinder mit und ohne Zuwanderungsgeschichte an, die in öffentlich geförderter Kindertagespflege (z.B. Tagesmütter/-väter) oder Kindertagesbetreuung (z. B. Kindertagesstätten, Hort) betreut werden und nicht zusätzlich eine Einrichtung oder eine Ganztagsschule besuchen. Dargestellt wird der Anteil der Kinder in Kindertageseinrichtungen und Kindertagespflege an allen Kindern in der gleichen Altersgruppe. Die frühkindliche Förderung ist insbesondere für Kinder mit Zuwanderungsgeschichte für den gesamten Bildungserfolg von zentraler Bedeutung. Insbesondere wird der Entwicklung der sprachlichen Fähigkeiten eine Schlüsselrolle bei der gesellschaftlichen Teilhabe zuerkannt, da unter anderem von den Sprachkenntnissen der Zugang zu Bildung, Ausbildung und Arbeitsmarkt abhängen.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
+      
+      
+      <tr>
+        <th scope="row">Methodische Hinweise </th>
+        <td>
           
+            <p>Die Anzahl der Kinder mit und ohne Migrationshintergrund in der Bevölkerung wurde durch die Auswertung von Daten des Mikrozensus und der Bevölkerungsstatistik ermittelt. Der Mikrozensus erhebt seit 2005 detailliert Angaben, aus denen der Migrationshintergrund einer Person abgeleitet werden kann. Für die Auswertung des Mikrozensus wurde eine Variable gebildet, die der Definition von Migrationshintergrund in den Statistiken der Kindertagesbetreuung (mindestens ein Elternteil ist ausländischer Herkunft) entspricht. Da in der Statistik zur Kindertagesbetreuung die Anzahl der betreuten Kinder im jeweiligen Kreis ermittelt wird und keine Zuordnung der Kinder zu ihrem Wohnort erfolgt, kann die Betreuungsquote in einzelnen Kreisen oder in einem Bundesland in Ausnahmefällen über 100 Prozent liegen.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
           
@@ -1080,12 +1086,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210719012023'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210719093523'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210719012023"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210719093523"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
