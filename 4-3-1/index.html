@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210802110722">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210802120505">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -451,7 +451,7 @@ data-event-label="high"
   data-charttitles="null"
   data-measurementunit=""
   data-showdata="true"
-  data-graphtype="bar"
+  data-graphtype="line"
   data-geocoderegex=""
   data-showmap="true"
   data-startvalues="null"
@@ -747,32 +747,40 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
+// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
-  if (info.stackedDisaggregation) {
     var overrides = {
-      options: {
-        scales: {
-          xAxes: [{ stacked: true }],
-          yAxes: [{ stacked: true }],
-        }
-      }
+        options: {
+            tooltips: {
+                intersect: false,
+                axis: 'x'
+            },
+        },
+        plugins: [{
+            beforeDatasetsDraw: function(chart) {
+                if (chart.tooltip._active && chart.tooltip._active.length) {
+                    var activePoint = chart.tooltip._active[0],
+                        ctx = chart.ctx,
+                        x = activePoint.tooltipPosition().x,
+                        topY = chart.scales['y-axis-0'].top,
+                        bottomY = chart.scales['y-axis-0'].bottom;
+
+                    // draw line
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.moveTo(x, topY);
+                    ctx.lineTo(x, bottomY);
+                    ctx.lineWidth = 2;
+                    ctx.strokeStyle = '#757575';
+                    ctx.setLineDash([5, 2]);
+                    ctx.stroke();
+                    ctx.restore();
+                }
+            }
+        }],
     };
-    // If we have stackedDisaggregation, we need to group datasets into stacks.
-    config.data.datasets.forEach(function(dataset) {
-      var disaggregation = $.extend({}, dataset.disaggregation);
-      // We're going to "stringify" each combination of disaggregations in order
-      // to place them in their own "stacks". To place "stacked" disaggregations
-      // into the same stack, we set them as "samestack" before stringifying.
-      // Note that the string "samestack" is completely arbitrary.
-      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
-        disaggregation[info.stackedDisaggregation] = 'samestack';
-      }
-      // Use the disaggregation as a unique id for each stack.
-      dataset.stack = JSON.stringify(disaggregation);
-    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
-  }
 });
 </script>
 
@@ -929,7 +937,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Definition des Indikators </th>
         <td>
           
-            <p>Der Indikator gibt die Anzahl sowie den Anteil….</p>
+            <p>Der Indikator gibt den Anteil von betreuten Kindern bis unter 3 Jahren und von 3 bis unter 6 Jahren mit Zuwanderungsgeschichte (mindestens ein Elternteil ausländischer Herkunft) in Tageseinrichtungen sowie in öffentlich geförderter Tagespflege an, die nicht zusätzlich eine Einrichtung der Tagesbetreuung besuchen. Die frühkindliche Förderung von Kindern mit Zuwanderungsgeschichte ist für den gesamten Bildungserfolg von zentraler Bedeutung. Insbesondere wird der Entwicklung der sprachlichen Fähigkeiten eine Schlüsselrolle bei der gesellschaftlichen Teilhabe zuerkannt, da unter anderem von den Sprachkenntnissen der Zugang zu Bildung, Ausbildung und Arbeitsmarkt abhängt.</p>
 
           
         </td>
@@ -945,7 +953,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Methodische Hinweise </th>
         <td>
           
-            <p>Der Indikator ist ….</p>
+            <p>In der jährlichen Kinder- und Jugendhilfestatistik ist bei ausländischer Herkunft mindestens eines Elternteils anzugeben, ob die Mutter und bzw. oder der Vater des Kindes im Ausland geboren wurden. Die aktuelle Staatsangehörigkeit der Eltern ist nicht maßgeblich. Leben die Eltern nicht mehr zusammen, ist für die Angabe nur die Situation des Elternteils zu berücksichtigen, bei dem das Kind wohnt. Lebt ein neuer Partner mit im Haushalt, wird dessen Situation mit berücksichtigt. Stichtag der Statistik ist der 1. März.</p>
 
           
         </td>
@@ -955,7 +963,20 @@ data-event-label="Change to Sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Weiterführende Informationen </th>
+        <td>
           
+            <p>Weitere Angaben für Niedersachsen auf Ebene der Landkreise, der kreisfreien Städte und der Landeshauptstadt Hannover und bundesweite Angaben sind zu finden in: Handlungsorientierte Sozialberichterstattung Niedersachsen, Statistikteil sowie jährlich aktualisiert in dem Statistischen Bericht Niedersachsen K I 4, Kinder und tätige Personen in Tageseinrichtungen und in öffentlich geförderter Kindertagespflege. Hier finden sich auch Angaben über die vorrangige Familiensprache.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   
   
   
@@ -1195,12 +1216,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210802110722'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210802120505'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210802110722"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210802120505"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
