@@ -342,3 +342,6 @@ graph_color_set: accessible
 
 #decimal seperator
 decimal_separator: ','
+
+#Disaggregationsdeimensionen als Titel für die Grafik verwenden
+graph_title_from_series: true
