@@ -60,21 +60,21 @@ create_pages:
 
 ####config forms
 
-create_config_forms:
-  layout: config-builder
+#create_config_forms:
+#  layout: config-builder
 
-site_config_form:
-  enabled: true
-  repository_link: https://github.com/WohnungNDS/IM_Site/tree/develop/_data
-indicator_config_form:
-  enabled: true
-  repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/indicator-config
-indicator_data_form:
-  enabled: true
-  repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/data
-indicator_metadata_form:
-  enabled: true
-  repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/meta
+#site_config_form:
+#  enabled: true
+#  repository_link: https://github.com/WohnungNDS/IM_Site/tree/develop/_data
+#indicator_config_form:
+#  enabled: true
+#  repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/indicator-config
+#indicator_data_form:
+#  enabled: true
+#  repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/data
+#indicator_metadata_form:
+#  enabled: true
+ # repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/meta
 
   
 
