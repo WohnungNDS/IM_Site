@@ -59,40 +59,24 @@ create_pages:
       layout: search
 
 ####config forms
-indicator_metadata_form:
-  language: de
-  scopes:
-    - global
-    - national
-  exclude_fields:
-    - national_metadata_update_url
-    - national_metadata_update_url_text
-    - national_data_update_url
-    - national_data_update_url_text
-  translated: true
 
 create_config_forms:
   layout: config-builder
 
-
-
 site_config_form:
   enabled: true
-indicator_config_form:
-  enabled: true
-indicator_data_form:
-  enabled: true
-indicator_metadata_form:
-  enabled: true
-
-site_config_form:
   repository_link: https://github.com/WohnungNDS/IM_Site/tree/develop/_data
 indicator_config_form:
+  enabled: true
   repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/indicator-config
 indicator_data_form:
+  enabled: true
   repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/data
 indicator_metadata_form:
+  enabled: true
   repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/meta
+
+  
 
 
 
