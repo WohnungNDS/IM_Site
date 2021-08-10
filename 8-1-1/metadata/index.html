@@ -129,7 +129,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210810150503">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210810151803">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -557,7 +557,7 @@ data-event-label="high"
 
     // Set values according to this site's configuration.
       try {
-        var currentValue = normalizeCurrentValue('national_indicator_description', "Der Indikator gibt die Anzahl sowie den Anteil....");
+        var currentValue = normalizeCurrentValue('national_indicator_description', "Als eine der wichtigsten Basisinformationen zur gesellschaftlichen Teilhabe beschreibt dieser Indikator den Einfluss der Migration auf die Gesellschaft. Das Konzept der „Bevölkerung mit Migrationshintergrund“ umfasst nicht nur die eigentliche Migration nach Deutschland, sondern schließt auch die Nachkommen der Zugewanderten ein. Die Unter-scheidung nach Deutschen und Nichtdeutschen (vgl. Indikator A 2) wird damit erweitert\":\" Eine Person hat nach dem Mikrozensus einen Migrationshintergrund, wenn sie selbst oder mindestens ein Elternteil die deutsche Staatsangehörigkeit nicht durch Geburt besitzt. Die Definition umfasst im Einzelnen folgende Personen\":\"<br></br>1. zugewanderte und nicht zugewanderte Ausländer;<br></br>2. zugewanderte und nicht zugewanderte Eingebürgerte;<br></br>3. (Spät-)Aussiedler;<br></br>4. mit deutscher Staatsangehörigkeit geborene Nachkommen<br></br>Der Migrationshintergrund kann sich demnach auch ausschließlich aus den Eigenschaften der Eltern ableiten.");
         var propertyEditor = editor.getEditor('root.national_indicator_description');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -569,7 +569,7 @@ data-event-label="high"
       }
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_indicator_description'));
       try {
-        var currentValue = normalizeCurrentValue('computation_calculations', "Der Indikator ist ....");
+        var currentValue = normalizeCurrentValue('computation_calculations', "Der Indikator ist eine wichtige Kennzahl für die vollen politischen Partizipationsmöglichkeiten von Deutschen mit Zuwanderungsgeschichte. Er zeigt jedoch nicht die Partizipationsmöglichkeiten von Ausländerinnen und Ausländern. Rechtliche Ausschlüsse vom Wahlrecht, die nicht mit der Staatsangehörigkeit zu tun haben, können nicht berücksichtigt werden.Wahlberechtigt sind alle Deutschen, die am Wahltag das 18. Lebensjahr vollendet haben, seit mindestens drei Monaten in Niedersachsen ihren wahlrechtlichen Wohnsitz haben und nicht vom Wahlrecht ausgeschlossen sind.    ");
         var propertyEditor = editor.getEditor('root.computation_calculations');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -721,12 +721,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210810150503'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210810151803'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20210810150503"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20210810151803"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
