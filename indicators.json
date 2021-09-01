@@ -424,10 +424,10 @@
         {
           "id": "4-4-2",
           "title": "Höchster beruflicher Abschluss der 25- bis unter 35-Jährigen nach Zuwanderungsgeschichte und Geschlecht (B9)",
-          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "description": "Der Indikator gibt den Anteil von Menschen mit und ohne Zuwanderungsgeschichte im Alter von 25 bis unter 35 Jahren nach höchstem beruflichen Abschluss wieder. Berufliche Qualifikationen sind ein zentrales Merkmal der strukturellen Teilhabe und beeinflussen die Position am Arbeitsmarkt sowie die gesellschaftliche Teilhabe.",
           "keywords": "",
           "href": "/IM_Site/4-4-2",
-          "status": "inprogress"
+          "status": "complete"
         }]
     }
   },
