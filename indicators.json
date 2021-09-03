@@ -440,10 +440,10 @@
         {
           "id": "5-1-1",
           "title": "Erwerbstätige Menschen mit Zuwanderungsgeschichte in Niedersachsen nach Wirtschaftsabschnitten und Geschlecht (C1)",
-          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "description": "Zu den Erwerbstätigen zählen alle Personen im Alter von 15 und mehr Jahren, die eine auf Erwerb gerichtete Tätigkeit ausüben, unabhängig von der geleisteten Arbeitszeit und der Bedeutung dieser Tätigkeit für den Lebensunterhalt. Maßgeblich ist, dass sie in der Berichtswoche wenigstens eine Stunde einer beruflichen Tätigkeit nachgegangen sind.",
           "keywords": "",
           "href": "/IM_Site/5-1-1",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "5-2-1",
