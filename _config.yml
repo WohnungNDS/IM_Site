@@ -1,4 +1,4 @@
-##Jekyll configuration for Open SDG platform
+####Jekyll configuration for Open SDG platform
 
 # Doing the Quick start? Here are the settings to update during installation:
 #
@@ -76,7 +76,7 @@ create_pages:
 #  enabled: true
  # repository_link: https://github.com/WohnungNDS/IM_Data/tree/develop/meta
 
-  
+
 
 
 
