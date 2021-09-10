@@ -479,10 +479,18 @@
         },
         {
           "id": "5-3-3",
+          "title": "Entwicklung der Abstände der Arbeitslosenquoten nach Nationalität",
+          "description": "Arbeitslose sind Arbeitsuchende bis zur Vollendung des 65. Lebensjahres, die nicht oder weniger als 15 Stunden wöchentlich in einem Beschäftigungsverhältnis stehen, die nicht Schülerin oder Schüler, Studierende oder Teilnehmende an Maßnahmen der beruflichen Weiterbildung, nicht arbeitsunfähig erkrankt, nicht Empfängerin oder Empfänger von Altersrente sind und für eine Arbeitsaufnahme als Arbeitnehmerin oder Arbeitnehmer sofort zur Verfügung stehen. Arbeitslose müssen sich persönlich bei ihrer zuständigen Arbeitsagentur oder dem nach SGB II zuständigen Träger gemeldet haben. Ausländerinnen und Ausländer können nur dann als arbeitslos erfasst werden, wenn sie eine Arbeitnehmertätigkeit in Deutschland ausüben dürfen.",
+          "keywords": "",
+          "href": "/IM_Site/5-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "5-3-4",
           "title": "Arbeitslose nach Zuwanderungsgeschichte, Rechtskreis und Geschlecht (C7)",
           "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
           "keywords": "",
-          "href": "/IM_Site/5-3-3",
+          "href": "/IM_Site/5-3-4",
           "status": "inprogress"
         }]
     }
