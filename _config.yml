@@ -283,8 +283,8 @@ accessible_charts: true
 graph_color_set: accessible
 
 # Specify any custom javascript files.
-custom_js:
-  - /assets/js/custom.js
+#custom_js:
+#  - /assets/js/custom.js
 
 # Specify the format of the language toggles. Choices are:
 # "dropdown", "links", or "none"
