@@ -455,10 +455,18 @@
         },
         {
           "id": "5-2-2",
-          "title": "Sozialversicherungspflichtig beschäftigte Ausländerinnen und Ausländer nach Art der Ausbildung (C4)",
+          "title": "Sozialversicherungspflichtig beschäftigte Ausländerinnen und Ausländer (C4)",
           "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
           "keywords": "",
           "href": "/IM_Site/5-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "5-2-3",
+          "title": "Sozialversicherungspflichtig beschäftigte Ausländerinnen und Ausländer nach Art der Ausbildung (Neu)",
+          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "keywords": "",
+          "href": "/IM_Site/5-2-3",
           "status": "complete"
         },
         {
