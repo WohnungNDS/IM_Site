@@ -228,18 +228,18 @@ map_layers:
     label: Niedersachsen
     
 map_layers:
--
+# -
 # The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-    subfolder: mzmap
-    # The label to use in the "Download GeoJSON" button:
-    #label: indicator.map
-    # The minimum zoom at which this layer should be visible.
-    min_zoom: 5
-    # The maximum zoom at which this layer should be visible.
-    max_zoom: 8
-    # Whether or not these boundaries should display statically on lower layers.
-    staticBorders: false
-    label: Mikrozensus
+#    subfolder: mzmap
+#    # The label to use in the "Download GeoJSON" button:
+#    #label: indicator.map
+#    # The minimum zoom at which this layer should be visible.
+#    min_zoom: 5
+#    # The maximum zoom at which this layer should be visible.
+#    max_zoom: 8
+#    # Whether or not these boundaries should display statically on lower layers.
+#    staticBorders: false
+#    label: Mikrozensus
 
 
 # Recommend accessibility improvements.
