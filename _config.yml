@@ -203,7 +203,7 @@ map_options:
   minZoom: 5
   maxZoom: 10
   colorRange: chroma.brewer.OrRd
-  limits: chroma.limits(data, 'e', 2);
+ # limits: chroma.limits(data, 'e', 2);
   tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
   #tileURL: https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}
   tileOptions:
@@ -222,60 +222,10 @@ map_layers:
     # The minimum zoom at which this layer should be visible.
     min_zoom: 6
     # The maximum zoom at which this layer should be visible.
-    max_zoom: 10
+    max_zoom: 9
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: false
 
--
-# The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-#    subfolder: maps
-#    # The label to use in the "Download GeoJSON" button:
-#    label: indicator.map
-#    # The minimum zoom at which this layer should be visible.
-#    min_zoom: 5
-#    # The maximum zoom at which this layer should be visible.
-#    max_zoom: 10
-#    # Whether or not these boundaries should display statically on lower layers.
-#    staticBorders: false
-
-#-
-# The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-#    subfolder: worldmap
-#    # The label to use in the "Download GeoJSON" button:
-#    label: indicator.map
-#    # The minimum zoom at which this layer should be visible.
-#    min_zoom: 0
-#    # The maximum zoom at which this layer should be visible.
-#    max_zoom: 5
-#    # Whether or not these boundaries should display statically on lower layers.
-#    staticBorders: false
-
-#-
-# The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-#    subfolder: maps
-    # The label to use in the "Download GeoJSON" button:
-#    label: indicator.map
-    # The minimum zoom at which this layer should be visible.
-#    min_zoom: 0
-#    # The maximum zoom at which this layer should be visible.
-#    max_zoom: 5
-#    # Whether or not these boundaries should display statically on lower layers.
-#    staticBorders: false
-
-
-
-
-
-#map_options:
-#  minZoom: 5
-#  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-#  tileOptions:
-#    attribution: 'My map attribution'
-#map_layers:
-#  - min_zoom: 5
-#    max_zoom: 10
-#    subfolder: my-geojson-subfolder
-#    label: My map layer label (can be a translation key)
 
 # Recommend accessibility improvements.
 accessible_tabs: true
