@@ -299,7 +299,15 @@
           "description": "Der Indikator gibt die...",
           "keywords": "",
           "href": "/IM_Site/2-3-2",
-          "status": "inprogress"
+          "status": "complete"
+        },
+        {
+          "id": "2-3-3",
+          "title": "global_indicators.2-3-3-title",
+          "description": "Der Indikator gibt die...",
+          "keywords": "",
+          "href": "/IM_Site/2-3-3",
+          "status": "complete"
         }]
     }
   },
