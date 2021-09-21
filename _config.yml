@@ -218,16 +218,16 @@ map_options:
 map_layers:
 -
 # The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-    subfolder: maps
+    subfolder: 
     # The label to use in the "Download GeoJSON" button:
-    #label: indicator.map
+    label: indicator.map
     # The minimum zoom at which this layer should be visible.
     min_zoom: 6
     # The maximum zoom at which this layer should be visible.
     max_zoom: 9
     # Whether or not these boundaries should display statically on lower layers.
     staticBorders: false
-    label: Niedersachsen
+    #label: Niedersachsen
 
 # map_layers:
 # -
