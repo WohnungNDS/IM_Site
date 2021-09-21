@@ -303,10 +303,18 @@
         },
         {
           "id": "2-3-3",
-          "title": "Einbürgerungen nach Niedersachsen nach ausgewählten Staatsangehörigkeiten (A16)",
+          "title": "Anteil der Einbürgerungen an allen Ausländerinnen und Ausländern und an allen Einwohnerinnen und Einwohnern",
           "description": "Der Indikator gibt die...",
           "keywords": "",
           "href": "/IM_Site/2-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "2-3-4",
+          "title": "Einbürgerungen nach Niedersachsen nach ausgewählten Staatsangehörigkeiten (A16)",
+          "description": "Der Indikator gibt die...",
+          "keywords": "",
+          "href": "/IM_Site/2-3-4",
           "status": "complete"
         }]
     }
