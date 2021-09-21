@@ -298,7 +298,5 @@ decimal_separator: ','
 graph_title_from_series: true
 
 
-#Cookies
-cookie_consent_form
-enabled:true
+
 
