@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210922075040">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210922085827">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -488,30 +488,30 @@ var klaroConfig = {
   klaroConfig.lang = 'de';
 klaroConfig.translations = {
     de: {
-        acceptAll: "Accept all",
-        acceptSelected: "Accept selected",
-        close: "Close",
+        acceptAll: "Alle Akzeptieren",
+        acceptSelected: "Ausgewählte Cookies akzeptieren",
+        close: "Schließen",
         consentModal: {
             description: "Here you can change which cookies you're happy for us to use.",
-            title: "Cookie settings",
+            title: "Cookie Einstellungen",
         },
         consentNotice: {
-            changeDescription: "The cookies used on this site have changed since you last visited, please renew your consent.",
+            changeDescription: "Die Cookie Einstellungen haben sich seit dem letzten Besuch geändert. Bitte erneut einstellen.",
             description: "We use some essential cookies to make this service work. We’d also like to use {purposes} so we can understand how you use the service and make improvements.",
-            learnMore: "View cookies",
+            learnMore: "Cookies ansehen",
             testing: "Testing mode!",
         },
         contextualConsent: {
-            acceptAlways: "Always",
-            acceptOnce: "Yes",
+            acceptAlways: "Immer",
+            acceptOnce: "ja",
             description: "Do you want to load external content supplied by {title}?",
         },
-        decline: "Reject additional cookies",
-        ok: "Accept additional cookies",
+        decline: "Weitere Cookies ablehnen",
+        ok: "Cookies akzeptieren",
         poweredBy: "Realized with Klaro!",
         privacyPolicy: {
-            name: "privacy policy",
-            text: "To learn more, please read our privacy policy.",
+            name: "<a href=\"https://wohnungnds.github.io/IM_Site/imprint/\">Impressum</a>",
+            text: "<a href=\"https://wohnungnds.github.io/IM_Site/imprint/\">Impressum</a>",
         },
         purposeItem: {
             service: "service",
@@ -527,7 +527,7 @@ klaroConfig.translations = {
                 title: "Analytics cookies",
             },
         },
-        save: "Save",
+        save: "Speichern",
         service: {
             disableAll: {
                 description: "Use this switch to enable or disable all services.",
@@ -563,7 +563,7 @@ klaroConfig.services.forEach(function(service) {
         service.translations = {
             de: {
                 description: "Saves your cookie consent settings",
-                title: "Cookie settings",
+                title: "Cookie Einstellungen",
             },
         }
     }
@@ -578,7 +578,7 @@ klaroConfig.services.forEach(function(service) {
 });
 
 if (allRequired) {
-    klaroConfig.translations['de'].consentNotice.description = "We use some essential cookies to make this service work. They always need to be on.";
+    klaroConfig.translations['de'].consentNotice.description = "Es werden zwei essentielle Cookies gespeichert.";
     klaroConfig.translations['de'].ok = "OK";
     klaroConfig.hideDeclineAll = true;
     klaroConfig.hideLearnMore = true;
@@ -587,7 +587,7 @@ if (allRequired) {
 </script>
 <script src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
 <script>translations['cookies'] = translations['cookies'] || {};
-    translations['cookies']['cookie_settings'] = 'Cookie settings';</script>
+    translations['cookies']['cookie_settings'] = 'Cookie Einstellungen';</script>
 
 
 
@@ -601,7 +601,7 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210922075040'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210922085827'></script>
 
 <script>
 $(function() {
