@@ -297,6 +297,7 @@ decimal_separator: ','
 #Disaggregationsdeimensionen als Titel für die Grafik verwenden
 graph_title_from_series: true
 
-
+cookie_consent_form:
+  enabled: true
 
 
