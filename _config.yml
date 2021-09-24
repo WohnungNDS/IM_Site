@@ -1,4 +1,4 @@
-###Jekyll configuration for Open SDG platform
+####Jekyll configuration for Open SDG platform
 
 # Doing the Quick start? Here are the settings to update during installation:
 #
@@ -297,6 +297,7 @@ decimal_separator: ','
 #Disaggregationsdeimensionen als Titel für die Grafik verwenden
 graph_title_from_series: true
 
-
+cookie_consent_form:
+  enabled: true
 
 
