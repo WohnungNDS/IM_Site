@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210929112144">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20210929131248">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -450,7 +450,7 @@ data-event-label="high"
   data-charttitles="null"
   data-measurementunit=""
   data-xaxislabel=""
-  data-showdata="false"
+  data-showdata="true"
   data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="true"
@@ -461,12 +461,437 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;G&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Group&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Land der Staatsangehörigkeit&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Europa&quot;,&quot;Türkei&quot;,&quot;Polen&quot;,&quot;Serbien&quot;,&quot;Niederlande&quot;,&quot;Rumänien&quot;,&quot;Italien&quot;,&quot;Russische Föderation&quot;,&quot;Griechenland&quot;,&quot;Bulgarien&quot;,&quot;Spanien&quot;,&quot;Ukraine&quot;,&quot;Vereinigtes Königreich&quot;,&quot;Portugal&quot;,&quot;Kroatien&quot;,&quot;Ungarn&quot;,&quot;EU Staaten&quot;,&quot;Afrika&quot;,&quot;Amerika&quot;,&quot;Asien&quot;,&quot;Syrien&quot;,&quot;Irak &quot;,&quot;Afghanistan&quot;,&quot;China&quot;,&quot;Vietnam&quot;,&quot;Australien und Ozeanien&quot;,&quot;Staatenlos&quot;,&quot;Ungeklärt und ohne Angabe&quot;,&quot;Insgesamt&quot;,&quot;Österreich&quot;,&quot;Irak&quot;,&quot;Australien und Ozeanien &quot;,&quot;EU-Staaten&quot;,&quot;Serbien2)&quot;,&quot;Bosnien und Herzegowina&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Land der Staatsangehörigkeit&quot;},{&quot;name&quot;:&quot;Ausländerinnen und Ausländer&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Insgesamt&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Ausländerinnen und Ausländer&quot;},{&quot;name&quot;:&quot;Geschlecht&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Männer&quot;,&quot;Frauen&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Geschlecht&quot;},{&quot;name&quot;:&quot;Units&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Anzahl&quot;,&quot;%&quot;,&quot;Veränderung in Prozent ggegenüber 2005&quot;,&quot;Veränderung in Prozent ggegenüber 2006&quot;,&quot;Veränderung in Prozent ggegenüber 2007&quot;,&quot;Veränderung in Prozent ggegenüber 2008&quot;,&quot;Veränderung in Prozent ggegenüber 2009&quot;,&quot;Veränderung in Prozent ggegenüber 2010&quot;,&quot;Veränderung in Prozent ggegenüber 2011&quot;,&quot;Veränderung in Prozent ggegenüber 2012&quot;,&quot;Veränderung in Prozent ggegenüber 2013&quot;,&quot;Veränderung in Prozent ggegenüber 2014&quot;,&quot;Veränderung in Prozent ggegenüber 2015&quot;,&quot;Veränderung in Prozent ggegenüber 2016&quot;,&quot;Veränderung in Prozent ggegenüber 2017&quot;,&quot;Veränderung in Prozent ggegenüber 2018&quot;,&quot;Veränderung in Prozent ggegenüber 2019&quot;,&quot;Veränderung in Prozent ggegenüber 2020&quot;,&quot;Veränderung in Prozent ggegenüber 2021&quot;,&quot;Veränderung in Prozent ggegenüber 2022&quot;,&quot;Veränderung in Prozent ggegenüber 2023&quot;,&quot;Veränderung in Prozent ggegenüber 2024&quot;,&quot;Veränderung in Prozent ggegenüber 2025&quot;,&quot;Veränderung in Prozent ggegenüber 2026&quot;,&quot;Veränderung in Prozent ggegenüber 2027&quot;,&quot;Veränderung in Prozent ggegenüber 2028&quot;,&quot;Veränderung in Prozent ggegenüber 2029&quot;,&quot;Veränderung in Prozent ggegenüber 2030&quot;,&quot;Veränderung in Prozent ggegenüber 2031&quot;,&quot;Veränderung in Prozent ggegenüber 2032&quot;,&quot;Veränderung in Prozent ggegenüber 2033&quot;,&quot;Veränderung in Prozent ggegenüber 2034&quot;,&quot;Veränderung in Prozent ggegenüber 2035&quot;,&quot;Veränderung in Prozent ggegenüber 2036&quot;,&quot;Veränderung in Prozent ggegenüber 2037&quot;,&quot;Veränderung in Prozent ggegenüber 2038&quot;,&quot;Veränderung in Prozent ggegenüber 2039&quot;,&quot;Veränderung in Prozent ggegenüber 2040&quot;,&quot;Veränderung in Prozent ggegenüber 2041&quot;,&quot;Veränderung in Prozent ggegenüber 2042&quot;,&quot;Veränderung in Prozent ggegenüber 2043&quot;,&quot;Veränderung in Prozent ggegenüber 2044&quot;,&quot;Veränderung in Prozent ggegenüber 2045&quot;,&quot;Veränderung in Prozent ggegenüber 2046&quot;,&quot;Veränderung in Prozent ggegenüber 2047&quot;,&quot;Veränderung in Prozent ggegenüber 2048&quot;,&quot;Veränderung in Prozent ggegenüber 2049&quot;,&quot;Veränderung in Prozent ggegenüber 2050&quot;,&quot;Veränderung in Prozent ggegenüber 2051&quot;,&quot;Veränderung in Prozent ggegenüber 2052&quot;,&quot;Veränderung in Prozent ggegenüber 2053&quot;,&quot;Veränderung in Prozent ggegenüber 2054&quot;,&quot;Veränderung in Prozent ggegenüber 2055&quot;,&quot;Veränderung in Prozent ggegenüber 2056&quot;,&quot;Veränderung in Prozent ggegenüber 2057&quot;,&quot;Veränderung in Prozent ggegenüber 2058&quot;,&quot;Veränderung in Prozent ggegenüber 2059&quot;,&quot;Veränderung in Prozent ggegenüber 2060&quot;,&quot;Veränderung in Prozent ggegenüber 2061&quot;,&quot;Veränderung in Prozent ggegenüber 2062&quot;,&quot;Veränderung in Prozent ggegenüber 2063&quot;,&quot;Veränderung in Prozent ggegenüber 2064&quot;,&quot;Veränderung in Prozent ggegenüber 2065&quot;,&quot;Veränderung in Prozent ggegenüber 2066&quot;,&quot;Veränderung in Prozent ggegenüber 2067&quot;,&quot;Veränderung in Prozent ggegenüber 2068&quot;,&quot;Veränderung in Prozent ggegenüber 2069&quot;,&quot;Veränderung in Prozent ggegenüber 2070&quot;,&quot;Veränderung in Prozent ggegenüber 2071&quot;,&quot;Veränderung in Prozent ggegenüber 2072&quot;,&quot;Veränderung in Prozent ggegenüber 2073&quot;,&quot;Veränderung in Prozent ggegenüber 2074&quot;,&quot;Veränderung in Prozent ggegenüber 2075&quot;,&quot;Veränderung in Prozent ggegenüber 2076&quot;,&quot;Veränderung in Prozent ggegenüber 2077&quot;,&quot;Veränderung in Prozent ggegenüber 2078&quot;,&quot;Veränderung in Prozent ggegenüber 2079&quot;,&quot;Veränderung in Prozent ggegenüber 2080&quot;,&quot;Veränderung in Prozent ggegenüber 2081&quot;,&quot;Veränderung in Prozent ggegenüber 2082&quot;,&quot;Veränderung in Prozent ggegenüber 2083&quot;,&quot;Veränderung in Prozent ggegenüber 2084&quot;,&quot;Veränderung in Prozent ggegenüber 2085&quot;,&quot;Veränderung in Prozent ggegenüber 2086&quot;,&quot;Veränderung in Prozent ggegenüber 2087&quot;,&quot;Veränderung in Prozent ggegenüber 2088&quot;,&quot;Veränderung in Prozent ggegenüber 2089&quot;,&quot;Veränderung in Prozent ggegenüber 2090&quot;,&quot;Veränderung in Prozent ggegenüber 2091&quot;,&quot;Veränderung in Prozent ggegenüber 2092&quot;,&quot;Veränderung in Prozent ggegenüber 2093&quot;,&quot;Veränderung in Prozent ggegenüber 2094&quot;,&quot;Veränderung in Prozent ggegenüber 2095&quot;,&quot;Veränderung in Prozent ggegenüber 2096&quot;,&quot;Veränderung in Prozent ggegenüber 2097&quot;,&quot;Veränderung in Prozent ggegenüber 2098&quot;,&quot;Veränderung in Prozent ggegenüber 2099&quot;,&quot;Veränderung in Prozent ggegenüber 2100&quot;,&quot;Veränderung in Prozent ggegenüber 2101&quot;,&quot;Veränderung in Prozent ggegenüber 2102&quot;,&quot;Veränderung in Prozent ggegenüber 2103&quot;,&quot;Veränderung in Prozent ggegenüber 2104&quot;,&quot;Veränderung in Prozent ggegenüber 2105&quot;,&quot;Veränderung in Prozent ggegenüber 2106&quot;,&quot;Veränderung in Prozent ggegenüber 2107&quot;,&quot;Veränderung in Prozent ggegenüber 2108&quot;,&quot;Veränderung in Prozent ggegenüber 2109&quot;,&quot;Veränderung in Prozent ggegenüber 2110&quot;,&quot;Veränderung in Prozent ggegenüber 2111&quot;,&quot;Veränderung in Prozent ggegenüber 2112&quot;,&quot;Veränderung in Prozent ggegenüber 2113&quot;,&quot;Veränderung in Prozent ggegenüber 2114&quot;,&quot;Veränderung in Prozent ggegenüber 2115&quot;,&quot;Veränderung in Prozent ggegenüber 2116&quot;,&quot;Veränderung in Prozent ggegenüber 2117&quot;,&quot;Veränderung in Prozent ggegenüber 2118&quot;,&quot;Veränderung in Prozent ggegenüber 2119&quot;,&quot;Veränderung in Prozent ggegenüber 2120&quot;,&quot;Veränderung in Prozent ggegenüber 2121&quot;,&quot;Veränderung in Prozent ggegenüber 2122&quot;,&quot;Veränderung in Prozent ggegenüber 2123&quot;,&quot;Veränderung in Prozent ggegenüber 2124&quot;,&quot;Veränderung in Prozent ggegenüber 2125&quot;,&quot;Veränderung in Prozent ggegenüber 2126&quot;,&quot;Veränderung in Prozent ggegenüber 2127&quot;,&quot;Veränderung in Prozent ggegenüber 2128&quot;,&quot;Veränderung in Prozent ggegenüber 2129&quot;,&quot;Veränderung in Prozent ggegenüber 2130&quot;,&quot;Veränderung in Prozent ggegenüber 2131&quot;,&quot;Veränderung in Prozent ggegenüber 2132&quot;,&quot;Veränderung in Prozent ggegenüber 2133&quot;,&quot;Veränderung in Prozent ggegenüber 2134&quot;,&quot;Veränderung in Prozent ggegenüber 2135&quot;,&quot;Veränderung in Prozent ggegenüber 2136&quot;,&quot;Veränderung in Prozent ggegenüber 2137&quot;,&quot;Veränderung in Prozent ggegenüber 2138&quot;,&quot;Veränderung in Prozent ggegenüber 2139&quot;,&quot;Veränderung in Prozent ggegenüber 2140&quot;,&quot;Veränderung in Prozent ggegenüber 2141&quot;,&quot;Veränderung in Prozent ggegenüber 2142&quot;,&quot;Veränderung in Prozent ggegenüber 2143&quot;,&quot;Veränderung in Prozent ggegenüber 2144&quot;,&quot;Veränderung in Prozent ggegenüber 2145&quot;,&quot;Veränderung in Prozent ggegenüber 2146&quot;,&quot;Veränderung in Prozent ggegenüber 2147&quot;,&quot;Veränderung in Prozent ggegenüber 2148&quot;,&quot;Veränderung in Prozent ggegenüber 2149&quot;,&quot;Veränderung in Prozent ggegenüber 2150&quot;,&quot;Veränderung in Prozent ggegenüber 2151&quot;,&quot;Veränderung in Prozent ggegenüber 2152&quot;,&quot;Veränderung in Prozent ggegenüber 2153&quot;,&quot;Veränderung in Prozent ggegenüber 2154&quot;,&quot;Veränderung in Prozent ggegenüber 2155&quot;,&quot;Veränderung in Prozent ggegenüber 2156&quot;,&quot;Veränderung in Prozent ggegenüber 2157&quot;,&quot;Veränderung in Prozent ggegenüber 2158&quot;,&quot;Veränderung in Prozent ggegenüber 2159&quot;,&quot;Veränderung in Prozent ggegenüber 2160&quot;,&quot;Veränderung in Prozent ggegenüber 2161&quot;,&quot;Veränderung in Prozent ggegenüber 2162&quot;,&quot;Veränderung in Prozent ggegenüber 2163&quot;,&quot;Veränderung in Prozent ggegenüber 2164&quot;,&quot;Veränderung in Prozent ggegenüber 2165&quot;,&quot;Veränderung in Prozent ggegenüber 2166&quot;,&quot;Veränderung in Prozent ggegenüber 2167&quot;,&quot;Veränderung in Prozent ggegenüber 2168&quot;,&quot;Veränderung in Prozent ggegenüber 2169&quot;,&quot;Veränderung in Prozent ggegenüber 2170&quot;,&quot;Veränderung in Prozent ggegenüber 2171&quot;,&quot;Veränderung in Prozent ggegenüber 2172&quot;,&quot;Veränderung in Prozent ggegenüber 2173&quot;,&quot;Veränderung in Prozent ggegenüber 2174&quot;,&quot;Veränderung in Prozent ggegenüber 2175&quot;,&quot;Veränderung in Prozent ggegenüber 2176&quot;,&quot;Veränderung in Prozent ggegenüber 2177&quot;,&quot;Veränderung in Prozent ggegenüber 2178&quot;,&quot;Veränderung in Prozent ggegenüber 2179&quot;,&quot;Veränderung in Prozent ggegenüber 2180&quot;,&quot;Veränderung in Prozent ggegenüber 2181&quot;,&quot;Veränderung in Prozent ggegenüber 2182&quot;,&quot;Veränderung in Prozent ggegenüber 2183&quot;,&quot;Veränderung in Prozent ggegenüber 2184&quot;,&quot;Veränderung in Prozent ggegenüber 2185&quot;,&quot;Veränderung in Prozent ggegenüber 2186&quot;,&quot;Veränderung in Prozent ggegenüber 2187&quot;,&quot;Veränderung in Prozent ggegenüber 2188&quot;,&quot;Veränderung in Prozent ggegenüber 2189&quot;,&quot;Veränderung in Prozent ggegenüber 2190&quot;,&quot;Veränderung in Prozent ggegenüber 2191&quot;,&quot;Veränderung in Prozent ggegenüber 2192&quot;,&quot;Veränderung in Prozent ggegenüber 2193&quot;,&quot;Veränderung in Prozent ggegenüber 2194&quot;,&quot;Veränderung in Prozent ggegenüber 2195&quot;,&quot;Veränderung in Prozent ggegenüber 2196&quot;,&quot;Veränderung in Prozent ggegenüber 2197&quot;,&quot;Veränderung in Prozent ggegenüber 2198&quot;,&quot;Veränderung in Prozent ggegenüber 2199&quot;,&quot;Veränderung in Prozent ggegenüber 2200&quot;,&quot;Veränderung in Prozent ggegenüber 2201&quot;,&quot;Veränderung in Prozent ggegenüber 2202&quot;,&quot;Veränderung in Prozent ggegenüber 2203&quot;,&quot;Veränderung in Prozent ggegenüber 2204&quot;,&quot;Veränderung in Prozent ggegenüber 2205&quot;,&quot;Veränderung in Prozent ggegenüber 2206&quot;,&quot;Veränderung in Prozent ggegenüber 2207&quot;,&quot;Veränderung in Prozent ggegenüber 2208&quot;,&quot;Veränderung in Prozent ggegenüber 2209&quot;,&quot;Veränderung in Prozent ggegenüber 2210&quot;,&quot;Veränderung in Prozent ggegenüber 2211&quot;,&quot;Veränderung in Prozent ggegenüber 2212&quot;,&quot;Veränderung in Prozent ggegenüber 2213&quot;,&quot;Veränderung in Prozent ggegenüber 2214&quot;,&quot;Veränderung in Prozent ggegenüber 2215&quot;,&quot;Veränderung in Prozent ggegenüber 2216&quot;,&quot;Veränderung in Prozent ggegenüber 2217&quot;,&quot;Veränderung in Prozent ggegenüber 2218&quot;,&quot;Veränderung in Prozent ggegenüber 2219&quot;,&quot;Veränderung in Prozent ggegenüber 2220&quot;,&quot;Veränderung in Prozent ggegenüber 2221&quot;,&quot;Veränderung in Prozent ggegenüber 2222&quot;,&quot;Veränderung in Prozent ggegenüber 2223&quot;,&quot;Veränderung in Prozent ggegenüber 2224&quot;,&quot;Veränderung in Prozent ggegenüber 2225&quot;,&quot;Veränderung in Prozent ggegenüber 2226&quot;,&quot;Veränderung in Prozent ggegenüber 2227&quot;,&quot;Veränderung in Prozent ggegenüber 2228&quot;,&quot;Veränderung in Prozent ggegenüber 2229&quot;,&quot;Veränderung in Prozent ggegenüber 2230&quot;,&quot;Veränderung in Prozent ggegenüber 2231&quot;,&quot;Veränderung in Prozent ggegenüber 2232&quot;,&quot;Veränderung in Prozent ggegenüber 2233&quot;,&quot;Veränderung in Prozent ggegenüber 2234&quot;,&quot;Veränderung in Prozent ggegenüber 2235&quot;,&quot;Veränderung in Prozent ggegenüber 2236&quot;,&quot;Veränderung in Prozent ggegenüber 2237&quot;,&quot;Veränderung in Prozent ggegenüber 2238&quot;,&quot;Veränderung in Prozent ggegenüber 2239&quot;,&quot;Veränderung in Prozent ggegenüber 2240&quot;,&quot;Veränderung in Prozent ggegenüber 2241&quot;,&quot;Veränderung in Prozent ggegenüber 2242&quot;,&quot;Veränderung in Prozent ggegenüber 2243&quot;,&quot;Veränderung in Prozent ggegenüber 2244&quot;,&quot;Veränderung in Prozent ggegenüber 2245&quot;,&quot;Veränderung in Prozent ggegenüber 2246&quot;,&quot;Veränderung in Prozent ggegenüber 2247&quot;,&quot;Veränderung in Prozent ggegenüber 2248&quot;,&quot;Veränderung in Prozent ggegenüber 2249&quot;,&quot;Veränderung in Prozent ggegenüber 2250&quot;,&quot;Veränderung in Prozent ggegenüber 2251&quot;,&quot;Veränderung in Prozent ggegenüber 2252&quot;,&quot;Veränderung in Prozent ggegenüber 2253&quot;,&quot;Veränderung in Prozent ggegenüber 2254&quot;,&quot;Veränderung in Prozent ggegenüber 2255&quot;,&quot;Veränderung in Prozent ggegenüber 2256&quot;,&quot;Veränderung in Prozent ggegenüber 2257&quot;,&quot;Veränderung in Prozent ggegenüber 2258&quot;,&quot;Veränderung in Prozent ggegenüber 2259&quot;,&quot;Veränderung in Prozent ggegenüber 2260&quot;,&quot;Veränderung in Prozent ggegenüber 2261&quot;,&quot;Veränderung in Prozent ggegenüber 2262&quot;,&quot;Veränderung in Prozent ggegenüber 2263&quot;,&quot;Veränderung in Prozent ggegenüber 2264&quot;,&quot;Veränderung in Prozent ggegenüber 2265&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Units&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="sr-only" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Kategorien</h4>
+    <p>Wählen Sie eine oder mehrere Kategorien aus, um die Tabelle/Grafik anzupassen.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/IM_Site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    <a href="https://wohnungNDS.github.io/IM_Data/de/headline/1-2-5.csv" class="btn btn-primary btn-download" download="indicator_1-2-5.csv" tabindex="0" role="button">Speichern der Headline im CSV-Format</a>
+
+    <a href="https://wohnungNDS.github.io/IM_Data/de/data/1-2-5.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_1-2-5.csv' tabindex='0' role='button'>Daten im CSV-Format speichern</a>
+
+    <h3>Headline data</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)</caption>
+      <thead>
+        
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+
+  <div id="datatableFooter">
+    
+    
+    
+    
+  </div>
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/IM_Site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded spacer medium" style="display:none;">
+
+    <div style="display: none;">
+  <span id="table-alternative"></span>
+</div>
+<ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+  <li role="presentation" class="nav-item active">
+    <a class="nav-link" data-toggle="tab" id="tab-chartview" href="#chartview" aria-controls="chartview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+ aria-describedby="table-alternative">Grafik</a>
+  </li>
+  <li role="presentation" class="nav-item">
+    <a class="nav-link" data-toggle="tab" id="tab-tableview" href="#tableview" aria-controls="tableview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+>Tabelle</a>
+  </li><li role="presentation" class="nav-item map" style="display:none">
+    <a data-no-disagg="true" class="nav-link" data-toggle="tab" id="tab-mapview" href="#mapview" aria-controls="mapview" role="tab" data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+ aria-describedby="table-alternative">Karte</a>
+  </li></ul>
+
+    <div class="tab-content data-view">
+  <div role="tabpanel" class="tab-pane active" id="chartview">
+    
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only"></span></i>
+      Zu viele Zeitreihen ausgewählt um diese in einer Grafik darzustellen. Es können nicht alle Zeitreihen dargestellt werden
+    </div>
+
+    
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)</h4>
+          <div id="chart" class="plot-container">
+            
+<canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+<script>
+// Add a chart alteration to support the chart_graph_limits metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.graphLimits && Object.keys(info.graphLimits).length > 0) {
+    var overrides = {
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: info.graphLimits.minimum,
+              max: info.graphLimits.maximum,
+            }
+          }]
+        }
+      }
+    }
+    // Add these overrides onto the normal config.
+    $.extend(true, config, overrides);
+  }
+});
+</script>
+
+<span style="display: none;" id="chart-annotations" role="status"></span>
+<script>
+opensdg.annotationPresets = {
+    common: {
+        // This "common" preset is applied to all annotations automatically.
+        borderColor: '#949494',
+        type: 'line',
+        borderDash: [10, 5],
+        borderWidth: 1,
+        label: {
+            backgroundColor: 'white',
+            fontColor: 'black',
+        },
+        // This "highContrast" overrides colors when in high-contrast mode.
+        highContrast: {
+            label: {
+                backgroundColor: 'black',
+                fontColor: 'white'
+            }
+        },
+        // This callback is used to generate a generic description for screenreaders.
+        // This can be overridden to be a more specific string, eg:
+        //
+        //     description: 'Chart annotation showing a 2030 target of 15%'
+        //
+        description: function() {
+            var descriptionParts = [translations.indicator.chart_annotation];
+            if (this.label && this.label.content) {
+                descriptionParts.push(translations.t(this.label.content));
+            }
+            else {
+                // If there is no label, just specify whether it is a box or line.
+                if (this.type == 'line') {
+                    descriptionParts.push(this.mode + ' line');
+                }
+                if (this.type == 'box') {
+                    descriptionParts.push('box');
+                }
+            }
+            if (typeof this.value !== 'undefined') {
+                descriptionParts.push(this.value);
+            }
+            return descriptionParts.join(': ');
+        },
+    },
+    target_line: {
+        mode: 'horizontal',
+        borderWidth: 2,
+        borderDash: [15, 10],
+        borderColor: '#757575',
+        label: {
+            position: 'right',
+            content: translations.indicator.annotation_2030_target,
+        },
+    },
+    series_break: {
+        mode: 'vertical',
+        borderDash: [2, 2],
+        label: {
+            position: 'top',
+            content: translations.indicator.annotation_series_break,
+        },
+    },
+};
+
+// Add a chart alteration to support the chart_annotations metadata field.
+opensdg.chartConfigAlter(function(config, info) {
+    if (info.graphAnnotations && info.graphAnnotations.length > 0) {
+        // Apply some helpers/fixes to the annotations.
+        var annotations = info.graphAnnotations.map(function(annotationOverrides) {
+            var annotation = {};
+            // Apply the "common" preset.
+            if (opensdg.annotationPresets.common) {
+                $.extend(true, annotation, opensdg.annotationPresets.common);
+            }
+            // Apply any specified presets.
+            if (annotationOverrides.preset) {
+                var preset = annotationOverrides.preset;
+                if (opensdg.annotationPresets[preset]) {
+                    $.extend(true, annotation, opensdg.annotationPresets[preset]);
+                }
+            }
+            // Now add any more annotation config.
+            $.extend(true, annotation, annotationOverrides);
+            // Default to horizontal lines.
+            if (!annotation.mode && annotation.type === 'line') {
+                annotation.mode = 'horizontal';
+            }
+            // Provide the obscure scaleID properties on user's behalf.
+            if (!annotation.scaleID && annotation.type === 'line') {
+                if (annotation.mode === 'horizontal') {
+                    annotation.scaleID = 'y-axis-0';
+                }
+                if (annotation.mode === 'vertical') {
+                    annotation.scaleID = 'x-axis-0';
+                }
+            }
+            if (!annotation.xScaleID && annotation.type === 'box') {
+                annotation.xScaleID = 'x-axis-0';
+            }
+            if (!annotation.yScaleID && annotation.type === 'box') {
+                annotation.yScaleID = 'y-axis-0';
+            }
+            // Provide the "enabled" label property on the user's behalf.
+            if (annotation.label && annotation.label.content) {
+                annotation.label.enabled = true;
+            }
+            // Translate any label content.
+            if (annotation.label && annotation.label.content) {
+                annotation.label.content = translations.t(annotation.label.content);
+            }
+            // Save some original values for later used when contrast mode is switched.
+            if (typeof annotation.defaultContrast === 'undefined') {
+                annotation.defaultContrast = {};
+                if (annotation.borderColor) {
+                    annotation.defaultContrast.borderColor = annotation.borderColor;
+                }
+                if (annotation.backgroundColor) {
+                    annotation.defaultContrast.backgroundColor = annotation.backgroundColor;
+                }
+                if (annotation.label) {
+                    annotation.defaultContrast.label = {};
+                    if (annotation.label.fontColor) {
+                        annotation.defaultContrast.label.fontColor = annotation.label.fontColor;
+                    }
+                    if (annotation.label.backgroundColor) {
+                        annotation.defaultContrast.label.backgroundColor = annotation.label.backgroundColor;
+                    }
+                }
+            }
+            return annotation;
+        });
+        if (annotations.length > 0) {
+            var overrides = {
+                options: {
+                    annotation: {
+                        drawTime: 'beforeDatasetsDraw',
+                        annotations: annotations
+                    }
+                }
+            };
+            // Add these overrides onto the normal config.
+            $.extend(true, config, overrides);
+
+            // Update the chart annotations element.
+            var descriptions = annotations.map(function(annotation) {
+                var description = '';
+                if (annotation.description) {
+                    if (typeof annotation.description === 'function') {
+                        description = annotation.description.call(annotation);
+                    }
+                    else {
+                        description = translations.t(annotation.description);
+                    }
+                }
+                return description;
+            }).filter(function(description) { return description != ''; });
+
+            var currentDescription = $('#chart-annotations').text();
+            var newDescription = descriptions.join('. ');
+            if (currentDescription != newDescription) {
+                $('#chart-annotations').text(newDescription);
+            }
+        }
+    }
+    else if (config.options && config.options.annotation) {
+        delete config.options.annotation;
+    }
+});
+</script>
+
+<script>
+opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
+    var overrides = {
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
+    };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
+    // Add these overrides onto the normal config, and return it.
+    $.extend(true, config, overrides);
+  }
+});
+</script>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+
+        
+
+        
+
+        
+ 
+        
+    <dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button id="btnSave" title="Grafik als Bild herunterladen" class='btn btn-primary btn-download'>
+          Grafik herunterladen
+        </button>
+      </div>
+    </div>
+
+
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="tableview">
+    <div style="display: none;">
+      <span id="column-sort-info"></span>
+    </div>
+    <div id="selectionsTable"></div>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+
+        
+
+        
+
+        
+ 
+        
+    <dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+  </div><div role="tabpanel" class="tab-pane" id="mapview" class="map">
+    
+<h4 id="map-heading" class="chart-title">Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)</h4>
+<div id="map" aria-describedby="table-alternative">
+  <img class="map-loading-image" src="/IM_Site/assets/img/loading.gif" alt="Karte wird geladen" />
+</div>
+
+
+
+
+<div id="mapFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+
+        
+
+        
+
+        
+ 
+        
+    <dl>
+</div>
+
+
+  </div>
+</div>
+
+
+  </div>
+
+</section>
+
   
   <ul class="nav nav-tabs spacer medium" role="tablist">
 
@@ -624,8 +1049,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://wohnungnds.github.io/IM_Site/assets/excel/B8.xlsx" target="_blank">
-                Schulabgängerinnen und Schulabgänger an berufsbildenden Schulen nach Schulart und Schulabschluss <span class="visuallyhidden">in neuem Fenster öffnen</span>
+              <a href="https://wohnungnds.github.io/IM_Site/assets/excel/2021_1-2-5.xlsx" target="_blank">
+                Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6) <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -994,7 +1419,7 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20210929112144'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20210929131248'></script>
 
 <script>
 $(function() {
