@@ -286,11 +286,11 @@ map_layers:
     #label: Niedersachsen
 
 # map_layers:
- -
+# -
 # The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-#    subfolder: Mikrozensus
+#    subfolder: mzmap
     # The label to use in the "Download GeoJSON" button:
-#    label: indicator.map
+    #label: indicator.map
     # The minimum zoom at which this layer should be visible.
 #    min_zoom: 5
     # The maximum zoom at which this layer should be visible.
