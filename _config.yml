@@ -205,8 +205,8 @@ exclude:
 
 map_options:
   # Control the limits on zooming in/out in the map:
-  minZoom: 5
-  maxZoom: 10
+ minZoom: 5
+ maxZoom: 10
   # If you would like to use tile (background) imagery, use these:
   tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
   tileOptions:
