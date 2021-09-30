@@ -1,31 +1,3 @@
-/* open-sans-regular - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local(""), url("../fonts/open-sans-v20-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v20-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
-/* open-sans-italic - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local(""), url("../fonts/open-sans-v20-latin-italic.woff2") format("woff2"), url("../fonts/open-sans-v20-latin-italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
-/* open-sans-700 - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local(""), url("../fonts/open-sans-v20-latin-700.woff2") format("woff2"), url("../fonts/open-sans-v20-latin-700.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
-/* open-sans-700italic - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local(""), url("../fonts/open-sans-v20-latin-700italic.woff2") format("woff2"), url("../fonts/open-sans-v20-latin-700italic.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 .row.no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -130,7 +102,7 @@ table thead th[aria-sort="ascending"] .fa-sort-up {
   display: inline-block; }
 
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #0b0c0c; }
 
@@ -180,6 +152,7 @@ h3 {
     color: #0b0c0c; }
   #main-content .alert a {
     display: inline;
+    color: inherit;
     padding: 0; }
   #main-content h2:first-child {
     margin-bottom: 14px; }
@@ -467,7 +440,7 @@ body.contrast-high #zip-download-info {
 .goal-1 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-1.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-1.goal-indicators div span {
     border-color: #97131f;
     color: #97131f; }
 
@@ -478,7 +451,7 @@ body.contrast-high #zip-download-info {
 .goal-2 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-2.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-2.goal-indicators div span {
     border-color: #976d1a;
     color: #976d1a; }
 
@@ -489,7 +462,7 @@ body.contrast-high #zip-download-info {
 .goal-3 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-3.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-3.goal-indicators div span {
     border-color: #28541d;
     color: #28541d; }
 
@@ -500,7 +473,7 @@ body.contrast-high #zip-download-info {
 .goal-4 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-4.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-4.goal-indicators div span {
     border-color: #6d121b;
     color: #6d121b; }
 
@@ -511,7 +484,7 @@ body.contrast-high #zip-download-info {
 .goal-5 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-5.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-5.goal-indicators div span {
     border-color: #bd1600;
     color: #bd1600; }
 
@@ -522,7 +495,7 @@ body.contrast-high #zip-download-info {
 .goal-6 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-6.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-6.goal-indicators div span {
     border-color: #14768f;
     color: #14768f; }
 
@@ -533,7 +506,7 @@ body.contrast-high #zip-download-info {
 .goal-7 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-7.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-7.goal-indicators div span {
     border-color: #9f7a02;
     color: #9f7a02; }
 
@@ -544,7 +517,7 @@ body.contrast-high #zip-download-info {
 .goal-8 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-8.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-8.goal-indicators div span {
     border-color: #4a0b1e;
     color: #4a0b1e; }
 
@@ -555,7 +528,7 @@ body.contrast-high #zip-download-info {
 .goal-9 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-9.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-9.goal-indicators div span {
     border-color: #ba3c02;
     color: #ba3c02; }
 
@@ -566,7 +539,7 @@ body.contrast-high #zip-download-info {
 .goal-10 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-10.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-10.goal-indicators div span {
     border-color: #7f0b3b;
     color: #7f0b3b; }
 
@@ -577,7 +550,7 @@ body.contrast-high #zip-download-info {
 .goal-11 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-11.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-11.goal-indicators div span {
     border-color: #bc6802;
     color: #bc6802; }
 
@@ -588,7 +561,7 @@ body.contrast-high #zip-download-info {
 .goal-12 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-12.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-12.goal-indicators div span {
     border-color: #6d4f1a;
     color: #6d4f1a; }
 
@@ -599,7 +572,7 @@ body.contrast-high #zip-download-info {
 .goal-13 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-13.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-13.goal-indicators div span {
     border-color: #1e3a20;
     color: #1e3a20; }
 
@@ -610,7 +583,7 @@ body.contrast-high #zip-download-info {
 .goal-14 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-14.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-14.goal-indicators div span {
     border-color: #055277;
     color: #055277; }
 
@@ -621,7 +594,7 @@ body.contrast-high #zip-download-info {
 .goal-15 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-15.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-15.goal-indicators div span {
     border-color: #326c1b;
     color: #326c1b; }
 
@@ -632,7 +605,7 @@ body.contrast-high #zip-download-info {
 .goal-16 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-16.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-16.goal-indicators div span {
     border-color: #002436;
     color: #002436; }
 
@@ -643,7 +616,7 @@ body.contrast-high #zip-download-info {
 .goal-17 {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .goal-17.goal-indicators div span:not(.status-inner):not(.indicator-card-number) {
+  .goal-17.goal-indicators div span {
     border-color: #08131b;
     color: #08131b; }
 
@@ -1339,15 +1312,6 @@ body.contrast-high #map .selection-legend .legend-values li, body.contrast-high 
   #global td > h1:nth-child(1) + h2, #national td > h1:nth-child(1) + h2 {
     margin-top: 0px; }
 
-.cookie-settings {
-  cursor: pointer; }
-
-.klaro .cookie-notice .cn-body strong {
-  text-transform: lowercase; }
-.klaro .cookie-notice .cn-body .cn-changes {
-  text-decoration: none !important;
-  font-weight: bold; }
-
 body {
   background: white url("../img/sdgbg.png") top left repeat-x;
   padding-top: 15px; }
@@ -1743,15 +1707,11 @@ footer {
       display: inline-block;
       margin: 3px 18px 3px 0; }
 
-#main-content #indicatorData.no-units #units {
-  display: none; }
-#main-content #indicatorData.no-serieses #serieses {
-  display: none; }
 #main-content #indicatorData.no-fields #series-help, #main-content #indicatorData.no-fields #fields, #main-content #indicatorData.no-fields #clear {
   display: none; }
-#main-content #indicatorData.no-units.no-serieses.no-fields > .col-md-3 {
+#main-content #indicatorData.no-fields.no-units.no-serieses > .col-md-3 {
   display: none; }
-#main-content #indicatorData.no-units.no-serieses.no-fields > .col-md-9 {
+#main-content #indicatorData.no-fields.no-units.no-serieses > .col-md-9 {
   width: 100%; }
 #main-content .indicator-sidebar-hidden {
   display: none; }
@@ -1994,7 +1954,7 @@ footer {
   #main-content.goal-indicators .indicator-cards a:hover {
     background: transparent; }
 #main-content.goal-indicators .indicator-cards .indicator-card-number,
-#main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner) {
+#main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only) {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: bold;
@@ -2003,7 +1963,7 @@ footer {
   position: relative;
   padding: 5px 0; }
   #main-content.goal-indicators .indicator-cards .indicator-card-number.status,
-  #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status {
+  #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status {
     color: #0b0c0c;
     font-weight: normal;
     border: none;
@@ -2013,50 +1973,22 @@ footer {
     top: -1px;
     right: 0;
     display: inline; }
-    #main-content.goal-indicators .indicator-cards .indicator-card-number.status .status-inner,
-    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status .status-inner {
-      padding: 0 2px;
-      border-radius: 5px; }
     #main-content.goal-indicators .indicator-cards .indicator-card-number.status.complete,
-    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.complete {
+    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status.complete {
       color: white;
-      border: 1px solid transparent;
-      background-color: #2B2B2B;
-      background: #2B2B2B; }
-      #main-content.goal-indicators .indicator-cards .indicator-card-number.status.complete .status-inner,
-      #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.complete .status-inner {
-        background-color: #2B2B2B;
-        background: #2B2B2B; }
+      border: 1px solid transparent; }
     #main-content.goal-indicators .indicator-cards .indicator-card-number.status.inprogress,
-    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.inprogress {
+    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status.inprogress {
       color: white;
-      border: 1px solid transparent;
-      background-color: #757575;
-      background: #757575; }
-      #main-content.goal-indicators .indicator-cards .indicator-card-number.status.inprogress .status-inner,
-      #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.inprogress .status-inner {
-        background-color: #757575;
-        background: #757575; }
+      border: 1px solid transparent; }
     #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notstarted,
-    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.notstarted {
+    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status.notstarted {
       color: #0b0c0c;
-      border: 1px solid #0b0c0c;
-      background-color: white;
-      background: white; }
-      #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notstarted .status-inner,
-      #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.notstarted .status-inner {
-        background-color: white;
-        background: white; }
+      border: 1px solid #0b0c0c; }
     #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notapplicable,
-    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.notapplicable {
+    #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only).status.notapplicable {
       color: #0b0c0c;
-      border: 1px solid #0b0c0c;
-      background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-      background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
-      #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notapplicable .status-inner,
-      #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.notapplicable .status-inner {
-        background-color: rgba(255, 255, 255, 0.8);
-        background: rgba(255, 255, 255, 0.8); }
+      border: 1px solid #0b0c0c; }
 #main-content.goal-indicators .indicator-cards .tags .tag {
   color: #0b0c0c;
   font-weight: normal;
@@ -2068,44 +2000,18 @@ footer {
   border: 1px solid transparent;
   background: #ffdc8e;
   white-space: nowrap; }
-  #main-content.goal-indicators .indicator-cards .tags .tag .status-inner {
-    padding: 0 2px;
-    border-radius: 5px; }
   #main-content.goal-indicators .indicator-cards .tags .tag.complete {
     color: white;
-    border: 1px solid transparent;
-    background-color: #2B2B2B;
-    background: #2B2B2B; }
-    #main-content.goal-indicators .indicator-cards .tags .tag.complete .status-inner {
-      background-color: #2B2B2B;
-      background: #2B2B2B; }
+    border: 1px solid transparent; }
   #main-content.goal-indicators .indicator-cards .tags .tag.inprogress {
     color: white;
-    border: 1px solid transparent;
-    background-color: #757575;
-    background: #757575; }
-    #main-content.goal-indicators .indicator-cards .tags .tag.inprogress .status-inner {
-      background-color: #757575;
-      background: #757575; }
+    border: 1px solid transparent; }
   #main-content.goal-indicators .indicator-cards .tags .tag.notstarted {
     color: #0b0c0c;
-    border: 1px solid #0b0c0c;
-    background-color: white;
-    background: white; }
-    #main-content.goal-indicators .indicator-cards .tags .tag.notstarted .status-inner {
-      background-color: white;
-      background: white; }
+    border: 1px solid #0b0c0c; }
   #main-content.goal-indicators .indicator-cards .tags .tag.notapplicable {
     color: #0b0c0c;
-    border: 1px solid #0b0c0c;
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
-    #main-content.goal-indicators .indicator-cards .tags .tag.notapplicable .status-inner {
-      background-color: rgba(255, 255, 255, 0.8);
-      background: rgba(255, 255, 255, 0.8); }
-  #main-content.goal-indicators .indicator-cards .tags .tag a {
-    color: #0b0c0c;
-    text-decoration: underline; }
+    border: 1px solid #0b0c0c; }
 #main-content.goal-indicators .indicator-cards .match {
   display: inline;
   font-weight: normal;
@@ -2189,7 +2095,7 @@ caption {
   cursor: pointer; }
 
 .chart-title {
-  margin-left: 20px; }
+  text-align: center; }
 
 body.contrast-high #main-content #fields .variable-selector .variable-options label {
   background: black;
@@ -2227,50 +2133,6 @@ body.contrast-high #legend li {
   border: 1px solid transparent; }
 body.contrast-high #dataset-size-warning {
   color: black; }
-body.contrast-high #main-content.goal-indicators .indicator-cards .indicator-card-number.status.complete,
-body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.complete {
-  border: 1px solid transparent;
-  background-color: white;
-  background: white;
-  color: black !important; }
-  body.contrast-high #main-content.goal-indicators .indicator-cards .indicator-card-number.status.complete .status-inner,
-  body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.complete .status-inner {
-    background-color: white !important;
-    background: white !important;
-    color: black !important; }
-body.contrast-high #main-content.goal-indicators .indicator-cards .indicator-card-number.status.inprogress,
-body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.inprogress {
-  border: 1px solid transparent;
-  background-color: #767676;
-  background: #767676;
-  color: white; }
-  body.contrast-high #main-content.goal-indicators .indicator-cards .indicator-card-number.status.inprogress .status-inner,
-  body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.inprogress .status-inner {
-    background-color: #767676 !important;
-    background: #767676 !important;
-    color: white; }
-body.contrast-high #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notstarted,
-body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.notstarted {
-  border: 1px solid white;
-  background-color: black;
-  background: black;
-  color: white !important; }
-  body.contrast-high #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notstarted .status-inner,
-  body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.notstarted .status-inner {
-    background-color: black !important;
-    background: black !important;
-    color: white !important; }
-body.contrast-high #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notapplicable,
-body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.notapplicable {
-  border: 1px solid white;
-  background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-  background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-  color: black !important; }
-  body.contrast-high #main-content.goal-indicators .indicator-cards .indicator-card-number.status.notapplicable .status-inner,
-  body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags):not(.tag):not(.sr-only):not(.status-inner).status.notapplicable .status-inner {
-    background-color: rgba(255, 255, 255, 0.8) !important;
-    background: rgba(255, 255, 255, 0.8) !important;
-    color: black !important; }
 
 .layout-indicator #page-content {
   border-top: 1px solid #faebcc;
@@ -2292,101 +2154,74 @@ body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags
 #sources .row > div:nth-child(odd) {
   clear: left; }
 
-.layout-goal #page-content {
+.layout-goal #page-content, .layout-goal-by-target #page-content, .layout-goal-by-target-vertical #page-content {
   margin-top: -20px;
   margin-bottom: 10px; }
+
 .layout-goal .tags {
   display: inline-block;
   margin-top: 0;
   margin-left: 10px;
   margin-bottom: 15px; }
-.layout-goal .indicator-placeholder-wrapper {
-  padding: 1rem; }
-.layout-goal.contrast-high .status {
-  color: pink !important; }
-  .layout-goal.contrast-high .status.complete {
-    border: 1px solid transparent;
-    background-color: white;
-    background: white;
-    color: black !important; }
-    .layout-goal.contrast-high .status.complete .status-inner {
-      background-color: white !important;
-      background: white !important;
-      color: black !important; }
-  .layout-goal.contrast-high .status.inprogress {
-    border: 1px solid transparent;
-    background-color: #767676;
-    background: #767676;
-    color: white; }
-    .layout-goal.contrast-high .status.inprogress .status-inner {
-      background-color: #767676 !important;
-      background: #767676 !important;
-      color: white; }
-  .layout-goal.contrast-high .status.notstarted {
-    border: 1px solid white;
-    background-color: black;
-    background: black;
-    color: white !important; }
-    .layout-goal.contrast-high .status.notstarted .status-inner {
-      background-color: black !important;
-      background: black !important;
-      color: white !important; }
-  .layout-goal.contrast-high .status.notapplicable {
-    border: 1px solid white;
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    color: black !important; }
-    .layout-goal.contrast-high .status.notapplicable .status-inner {
-      background-color: rgba(255, 255, 255, 0.8) !important;
-      background: rgba(255, 255, 255, 0.8) !important;
-      color: black !important; }
+
+body.contrast-high .goal-indicators div span {
+  border-color: white !important;
+  color: white !important; }
+body.contrast-high .goal-indicators .indicator-cards.target {
+  color: white !important; }
+body.contrast-high .goal-indicators .indicator-cards span.status, body.contrast-high .goal-indicators .indicator-cards .tags .tag {
+  color: black !important; }
+body.contrast-high .goal-indicators .indicator-cards span.status.complete, body.contrast-high .goal-indicators .indicator-cards span.status.notapplicable {
+  color: black !important; }
+body.contrast-high .goal-indicators .indicator-cards span.status.notstarted, body.contrast-high .goal-indicators .indicator-cards span.status.inprogress {
+  color: black !important; }
+body.contrast-high .goal-indicators .indicator-cards span.status.notstarted {
+  color: white !important;
+  border: 1px solid white !important; }
+body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards a {
+  color: #FFDD00; }
 
 .layout-news .post-listing {
   clear: both;
   margin-bottom: 25px; }
   .layout-news .post-listing .post-categories {
-    padding-left: 0;
     list-style-type: none; }
     .layout-news .post-listing .post-categories li {
-      display: inline-block; }
-      .layout-news .post-listing .post-categories li:after {
-        content: ',';
-        padding-right: 1ch; }
-      .layout-news .post-listing .post-categories li:last-child:after {
-        content: '';
-        padding-right: 0; }
+      display: inline-block;
+      margin-right: 20px; }
   .layout-news .post-listing .post-title {
     font-size: 16px;
     margin-bottom: 7px !important; }
   .layout-news .post-listing .post-date {
     float: left;
     margin-right: 40px; }
-.layout-news.contrast-high .post-categories {
-  padding-left: 0;
-  list-style-type: none; }
-  .layout-news.contrast-high .post-categories li {
-    display: inline-block; }
-    .layout-news.contrast-high .post-categories li:after {
-      content: ',';
-      padding-right: 1ch; }
-    .layout-news.contrast-high .post-categories li:last-child:after {
-      content: '';
-      padding-right: 0; }
 
 .layout-reportingstatus .reporting-status-description {
   margin-bottom: 25px; }
-.layout-reportingstatus #main-content .statuses strong {
+
+.notapplicable {
+  background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
+  background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
+
+.notstarted {
+  background-color: white;
+  background: white; }
+
+.inprogress {
+  background-color: #757575;
+  background: #757575; }
+
+.complete {
+  background-color: #2B2B2B;
+  background: #2B2B2B; }
+
+#main-content .statuses strong {
   font-weight: normal; }
-.layout-reportingstatus #main-content .statuses > div {
+#main-content .statuses > div {
   display: inline-block;
   margin-bottom: 5px;
   margin-right: 10px; }
-  .layout-reportingstatus #main-content .statuses > div .status {
-    color: #0b0c0c;
-    font-weight: normal;
-    border: none;
-    padding: 4px;
-    font-size: 12px;
+  #main-content .statuses > div .status {
     display: inline-block;
     margin-right: 3px;
     padding: 2px 5px;
@@ -2394,80 +2229,53 @@ body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags
     width: 40px;
     text-align: center;
     font-size: 16px; }
-    .layout-reportingstatus #main-content .statuses > div .status .status-inner {
+    #main-content .statuses > div .status .status-inner {
       padding: 0 2px;
       border-radius: 5px; }
-    .layout-reportingstatus #main-content .statuses > div .status.complete {
-      color: white;
+    #main-content .statuses > div .status.complete {
       border: 1px solid transparent;
-      background-color: #2B2B2B;
-      background: #2B2B2B; }
-      .layout-reportingstatus #main-content .statuses > div .status.complete .status-inner {
-        background-color: #2B2B2B;
-        background: #2B2B2B; }
-    .layout-reportingstatus #main-content .statuses > div .status.inprogress {
-      color: white;
+      color: white; }
+      #main-content .statuses > div .status.complete .status-inner {
+        background-color: #2B2B2B; }
+    #main-content .statuses > div .status.inprogress {
       border: 1px solid transparent;
-      background-color: #757575;
-      background: #757575; }
-      .layout-reportingstatus #main-content .statuses > div .status.inprogress .status-inner {
-        background-color: #757575;
-        background: #757575; }
-    .layout-reportingstatus #main-content .statuses > div .status.notstarted {
-      color: #0b0c0c;
+      color: white; }
+      #main-content .statuses > div .status.inprogress .status-inner {
+        background-color: #757575; }
+    #main-content .statuses > div .status.notstarted {
       border: 1px solid #0b0c0c;
-      background-color: white;
-      background: white; }
-      .layout-reportingstatus #main-content .statuses > div .status.notstarted .status-inner {
-        background-color: white;
-        background: white; }
-    .layout-reportingstatus #main-content .statuses > div .status.notapplicable {
-      color: #0b0c0c;
+      color: #0b0c0c; }
+      #main-content .statuses > div .status.notstarted .status-inner {
+        background-color: white; }
+    #main-content .statuses > div .status.notapplicable {
       border: 1px solid #0b0c0c;
-      background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-      background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
-      .layout-reportingstatus #main-content .statuses > div .status.notapplicable .status-inner {
-        background-color: rgba(255, 255, 255, 0.8);
-        background: rgba(255, 255, 255, 0.8); }
-    .layout-reportingstatus #main-content .statuses > div .status .status-inner {
-      padding: 0 2px;
-      border-radius: 5px; }
-.layout-reportingstatus #main-content .value {
+      color: #0b0c0c; }
+      #main-content .statuses > div .status.notapplicable .status-inner {
+        background-color: rgba(255, 255, 255, 0.8); }
+#main-content .value {
   color: #0b0c0c;
   font-weight: bold;
   margin-left: 3px; }
-.layout-reportingstatus #main-content .goal-stats {
+#main-content .goal-stats {
   border: 1px solid #0b0c0c;
   font-size: 0;
   margin-top: 10px; }
   @media (-ms-high-contrast: active), (forced-colors: active) {
-    .layout-reportingstatus #main-content .goal-stats {
+    #main-content .goal-stats {
       -ms-high-contrast-adjust: none;
       forced-color-adjust: none; } }
-  .layout-reportingstatus #main-content .goal-stats span {
+  #main-content .goal-stats span {
     display: inline-block;
     height: 10px;
     font-weight: bold; }
-  .layout-reportingstatus #main-content .goal-stats .notapplicable {
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
-  .layout-reportingstatus #main-content .goal-stats .notstarted {
-    background-color: white;
-    background: white; }
-  .layout-reportingstatus #main-content .goal-stats .inprogress {
-    background-color: #757575;
-    background: #757575; }
-  .layout-reportingstatus #main-content .goal-stats .complete {
-    background-color: #2B2B2B;
-    background: #2B2B2B; }
-.layout-reportingstatus #main-content .divider {
+#main-content .divider {
   height: 15px; }
-.layout-reportingstatus #main-content .goal {
+#main-content .goal {
   clear: left;
   margin-bottom: 4px;
   padding-bottom: 4px;
   border-bottom: 1px solid #ccc; }
-  .layout-reportingstatus #main-content .goal .total {
+  #main-content .goal .total {
     line-height: 1.2;
     font-size: 16px;
     width: auto;
@@ -2479,98 +2287,80 @@ body.contrast-high #main-content.goal-indicators .indicator-cards span:not(.tags
     border-radius: 4px;
     border: 1px solid #ccc; }
     @media screen and (min-width: 520px) {
-      .layout-reportingstatus #main-content .goal .total {
+      #main-content .goal .total {
         margin-left: 10px; } }
-.layout-reportingstatus #main-content .frame {
+#main-content .frame {
   width: 115px;
   float: left;
   min-height: 1px; }
-  .layout-reportingstatus #main-content .frame > a:focus {
+  #main-content .frame > a:focus {
     outline: 6px #ffdd00 solid !important; }
-.layout-reportingstatus #main-content .details {
+#main-content .details {
   width: calc(100% - 125px);
   float: left; }
   @media screen and (min-width: 520px) {
-    .layout-reportingstatus #main-content .details h2 {
+    #main-content .details h2 {
       display: inline-block; } }
-  .layout-reportingstatus #main-content .details h3 {
+  #main-content .details h3 {
     margin-top: 10px;
     line-height: 1.2; }
     @media screen and (min-width: 520px) {
-      .layout-reportingstatus #main-content .details h3 {
+      #main-content .details h3 {
         display: inline-block; } }
     @media only screen and (max-width: 720px) {
-      .layout-reportingstatus #main-content .details h3 {
+      #main-content .details h3 {
         margin-top: 3px; } }
     @media only screen and (max-width: 520px) {
-      .layout-reportingstatus #main-content .details h3 {
+      #main-content .details h3 {
         margin-bottom: 3px; } }
-.layout-reportingstatus #main-content [data-extra-field] .details {
+#main-content [data-extra-field] .details {
   width: 100%; }
-.layout-reportingstatus #main-content .goal-overall {
+#main-content .goal-overall {
   margin-bottom: 20px; }
-  .layout-reportingstatus #main-content .goal-overall .details {
+  #main-content .goal-overall .details {
     width: 100%; }
-.layout-reportingstatus #main-content .reporting-status-item {
+
+#main-content .reporting-status-item {
   margin-bottom: 20px; }
-.layout-reportingstatus.contrast-high #main-content .goal-stats {
+
+body.contrast-high .goal-stats {
   border: 1px solid white !important; }
-  .layout-reportingstatus.contrast-high #main-content .goal-stats .notapplicable {
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
-  .layout-reportingstatus.contrast-high #main-content .goal-stats .notstarted {
-    background-color: black;
-    background: black; }
-  .layout-reportingstatus.contrast-high #main-content .goal-stats .inprogress {
-    background-color: #767676;
-    background: #767676; }
-  .layout-reportingstatus.contrast-high #main-content .goal-stats .complete {
-    background-color: white;
-    background: white; }
-.layout-reportingstatus.contrast-high #main-content .statuses strong {
+body.contrast-high .statuses strong {
   color: white; }
-.layout-reportingstatus.contrast-high #main-content .statuses .value {
+body.contrast-high .statuses .value {
   color: white !important; }
-.layout-reportingstatus.contrast-high #main-content .statuses .status {
-  border: none !important; }
-  .layout-reportingstatus.contrast-high #main-content .statuses .status.complete {
-    border: 1px solid transparent;
-    background-color: white;
-    background: white;
+body.contrast-high .summary .statuses .notstarted {
+  border: 1px solid white !important; }
+body.contrast-high .complete {
+  background-color: white;
+  background: white;
+  color: black !important; }
+  body.contrast-high .complete .status-inner {
+    background-color: white !important;
     color: black !important; }
-    .layout-reportingstatus.contrast-high #main-content .statuses .status.complete .status-inner {
-      background-color: white !important;
-      background: white !important;
-      color: black !important; }
-  .layout-reportingstatus.contrast-high #main-content .statuses .status.inprogress {
-    border: 1px solid transparent;
-    background-color: #767676;
-    background: #767676;
+body.contrast-high .inprogress {
+  background-color: #767676;
+  background: #767676;
+  color: white; }
+  body.contrast-high .inprogress .status-inner {
+    background-color: #767676 !important;
     color: white; }
-    .layout-reportingstatus.contrast-high #main-content .statuses .status.inprogress .status-inner {
-      background-color: #767676 !important;
-      background: #767676 !important;
-      color: white; }
-  .layout-reportingstatus.contrast-high #main-content .statuses .status.notstarted {
-    border: 1px solid white;
-    background-color: black;
-    background: black;
+body.contrast-high .notstarted {
+  background-color: black;
+  background: black;
+  color: white !important; }
+  body.contrast-high .notstarted .status-inner {
+    background-color: black !important;
     color: white !important; }
-    .layout-reportingstatus.contrast-high #main-content .statuses .status.notstarted .status-inner {
-      background-color: black !important;
-      background: black !important;
-      color: white !important; }
-  .layout-reportingstatus.contrast-high #main-content .statuses .status.notapplicable {
-    border: 1px solid white;
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
+body.contrast-high .notapplicable {
+  background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
+  background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
+  color: black !important; }
+  body.contrast-high .notapplicable .status-inner {
+    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px) !important;
     color: black !important; }
-    .layout-reportingstatus.contrast-high #main-content .statuses .status.notapplicable .status-inner {
-      background-color: rgba(255, 255, 255, 0.8) !important;
-      background: rgba(255, 255, 255, 0.8) !important;
-      color: black !important; }
-  .layout-reportingstatus.contrast-high #main-content .statuses .status.notstarted {
-    border: 1px solid white !important; }
+body.contrast-high .reporting-status-description {
+  color: white; }
 
 #jump-to-search a {
   cursor: pointer; }
@@ -2699,16 +2489,10 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   .layout-goal-by-target .indicator-cards.target {
     padding-top: 20px; } }
 
-.layout-goal-by-target #page-content {
-  margin-top: -20px;
-  margin-bottom: 10px; }
 .layout-goal-by-target .tags {
   margin-top: 10px;
   display: inline-block; }
 
-.layout-goal-by-target-vertical #page-content {
-  margin-top: -20px;
-  margin-bottom: 10px; }
 .layout-goal-by-target-vertical .goal-target, .layout-goal-by-target-vertical .goal-indicator {
   font-size: 16px;
   font-weight: normal;
@@ -2753,8 +2537,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   display: block; }
 .layout-goal-by-target-vertical .target-number, .layout-goal-by-target-vertical .indicator-number {
   margin-top: 3px; }
-.layout-goal-by-target-vertical .indicator-number {
-  font-size: 16px; }
 .layout-goal-by-target-vertical .goal-target, .layout-goal-by-target-vertical .goal-indicator h4 {
   clear: left;
   float: left;
@@ -2775,41 +2557,18 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   font-size: 12px;
   margin-bottom: 10px;
   margin-top: 10px; }
-  .layout-goal-by-target-vertical .status .status-inner {
-    padding: 0 2px;
-    border-radius: 5px; }
   .layout-goal-by-target-vertical .status.complete {
     color: white;
-    border: 1px solid transparent;
-    background-color: #2B2B2B;
-    background: #2B2B2B; }
-    .layout-goal-by-target-vertical .status.complete .status-inner {
-      background-color: #2B2B2B;
-      background: #2B2B2B; }
+    border: 1px solid transparent; }
   .layout-goal-by-target-vertical .status.inprogress {
     color: white;
-    border: 1px solid transparent;
-    background-color: #757575;
-    background: #757575; }
-    .layout-goal-by-target-vertical .status.inprogress .status-inner {
-      background-color: #757575;
-      background: #757575; }
+    border: 1px solid transparent; }
   .layout-goal-by-target-vertical .status.notstarted {
     color: #0b0c0c;
-    border: 1px solid #0b0c0c;
-    background-color: white;
-    background: white; }
-    .layout-goal-by-target-vertical .status.notstarted .status-inner {
-      background-color: white;
-      background: white; }
+    border: 1px solid #0b0c0c; }
   .layout-goal-by-target-vertical .status.notapplicable {
     color: #0b0c0c;
-    border: 1px solid #0b0c0c;
-    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
-    .layout-goal-by-target-vertical .status.notapplicable .status-inner {
-      background-color: rgba(255, 255, 255, 0.8);
-      background: rgba(255, 255, 255, 0.8); }
+    border: 1px solid #0b0c0c; }
 .layout-goal-by-target-vertical .tags {
   float: left;
   clear: left;
@@ -2826,85 +2585,35 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     border: 1px solid transparent;
     background: #ffdc8e;
     white-space: nowrap; }
-    .layout-goal-by-target-vertical .tags .tag .status-inner {
-      padding: 0 2px;
-      border-radius: 5px; }
     .layout-goal-by-target-vertical .tags .tag.complete {
       color: white;
-      border: 1px solid transparent;
-      background-color: #2B2B2B;
-      background: #2B2B2B; }
-      .layout-goal-by-target-vertical .tags .tag.complete .status-inner {
-        background-color: #2B2B2B;
-        background: #2B2B2B; }
+      border: 1px solid transparent; }
     .layout-goal-by-target-vertical .tags .tag.inprogress {
       color: white;
-      border: 1px solid transparent;
-      background-color: #757575;
-      background: #757575; }
-      .layout-goal-by-target-vertical .tags .tag.inprogress .status-inner {
-        background-color: #757575;
-        background: #757575; }
+      border: 1px solid transparent; }
     .layout-goal-by-target-vertical .tags .tag.notstarted {
       color: #0b0c0c;
-      border: 1px solid #0b0c0c;
-      background-color: white;
-      background: white; }
-      .layout-goal-by-target-vertical .tags .tag.notstarted .status-inner {
-        background-color: white;
-        background: white; }
+      border: 1px solid #0b0c0c; }
     .layout-goal-by-target-vertical .tags .tag.notapplicable {
       color: #0b0c0c;
-      border: 1px solid #0b0c0c;
-      background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-      background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
-      .layout-goal-by-target-vertical .tags .tag.notapplicable .status-inner {
-        background-color: rgba(255, 255, 255, 0.8);
-        background: rgba(255, 255, 255, 0.8); }
-    .layout-goal-by-target-vertical .tags .tag a {
-      color: #0b0c0c;
-      text-decoration: underline; }
+      border: 1px solid #0b0c0c; }
   @media screen and (min-width: 769px) {
     .layout-goal-by-target-vertical .tags {
       margin-top: 20px; } }
 .layout-goal-by-target-vertical .status, .layout-goal-by-target-vertical .tags {
   margin-left: 60px; }
 .layout-goal-by-target-vertical.contrast-high .status.complete {
-  border: 1px solid transparent;
-  background-color: white;
-  background: white;
-  color: black !important; }
-  .layout-goal-by-target-vertical.contrast-high .status.complete .status-inner {
-    background-color: white !important;
-    background: white !important;
-    color: black !important; }
+  color: black;
+  border: 1px solid transparent; }
 .layout-goal-by-target-vertical.contrast-high .status.inprogress {
-  border: 1px solid transparent;
-  background-color: #767676;
-  background: #767676;
-  color: white; }
-  .layout-goal-by-target-vertical.contrast-high .status.inprogress .status-inner {
-    background-color: #767676 !important;
-    background: #767676 !important;
-    color: white; }
+  color: white;
+  border: 1px solid transparent; }
 .layout-goal-by-target-vertical.contrast-high .status.notstarted {
-  border: 1px solid white;
-  background-color: black;
-  background: black;
-  color: white !important; }
-  .layout-goal-by-target-vertical.contrast-high .status.notstarted .status-inner {
-    background-color: black !important;
-    background: black !important;
-    color: white !important; }
+  color: white;
+  border: 1px solid white; }
 .layout-goal-by-target-vertical.contrast-high .status.notapplicable {
-  border: 1px solid white;
-  background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-  background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
-  color: black !important; }
-  .layout-goal-by-target-vertical.contrast-high .status.notapplicable .status-inner {
-    background-color: rgba(255, 255, 255, 0.8) !important;
-    background: rgba(255, 255, 255, 0.8) !important;
-    color: black !important; }
+  color: black;
+  border: 1px solid white; }
 
 .layout-frontpage .goal-tiles .row > div {
   margin-bottom: 10px; }
@@ -3003,36 +2712,6 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
     margin-right: 10px; }
   .layout-data-editor .config-widgets .data-grid-buttons #add-column {
     margin-top: 0; }
-
-.layout-post .post-header {
-  margin-bottom: 20px; }
-.layout-post .post-categories {
-  padding-left: 0;
-  list-style-type: none;
-  display: inline; }
-  .layout-post .post-categories li {
-    display: inline-block; }
-    .layout-post .post-categories li:after {
-      content: ',';
-      padding-right: 1ch; }
-    .layout-post .post-categories li:last-child:after {
-      content: '';
-      padding-right: 0; }
-.layout-post .post-categories:before, .layout-post .post-author:before {
-  content: '\2022';
-  padding-left: 10px;
-  padding-right: 10px; }
-.layout-post.contrast-high .post-categories {
-  padding-left: 0;
-  list-style-type: none; }
-  .layout-post.contrast-high .post-categories li {
-    display: inline-block; }
-    .layout-post.contrast-high .post-categories li:after {
-      content: ',';
-      padding-right: 1ch; }
-    .layout-post.contrast-high .post-categories li:last-child:after {
-      content: '';
-      padding-right: 0; }
 
 body {
   background: white;
