@@ -285,7 +285,7 @@ map_layers:
     staticBorders: false
     #label: Niedersachsen
 
-# map_layers:
+ map_layers:
  -
 # The subfolder under 'geojson' in the data repository holding the GeoJSON files:
     subfolder: Mikrozensus
