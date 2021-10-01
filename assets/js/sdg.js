@@ -2813,7 +2813,7 @@ var mapView = function () {
     $('.map').show();
     $('#map').sdgMap({
       indicatorId: indicatorId,
-      mapOptions: {"minZoom":0,"maxZoom":20,"colorRange":"chroma.brewer.OrRd","tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileOptions":{"id":"mapbox.light","accessToken":"pk.eyJ1IjoiY2hyaXN0b3BoNDcxMSIsImEiOiJjanp1cjdpbzQwMTFwM29tdzJ2ZTh3Ymo4In0.C7_7e3AFcMaF_QBg6MaT0Q","attribution":"<a href=\"https://www.mapbox.com\">Mapbox</a> | <a href=\"http://www.bkg.bund.de\">© GeoBasis-DE / BKG | <a href=\"https://www.openstreetmap.org/copyright\">&copy; OpenStreetMap</a>"}},
+      mapOptions: {"minZoom":5,"maxZoom":10,"colorRange":"chroma.brewer.OrRd","tileURL":"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png","tileOptions":{"id":"mapbox.light","accessToken":"pk.eyJ1IjoiY2hyaXN0b3BoNDcxMSIsImEiOiJjanp1cjdpbzQwMTFwM29tdzJ2ZTh3Ymo4In0.C7_7e3AFcMaF_QBg6MaT0Q","attribution":"<a href=\"https://www.mapbox.com\">Mapbox</a> | <a href=\"http://www.bkg.bund.de\">© GeoBasis-DE / BKG | <a href=\"https://www.openstreetmap.org/copyright\">&copy; OpenStreetMap</a>"}},
       mapLayers: [{"min_zoom":6,"max_zoom":9,"staticBorders":false,"subfolder":"map","label":"indicator.map"},{"min_zoom":6,"max_zoom":9,"staticBorders":false,"subfolder":"Mikrozensus","label":"Mikrozensus"}],
       precision: precision,
       decimalSeparator: decimalSeparator,
