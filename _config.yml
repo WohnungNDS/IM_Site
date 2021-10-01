@@ -208,7 +208,7 @@ map_options:
   maxZoom: 10
   colorRange: chroma.brewer.OrRd
 # limits: chroma.limits(data, 'e', 2);
-  tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+#  tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
 #tileURL: https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}
   tileOptions:
     id: mapbox.light
