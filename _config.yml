@@ -218,13 +218,13 @@ map_options:
 
 
 map_layers:
-- min_zoom: 6
-  max_zoom: 9
+- min_zoom: 0
+  max_zoom: 20
   staticBorders: false
   subfolder: map
   label: indicator.map
-- min_zoom: 6
-  max_zoom: 9
+- min_zoom: 0
+  max_zoom: 20
   staticBorders: false
   subfolder: Mikrozensus
   label: Mikrozensus
