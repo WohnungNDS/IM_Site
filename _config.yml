@@ -258,8 +258,8 @@ exclude:
 
 
 map_options:
-  minZoom: 5
-  maxZoom: 10
+  minZoom: 0
+  maxZoom: 20
   colorRange: chroma.brewer.OrRd
 # limits: chroma.limits(data, 'e', 2);
   tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
@@ -272,32 +272,19 @@ map_options:
 
 
 map_layers:
--
-# The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-    subfolder: map
-    # The label to use in the "Download GeoJSON" button:
-    label: indicator.map
-    # The minimum zoom at which this layer should be visible.
-    min_zoom: 6
-    # The maximum zoom at which this layer should be visible.
-    max_zoom: 9
-    # Whether or not these boundaries should display statically on lower layers.
-    staticBorders: false
-    #label: Niedersachsen
+- min_zoom: 6
+  max_zoom: 9
+  staticBorders: false
+  subfolder: map
+  label: indicator.map
+- min_zoom: 6
+  max_zoom: 9
+  staticBorders: false
+  subfolder: Mikrozensus
+  label: Mikrozensus
 
-# map_layers:
-# -
-# The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-#    subfolder: mzmap
-    # The label to use in the "Download GeoJSON" button:
-    #label: indicator.map
-    # The minimum zoom at which this layer should be visible.
-#    min_zoom: 5
-    # The maximum zoom at which this layer should be visible.
-#    max_zoom: 8
-    # Whether or not these boundaries should display statically on lower layers.
-#    staticBorders: false
-#    label: Mikrozensus
+
+
 
 
 # Recommend accessibility improvements.
