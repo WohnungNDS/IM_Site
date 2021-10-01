@@ -204,8 +204,8 @@ exclude:
 
 
 map_options:
-  minZoom: 5
-  maxZoom: 10
+  minZoom: 0
+  maxZoom: 20
   colorRange: chroma.brewer.OrRd
 # limits: chroma.limits(data, 'e', 2);
   tileURL: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
