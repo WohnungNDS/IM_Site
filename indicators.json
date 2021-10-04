@@ -63,7 +63,7 @@
         },
         {
           "id": "1-2-5",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht",
           "description": "Zu den in Deutschland lebenden Ausländerinnen und Ausländern zählen alle Personen, die nicht die deutsche Staatsangehörigkeit besitzen und die sich nicht nur für einen kurzen Zeitraum in Deutschland aufhalten. Die Staatsangehörigkeit ist eine besondere Rechtsbeziehung, die eine Person einem bestimmten Staat zuordnet. In allen anderen Staaten ist diese Person Ausländerin bzw. Ausländer. Personen, die keine Staatsangehörigkeit besitzen, sind staatenlos. Deutsche, die zugleich eine fremde Staatsangehörigkeit besitzen, zählen nicht zur ausländischen Bevölkerung.",
           "keywords": "",
           "href": "/IM_Site/1-2-5",
@@ -95,7 +95,7 @@
         },
         {
           "id": "1-3-1",
-          "title": "Menschen mit Migrationshintergrund (A10)",
+          "title": "Menschen mit Migrationshintergrund",
           "description": "Als eine der wichtigsten Basisinformationen zur gesellschaftlichen Teilhabe beschreibt dieser Indikator den Einfluss der Migration auf die Gesellschaft. Das Konzept der 'Bevölkerung mit Migrationshintergrund' umfasst nicht nur die eigentliche Migration nach Deutschland, sondern schließt auch die Nachkommen der Zugewanderten ein. Die Unterscheidung nach Deutschen und Nichtdeutschen (vgl. Indikator A 2) wird damit erweitert. Eine Person hat nach dem Mikrozensus einen Migrationshintergrund, wenn sie selbst oder mindestens ein Elternteil die deutsche Staatsangehörigkeit nicht durch Geburt besitzt. Die Definition umfasst im Einzelnen folgende Personen : 1. zugewanderte und nicht zugewanderte Ausländer; 2. zugewanderte und nicht zugewanderte Eingebürgerte; 3. (Spät-)Aussiedler; 4. mit deutscher Staatsangehörigkeit geborene Nachkommen. Der Migrationshintergrund kann sich demnach auch ausschließlich aus den Eigenschaften der Eltern ableiten.",
           "keywords": "",
           "href": "/IM_Site/1-3-1",
@@ -103,7 +103,7 @@
         },
         {
           "id": "1-3-2",
-          "title": "Menschen mit Migrationshintergrund in den regionalen Anpassungsschichten (A11)",
+          "title": "Menschen mit Migrationshintergrund in den regionalen Anpassungsschichten",
           "description": "Als eine der wichtigsten Basisinformationen zur gesellschaftlichen Teilhabe beschreibt dieser Indikator den Einfluss der Migration auf die Gesellschaft. Das Konzept der „Bevölkerung mit Migrationshintergrund“ umfasst nicht nur die eigentliche Migration nach Deutschland, sondern schließt auch die Nachkommen der Zugewanderten ein. Die Unterscheidung nach Deutschen und Nichtdeutschen (vgl. Indikator A 2) wird damit erweitert':' Eine Person hat nach dem Mikrozensus einen Migrationshintergrund, wenn sie selbst oder mindestens ein Elternteil die deutsche Staatsangehörigkeit nicht durch Geburt besitzt. Die Definition umfasst im Einzelnen folgende Personen':'<br> 1. zugewanderte und nicht zugewanderte Ausländer;<br>2. zugewanderte und nicht zugewanderte Eingebürgerte;<br> 3. (Spät-)Aussiedler;<br> 4. mit deutscher Staatsangehörigkeit geborene Nachkommen<br> Der Migrationshintergrund kann sich demnach auch ausschließlich aus den Eigenschaften der Eltern ableiten. Der Indikator untergliedert die Personen zusätzlich in Ausländerinnen und Ausländer, Spätaussiedlerinnen und Spätaussiedler und weitere Deutsche mit Migrationshintergrund.",
           "keywords": "",
           "href": "/IM_Site/1-3-2",
@@ -111,7 +111,7 @@
         },
         {
           "id": "1-3-3",
-          "title": "Menschen mit Migrationshintergrund nach Altersgruppen und Geschlecht (A12)",
+          "title": "Menschen mit Migrationshintergrund nach Altersgruppen und Geschlecht",
           "description": "Als eine der wichtigsten Basisinformationen zur gesellschaftlichen Teilhabe beschreibt dieser Indikator den Einfluss der Migration auf die Gesellschaft. Das Konzept der „Bevölkerung mit Migrationshintergrund“ umfasst nicht nur die eigentliche Migration nach Deutschland, sondern schließt auch die Nachkommen der Zugewanderten ein. Die Unterscheidung nach Deutschen und Nichtdeutschen (vgl. Indikator A 2) wird damit erweitert: Eine Person hat nach dem Mikrozensus einen Migrationshintergrund, wenn sie selbst oder mindestens ein Elternteil die deutsche Staatsangehörigkeit nicht durch Geburt besitzt. Die Definition umfasst im Einzelnen folgende Personen:<br>1. zugewanderte und nicht zugewanderte Ausländer;<br>2. zugewanderte und nicht zugewanderte Eingebürgerte;<br>3. (Spät-)Aussiedler;<br>4. mit deutscher Staatsangehörigkeit geborene Nachkommen.<br>Der Migrationshintergrund kann sich demnach auch ausschließlich aus den Eigenschaften der Eltern ableiten. Dargestellt wird der Anteil der Männer und Frauen an verschiedenen Altersgruppen der Gesamtbevölkerung.",
           "keywords": "",
           "href": "/IM_Site/1-3-3",
@@ -119,18 +119,10 @@
         },
         {
           "id": "1-3-4",
-          "title": "Menschen mit Migrationshintergrund nach Herkunftsland und Geschlecht (A13)",
-          "description": "Als eine der wichtigsten Basisinformationen zur gesellschaftlichen Teilhabe beschreibt dieser Indikator den Einfluss der Migration auf die Gesellschaft. Das Konzept der „Bevölkerung mit Migrationshintergrund“ umfasst nicht nur die eigentliche Migration nach Deutschland, sondern schließt auch die Nachkommen der Zugewanderten ein. Die Unterscheidung nach Deutschen und Nichtdeutschen (vgl. Indikator A 2) wird damit erweitert: Eine Person hat nach dem Mikrozensus einen Migrationshintergrund, wenn sie selbst oder mindestens ein Elternteil die deutsche Staatsangehörigkeit nicht durch Geburt besitzt. Die Definition umfasst im Einzelnen folgende Personen:<br>  1. zugewanderte und nicht zugewanderte Ausländer;<br>  2. zugewanderte und nicht zugewanderte Eingebürgerte;<br>  3. (Spät-)Aussiedler;<br>  4. mit deutscher Staatsangehörigkeit geborene Nachkommen<br>  Der Migrationshintergrund kann sich demnach auch ausschließlich aus den Eigenschaften der Eltern ableiten. Dargestellt wird die Zahl der Menschen mit Zuwanderungsgeschichte nach ausgewählten Herkunftsländern und Geschlecht.",
+          "title": "Menschen mit Migrationshintergrund nach Herkunftsland und Geschlecht",
+          "description": "Als eine der wichtigsten Basisinformationen zur gesellschaftlichen Teilhabe beschreibt dieser Indikator den Einfluss der Migration auf die Gesellschaft. Das Konzept der „Bevölkerung mit Migrationshintergrund“ umfasst nicht nur die eigentliche Migration nach Deutschland, sondern schließt auch die Nachkommen der Zugewanderten ein. Die Unterscheidung nach Deutschen und Nichtdeutschen (vgl. Indikator 1.2.1) wird damit erweitert: Eine Person hat nach dem Mikrozensus einen Migrationshintergrund, wenn sie selbst oder mindestens ein Elternteil die deutsche Staatsangehörigkeit nicht durch Geburt besitzt. Die Definition umfasst im Einzelnen folgende Personen:<br>  1. zugewanderte und nicht zugewanderte Ausländer;<br>  2. zugewanderte und nicht zugewanderte Eingebürgerte;<br>  3. (Spät-)Aussiedler;<br>  4. mit deutscher Staatsangehörigkeit geborene Nachkommen<br>  Der Migrationshintergrund kann sich demnach auch ausschließlich aus den Eigenschaften der Eltern ableiten. Dargestellt wird die Zahl der Menschen mit Zuwanderungsgeschichte nach ausgewählten Herkunftsländern und Geschlecht.",
           "keywords": "",
           "href": "/IM_Site/1-3-4",
-          "status": "complete"
-        },
-        {
-          "id": "1-3-1_alt",
-          "title": "global_indicators.1-3-1_alt-title",
-          "description": "",
-          "keywords": "",
-          "href": "/IM_Site/1-3-1_alt",
           "status": "complete"
         },
         {
@@ -167,7 +159,7 @@
         },
         {
           "id": "1-4-5",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach ausgewählten Staatsangehörigkeiten und Geschlecht (A6)",
+          "title": "Saldo der Zu- und Fortzüge über die Bundesgrenzen von und nach Niedersachsen (A22)",
           "description": "Der Indikator bildet die Anzahl der jährlichen Zu- und Fortzüge nach bzw. aus Niedersachsen aus dem bzw. in das Ausland (=über die Bundesgrenzen) sowie den Wanderungssaldo nach Landkreisen und kreisfreien Städten ab.",
           "keywords": "",
           "href": "/IM_Site/1-4-5",
@@ -319,7 +311,7 @@
         },
         {
           "id": "2-3-4",
-          "title": "Einbürgerungen nach Niedersachsen nach ausgewählten Staatsangehörigkeiten (A16)",
+          "title": "Einbürgerungen nach Niedersachsen nach ausgewählten Staatsangehörigkeiten",
           "description": "Der Indikator gibt die Zahl aller im jeweiligen Berichtsjahr eingebürgerten Personen nach den 20 häufigsten Staatsangehörigkeiten der 2020 in Niedersachsen lebenden Ausländerinnen und Ausländer wieder und stellt diese ins Verhältnis zur Anzahl der ausländischen Bevölkerung mit der jeweiligen Staatsangehörigkeit. Als Einbürgerung wird der Erwerb der deutschen Staatsangehörigkeit durch einen ausländischen Staatsangehörigen auf Grundlage eines Antrages bezeichnet.",
           "keywords": "",
           "href": "/IM_Site/2-3-4",
@@ -391,7 +383,7 @@
         },
         {
           "id": "4-1-4",
-          "title": "Schulabgängerinnen und Schulabgänger nach Nationalität und Abschlussart (B6)",
+          "title": "Schulabgängerinnen und Schulabgänger nach Nationalität und Abschlussart",
           "description": "Der Indikator gibt den Anteil ausländischer und deutscher Schulabgängerinnen und Schulabgänger nach Schulabschluss an allen Schulabgängerinnen und Schulabgängern eines Jahrgangs an allgemein bildenden Schulen wieder. Er kann Aussagen über die strukturelle Teilhabe und die Chancengleichheit im Bildungssystem machen. Die Über- bzw. Unterrepräsentation von ausländischen Schulabgängerinnen und Schulabgängern bei den verschiedenen Abschlussarten zeigt an, ob diese vergleichbare Bildungschancen wie deutsche Schulabgängerinnen und Schulabgänger haben. Je höher der erreichte Schulabschluss, desto besser sind auch die weiteren Chancen für eine gleichberechtigte, strukturelle Teilhabe.",
           "keywords": "",
           "href": "/IM_Site/4-1-4",
@@ -423,7 +415,7 @@
         },
         {
           "id": "4-3-1",
-          "title": "Ausländische Studentinnen und Studenten nach Land des Erwerbs der Studienberechtigung (B11)",
+          "title": "Ausländische Studentinnen und Studenten nach Land des Erwerbs der Studienberechtigung",
           "description": "Der Indikator gibt den Anteil von ausländischen Studierenden nach Geschlecht und Staatsangehörigkeit wieder. Darüber hinaus unterscheidet er zwischen Bildungsinländerinnen und Bildungsinländern einerseits und Bildungsausländerinnen und Bildungsausländern andererseits. Unter Bildungsinländerinnen und Bildungsinländer fallen alle in Niedersachsen Studierenden mit ausländischer Staatsangehörigkeit, die in Deutschland oder an einer deutschen Auslandschule die Hochschulzugangsberechtigung erhalten haben. Bildungsausländerinnen und Bildungsausländer sind Studierende mit ausländischer Staatsangehörigkeit, die im Ausland die Hochschulzugangsberechtigung erlangt haben. Studierende sind in einem Fachstudium ordentlich immatrikulierte (eingeschriebene) Personen, die einen berufsqualifizierenden Hochschulabschluss anstreben (ohne Beurlaubte, Studienkollegiate und Gasthörerinnen und Gasthörer).",
           "keywords": "",
           "href": "/IM_Site/4-3-1",
@@ -431,7 +423,7 @@
         },
         {
           "id": "4-3-2",
-          "title": "Hochschulabschlüsse im Prüfungsjahr nach Fächergruppe, Nationalität und Geschlecht der Absolventinnen und Absolventen (B12)",
+          "title": "Hochschulabschlüsse im Prüfungsjahr nach Fächergruppe, Nationalität und Geschlecht der Absolventinnen und Absolventen",
           "description": "Der Indikator gibt die Anzahl sowie den Anteil der bestandenen Abschlussprüfungen an niedersächsischen Hochschulen nach Fächergruppen für deutsche und ausländische Studierende wieder. Es erfolgt keine Unterscheidung nach dem Land des Erwerbs der Studienberechtigung (siehe hierfür Indikator B 11). Studierende sind in einem Fachstudium ordentlich immatrikulierte (eingeschriebene) Personen, die einen berufsqualifizierenden Hochschulabschluss anstreben (ohne Beurlaubte, Studienkollegiate und Gasthörerinnen und Gasthörer).",
           "keywords": "",
           "href": "/IM_Site/4-3-2",
