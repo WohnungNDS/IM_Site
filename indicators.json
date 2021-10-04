@@ -71,7 +71,7 @@
         },
         {
           "id": "1-2-6",
-          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Altersgruppen (A7)",
+          "title": "Ausländerinnen und Ausländer in Niedersachsen nach Altersgruppen",
           "description": "Zu den in Deutschland lebenden Ausländerinnen und Ausländern zählen alle Personen, die nicht die deutsche Staatsangehörigkeit besitzen und die sich nicht nur für einen kurzen Zeitraum in Deutschland aufhalten. Dazu gehören auch Staatenlose und Personen mit ungeklärter Staatsangehörigkeit. Deutsche, die zugleich eine fremde Staatsangehörigkeit besitzen, zählen nicht zur ausländischen Bevölkerung. Informationen zur Altersverteilung der ausländischen Bevölkerung können vor dem Hintergrund der Altersstruktur der Gesamtbevölkerung eingeordnet werden. Diese wichtige demographische Kennzahl ermöglicht eine Identifikation unterschiedlicher regionaler Anteile der jüngeren und der älteren ausländischen Bevölkerung.",
           "keywords": "",
           "href": "/IM_Site/1-2-6",
@@ -143,7 +143,7 @@
         },
         {
           "id": "1-4-3",
-          "title": "Saldo der Zu- und Fortzüge über die Bundesgrenzen von und nach Niedersachsen nach ausgewählten Staatsangehörigkeiten (A20)",
+          "title": "Saldo der Zu- und Fortzüge über die Bundesgrenzen von und nach Niedersachsen nach ausgewählten Staatsangehörigkeiten",
           "description": "Der Indikator gibt ...",
           "keywords": "",
           "href": "/IM_Site/1-4-3",
@@ -159,7 +159,7 @@
         },
         {
           "id": "1-4-5",
-          "title": "Saldo der Zu- und Fortzüge über die Bundesgrenzen von und nach Niedersachsen (A22)",
+          "title": "Saldo der Zu- und Fortzüge über die Bundesgrenzen von und nach Niedersachsen",
           "description": "Der Indikator bildet die Anzahl der jährlichen Zu- und Fortzüge nach bzw. aus Niedersachsen aus dem bzw. in das Ausland (=über die Bundesgrenzen) sowie den Wanderungssaldo nach Landkreisen und kreisfreien Städten ab.",
           "keywords": "",
           "href": "/IM_Site/1-4-5",
@@ -391,7 +391,7 @@
         },
         {
           "id": "4-1-5",
-          "title": "Höchster Schulabschluss an allgemein bildenden Schulen nach Zuwanderungsgeschichte und Altersgruppen (B7)",
+          "title": "Höchster Schulabschluss an allgemein bildenden Schulen nach Zuwanderungsgeschichte und Altersgruppen",
           "description": "Der Indikator gibt die Anzahl sowie den Anteil ausländischer und deutscher Berufsschulabgängerinnen und Berufsschulabgänger nach der Schulart und dem erreichten Schulabschluss wieder. Er kann Aussagen über die strukturelle Teilhabe und die Chancengleichheit im Bildungssystem machen. Die Über- bzw. Unterrepräsentation von ausländischen Schulabgängerinnen und Schulabgängern bei den verschiedenen Kombinationen aus Schulart und Abschlussart zeigt an, ob diese vergleichbare Bildungschancen wie deutsche Schulabgängerinnen und-abgänger haben. Je höher der erreichte Schulabschluss ist, desto besser auch die weiteren Chancen für eine gleichberechtigte, strukturelle Teilhabe.",
           "keywords": "",
           "href": "/IM_Site/4-1-5",
@@ -399,7 +399,7 @@
         },
         {
           "id": "4-1-6",
-          "title": "Frühe Schulabgängerinnen und Schulabgänger nach Geschlecht, Zuwanderungsgeschichte und eigener Migrationserfahrung (B13)",
+          "title": "Frühe Schulabgängerinnen und Schulabgänger nach Geschlecht, Zuwanderungsgeschichte und eigener Migrationserfahrung",
           "description": "Der Indikator gibt den Anteil der 18- bis unter 25-Jährigen ohne beruflichen Abschluss und ohne (Fach-)Hochschulreife (maximal ISCED 2) wieder, die sich weder in schulischer oder beruflicher Ausbildung befinden noch an einer Weiterbildung teilnehmen, an der Bevölkerung der entsprechenden Altersgruppe an. Grundwehr- und Zivildienstleistende werden aus der Berechnung ausgeschlossen. Der Indikator fasst Personen zusammen, die maximal die Sekundarstufe I abgeschlossen haben, also maximal über einen Haupt- oder Realschulabschluss verfügen beziehungsweise maximal die 10. Klasse des Gymnasiums oder ein Berufsvorbereitungsjahr abgeschlossen haben.",
           "keywords": "",
           "href": "/IM_Site/4-1-6",
@@ -439,7 +439,7 @@
         },
         {
           "id": "4-4-2",
-          "title": "Höchster beruflicher Abschluss der 25- bis unter 35-Jährigen nach Zuwanderungsgeschichte und Geschlecht (B9)",
+          "title": "Höchster beruflicher Abschluss der 25- bis unter 35-Jährigen nach Zuwanderungsgeschichte und Geschlecht",
           "description": "Der Indikator gibt den Anteil von Menschen mit und ohne Zuwanderungsgeschichte im Alter von 25 bis unter 35 Jahren nach höchstem beruflichen Abschluss wieder. Berufliche Qualifikationen sind ein zentrales Merkmal der strukturellen Teilhabe und beeinflussen die Position am Arbeitsmarkt sowie die gesellschaftliche Teilhabe.",
           "keywords": "",
           "href": "/IM_Site/4-4-2",
@@ -455,7 +455,7 @@
         
         {
           "id": "5-1-1",
-          "title": "Erwerbstätige Menschen mit Zuwanderungsgeschichte in Niedersachsen nach Wirtschaftsabschnitten und Geschlecht (C1)",
+          "title": "Erwerbstätige Menschen mit Zuwanderungsgeschichte in Niedersachsen nach Wirtschaftsabschnitten und Geschlecht",
           "description": "Zu den Erwerbstätigen zählen alle Personen im Alter von 15 und mehr Jahren, die eine auf Erwerb gerichtete Tätigkeit ausüben, unabhängig von der geleisteten Arbeitszeit und der Bedeutung dieser Tätigkeit für den Lebensunterhalt. Maßgeblich ist, dass sie in der Berichtswoche wenigstens eine Stunde einer beruflichen Tätigkeit nachgegangen sind.",
           "keywords": "",
           "href": "/IM_Site/5-1-1",
@@ -463,7 +463,7 @@
         },
         {
           "id": "5-2-1",
-          "title": "Erwerbsquote, Erwerbstätigenquote und Erwerbslosenanteil nach Zuwanderungsgeschichte (C2)",
+          "title": "Erwerbsquote, Erwerbstätigenquote und Erwerbslosenanteil nach Zuwanderungsgeschichte",
           "description": "„Erwerbspersonen“ ist der Oberbegriff für Erwerbstätige und Erwerbslose. Die Zahl der Erwerbspersonen stellt somit das gesamte zur Verfügung stehende Potenzial an Arbeitskräften dar. Der Gegenbegriff sind die Nichterwerbspersonen:Dies sind alle Menschen, die z.B. aus Alters- oder Gesundheitsgründen oder weil sie andere Verdienstquellen haben nicht erwerbstätig sind und auch keine Erwerbstätigkeit anstreben. Erwerbstätige sind alle Personen im Alter von 15 und mehr Jahren, die eine auf Erwerb gerichtete Tätigkeit ausüben, unabhängig von der geleisteten Arbeitszeit und Bedeutung dieser Tätigkeit für den Lebensunterhalt. Maßgeblich ist, dass sie in der Berichtswoche wenigstens eine Stunde einer beruflichen Tätigkeit nachgegangen sind. Als erwerbslos gelten nur solche Personen, die normalerweise erwerbstätig sind und zurzeit nur vorübergehend, da sie noch keinen neuen Arbeitsplatz gefunden haben, aus dem Erwerbsleben ausgeschieden sind, sowie Schulabgängerinnen und Schulabgänger, die sich um eine Lehr-/Arbeitsstelle bemühen. Die Bezeichnung „erwerbslos“ ist unabhängig davon, ob jemand bei der Arbeitsagentur als Arbeitsloser oder als Arbeitssuchender gemeldet ist bzw. Arbeitslosengeld oder -hilfe bezieht. Personen, die normalerweise keinem Erwerb nachgehen, z.B. nicht berufstätige Ehefrauen oder Ehemänner, gelten nicht als erwerbslos. Die Erwerbsquote bezieht die Zahl der Erwerbspersonen auf die Bevölkerung im Erwerbsalter (15 bis unter 65 Jahre). Die Erwerbstätigenquote bezieht die Zahl der 15- bis unter 65-jährigen Erwerbstätigen auf die Bevölkerung im Erwerbsalter. Der Erwerbslosenanteil bezieht die Zahl der Erwerbslosen auf die aller Personen im Erwerbsalter.",
           "keywords": "",
           "href": "/IM_Site/5-2-1",
@@ -471,7 +471,7 @@
         },
         {
           "id": "5-2-2",
-          "title": "Sozialversicherungspflichtig beschäftigte Ausländerinnen und Ausländer (C4)",
+          "title": "Sozialversicherungspflichtig beschäftigte Ausländerinnen und Ausländer",
           "description": "Sozialversicherungspflichtig Beschäftigte umfassen alle Arbeitnehmerinnen und Arbeitnehmer, die krankenversicherungspflichtig, rentenversicherungspflichtig oder beitragspflichtig nach dem SGB III sind oder für die Beitragsanteile zu den gesetzlichen Rentenversicherungen zu leisten sind. Dazu gehören unter anderem auch Auszubildende.",
           "keywords": "",
           "href": "/IM_Site/5-2-2",
@@ -487,7 +487,7 @@
         },
         {
           "id": "5-3-1",
-          "title": "Erwerbslosenanteil nach Zuwanderungsgeschichte (C3)",
+          "title": "Erwerbslosenanteil nach Zuwanderungsgeschichte",
           "description": "Als erwerbslos gelten solche Personen, die normalerweise erwerbstätig sind und zurzeit nur vorübergehend, da sie noch keinen neuen Arbeitsplatz gefunden haben, aus dem Erwerbsleben ausgeschieden sind, sowie Schulabgängerinnen und Schulabgänger, die sich um eine Lehr- bzw. Arbeitsstelle bemühen. Die Bezeichnung „erwerbslos“ ist unabhängig davon, ob jemand bei der Agentur für Arbeit als Arbeitsloser oder als Arbeitssuchender gemeldet ist bzw. Arbeitslosengeld oder -hilfe bezieht. Personen, die normalerweise keinem Erwerb nachgehen, z.B. nicht berufstätige Ehefrauen, gelten nicht als erwerbslos. Der Erwerbslosenanteil bezieht, gegliedert nach Altersgruppen, die Zahl der Erwerbslosen auf die aller Personen im Erwerbsalter (15 bis unter 65 Jahre).",
           "keywords": "",
           "href": "/IM_Site/5-3-1",
