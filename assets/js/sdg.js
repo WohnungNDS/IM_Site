@@ -431,6 +431,18 @@ opensdg.autotrack = function(preset, category, action, label) {
         // And we can now update the colors.
         plugin.updateColors();
 
+        // Add the disaggregation select if necessary.
+        var disaggregationOptions = plugin.getVisibleLayers().toGeoJSON().features[0].properties.disaggregations.map(function(disaggregation) {
+          return Object.values(disaggregation).filter(function(subcategory) {
+            return subcategory;
+          }).map(function(subcategory) {
+            return translations.t(subcategory);
+          }).join(' - ');
+        });
+        if (disaggregationOptions.length > 1) {
+          plugin.map.addControl(L.Control.disaggregationSelect(plugin, disaggregationOptions));
+        }
+
         // Add zoom control.
         plugin.map.addControl(L.Control.zoomHome());
 
@@ -1674,37 +1686,40 @@ function getCombinationData(fieldItems) {
   });
 
   // Generate all possible subsets of these key/value pairs.
-  var powerset = [];
-  // Start off with an empty item.
-  powerset.push([]);
+  var powerset = [[]];
   for (var i = 0; i < fieldValuePairs.length; i++) {
     for (var j = 0, len = powerset.length; j < len; j++) {
-      var candidate = powerset[j].concat(fieldValuePairs[i]);
-      if (!hasDuplicateField(candidate)) {
-        powerset.push(candidate);
-      }
+      powerset.push(powerset[j].concat(fieldValuePairs[i]));
     }
   }
-
-  function hasDuplicateField(pairs) {
-    var fields = [], i;
-    for (i = 0; i < pairs.length; i++) {
-      var field = Object.keys(pairs[i])[0]
-      if (fields.includes(field)) {
-        return true;
-      }
-      else {
-        fields.push(field);
-      }
+  // But we require special filtering on top of this.
+  return powerset.filter(function(combinations) {
+    // We don't need the empty set.
+    if (combinations.length === 0) {
+      return false;
     }
-    return false;
-  }
-
-  // Remove the empty item.
-  powerset.shift();
-
-  return powerset.map(function(combinations) {
-    // We want to merge these into a single object.
+    else if (combinations.length === 1) {
+      return true;
+    }
+    // We don't want any sets that include multiples of the same field.
+    // Eg, we do not need to consider a set containing both "Female" and
+    // "Male". So filter them out here.
+    else {
+      var fieldsUsed = [];
+      for (var i = 0, len = combinations.length; i < len; i++) {
+        var thisField = Object.keys(combinations[i])[0];
+        if (fieldsUsed.includes(thisField)) {
+          // Abort as soon as we find a duplicate.
+          return false;
+        }
+        else {
+          fieldsUsed.push(thisField);
+        }
+      }
+      return true;
+    }
+  }).map(function(combinations) {
+    // We also want to merge these into a single object.
     var combinedSubset = {};
     combinations.forEach(function(keyValue) {
       Object.assign(combinedSubset, keyValue);
@@ -2440,7 +2455,6 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
     getDataBySeries: getDataBySeries,
     getDataBySelectedFields: getDataBySelectedFields,
     getUnitFromStartValues: getUnitFromStartValues,
-    getSeriesFromStartValues: getSeriesFromStartValues,
     selectFieldsFromStartValues: selectFieldsFromStartValues,
     selectMinimumStartingFields: selectMinimumStartingFields,
     fieldsUsedByUnit: fieldsUsedByUnit,
@@ -2653,7 +2667,7 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
         var startingUnit = this.selectedUnit;
         if (this.hasStartValues) {
           var unitInStartValues = helpers.getUnitFromStartValues(this.startValues);
-          if (unitInStartValues && this.units.includes(unitInStartValues)) {
+          if (unitInStartValues) {
             startingUnit = unitInStartValues;
           }
         }
@@ -4486,6 +4500,60 @@ $(function() {
   }
 }());
 /*
+ * Leaflet disaggregation select.
+ *
+ * This is a Leaflet control designed to select the disaggregations available
+ * in the GeoJSON.
+ */
+(function () {
+  "use strict";
+
+  if (typeof L === 'undefined') {
+    return;
+  }
+
+  L.Control.DisaggregationSelect = L.Control.extend({
+
+    options: {
+      position: 'topleft'
+    },
+
+    initialize: function(plugin, disaggregationOptions) {
+      this.plugin = plugin;
+      this.disaggregationOptions = disaggregationOptions;
+    },
+
+    onAdd: function() {
+      // Use the first feature - assumes they are all the same.
+      var div = L.DomUtil.create('div', 'disaggregation-select-container'),
+          label = L.DomUtil.create('label', 'disaggregation-select-label', div),
+          select = L.DomUtil.create('select', 'disaggregation-select', div);
+
+      label.setAttribute('for', 'disaggregation-select-element');
+      label.innerHTML = translations.indicator.sub_categories;
+      select.setAttribute('id', 'disaggregation-select-element');
+      select.innerHTML = this.disaggregationOptions.map(function(option) {
+        return '<option>' + option  + '</option>';
+      });
+      var that = this;
+      L.DomEvent.on(select, 'change', function(event) {
+        that.plugin.currentDisaggregation = this.selectedIndex;
+        that.plugin.updateColors();
+        that.plugin.selectionLegend.update();
+      });
+
+      return div;
+    }
+
+  });
+
+  // Factory function for this class.
+  L.Control.disaggregationSelect = function(plugin, disaggregationOptions) {
+    return new L.Control.DisaggregationSelect(plugin, disaggregationOptions);
+  };
+}());
+
+/*
  * Leaflet fullscreenAccessible.
  *
  * This is an override of L.Control.Fullscreen for accessibility fixes.
@@ -4533,7 +4601,6 @@ $(function() {
       var container = L.Control.Search.prototype.onAdd.call(this, map);
 
       this._input.setAttribute('aria-label', this._input.placeholder);
-      this._tooltip.setAttribute('aria-label', this._input.placeholder);
 
       this._button.setAttribute('role', 'button');
       this._accessibleCollapse();
@@ -4548,26 +4615,6 @@ $(function() {
 
       return container;
     },
-    _createInput: function (text, className) {
-      var input = L.Control.Search.prototype._createInput.call(this, text, className);
-      input.setAttribute('aria-autocomplete', 'list');
-      input.setAttribute('aria-controls', 'map-search-listbox');
-      var combobox = L.DomUtil.create('div', '', this._container);
-      combobox.setAttribute('role', 'combobox');
-      combobox.setAttribute('aria-expanded', 'false');
-      combobox.setAttribute('aria-owns', 'map-search-listbox');
-      combobox.setAttribute('aria-haspopup', 'listbox');
-      combobox.id = 'map-search-combobox';
-      combobox.append(input);
-      this._combobox = combobox;
-      return input;
-    },
-    _createTooltip: function(className) {
-      var tooltip = L.Control.Search.prototype._createTooltip.call(this, className);
-      tooltip.id = 'map-search-listbox';
-      tooltip.setAttribute('role', 'listbox');
-      return tooltip;
-    },
     _accessibleExpand: function() {
       this._accessibleDescription(translations.indicator.map_search_hide);
       this._button.setAttribute('aria-expanded', 'true');
@@ -4575,7 +4622,6 @@ $(function() {
     _accessibleCollapse: function() {
       this._accessibleDescription(translations.indicator.map_search_show);
       this._button.setAttribute('aria-expanded', 'false');
-      this._button.focus();
     },
     _accessibleDescription: function(description) {
       this._button.title = description;
@@ -4594,25 +4640,13 @@ $(function() {
     cancel: function() {
       L.Control.Search.prototype.cancel.call(this);
       this._accessibleExpand();
-      this._combobox.setAttribute('aria-expanded', 'false');
-      this._input.removeAttribute('aria-activedescendant');
       return this;
     },
     showTooltip: function(records) {
       L.Control.Search.prototype.showTooltip.call(this, records);
       this._accessibleDescription(translations.indicator.map_search);
       this._button.removeAttribute('aria-expanded');
-      this._combobox.setAttribute('aria-expanded', 'true');
-      if (this._countertips > 0) {
-        this._input.setAttribute('aria-activedescendant', this._tooltip.childNodes[0].id);
-      }
       return this._countertips;
-    },
-    _createTip: function(text, val) {
-      var tip = L.Control.Search.prototype._createTip.call(this, text, val);
-      tip.setAttribute('role', 'option');
-      tip.id = 'map-search-option-' + val.layer.feature.properties.geocode;
-      return tip;
     },
     _handleSubmit: function(e) {
       // Prevent the enter key from immediately collapsing the search bar.
@@ -4620,19 +4654,6 @@ $(function() {
         return;
       }
       L.Control.Search.prototype._handleSubmit.call(this, e);
-    },
-    _handleArrowSelect: function(velocity) {
-      L.Control.Search.prototype._handleArrowSelect.call(this, velocity);
-      var searchTips = this._tooltip.hasChildNodes() ? this._tooltip.childNodes : [];
-			for (i=0; i<searchTips.length; i++) {
-			  searchTips[i].setAttribute('aria-selected', 'false');
-      }
-      var selectedTip = searchTips[this._tooltip.currentSelection];
-      if (typeof selectedTip === 'undefined') {
-        selectedTip = searchTips[0];
-      }
-      selectedTip.setAttribute('aria-selected', 'true');
-      this._input.setAttribute('aria-activedescendant', selectedTip.id);
     },
     _createAlert: function(className) {
       var alert = L.Control.Search.prototype._createAlert.call(this, className);
