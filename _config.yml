@@ -228,6 +228,11 @@ map_layers:
   staticBorders: false
   subfolder: Mikrozensus
   label: Mikrozensus
+- min_zoom: 0
+  max_zoom: 20
+  staticBorders: false
+  subfolder: Statistische Region
+  label: Statistische Region
 
 
 
