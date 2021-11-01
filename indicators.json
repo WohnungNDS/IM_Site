@@ -536,10 +536,10 @@
         {
           "id": "6-2-1",
           "title": "Empfängerinnen und Empfänger von Mindestsicherungsleistungen (D2)",
-          "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
+          "description": "Staatliche Transferleistungen der sozialen Mindestsicherungssysteme werden zur Sicherung des Lebensunterhaltes gezahlt. Die Empfängerquote bzw. Mindestsicherungsquote beschreibt die Anzahl der Empfängerinnen und Empfänger von Leistungen je 1 000 Einwohnerinnen und Einwohner (Promille) nach Nationalität und Kreisen. Sie ist ein Indikator für die „bekämpfte Armut“ in der Gesellschaft.",
           "keywords": "",
           "href": "/IM_Site/6-2-1",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "6-2-2",
