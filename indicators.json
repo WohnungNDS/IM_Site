@@ -383,7 +383,7 @@
         },
         {
           "id": "4-1-4",
-          "title": "Schulabgängerinnen und Schulabgänger nach Nationalität und Abschlussart",
+          "title": "Schulabgängerinnen und Schulabgänger nach Nationalität und Abschlussart (in Prozet)",
           "description": "Der Indikator gibt den Anteil ausländischer und deutscher Schulabgängerinnen und Schulabgänger nach Schulabschluss an allen Schulabgängerinnen und Schulabgängern eines Jahrgangs an allgemein bildenden Schulen wieder. Er kann Aussagen über die strukturelle Teilhabe und die Chancengleichheit im Bildungssystem machen. Die Über- bzw. Unterrepräsentation von ausländischen Schulabgängerinnen und Schulabgängern bei den verschiedenen Abschlussarten zeigt an, ob diese vergleichbare Bildungschancen wie deutsche Schulabgängerinnen und Schulabgänger haben. Je höher der erreichte Schulabschluss, desto besser sind auch die weiteren Chancen für eine gleichberechtigte, strukturelle Teilhabe.",
           "keywords": "",
           "href": "/IM_Site/4-1-4",
@@ -392,14 +392,14 @@
         {
           "id": "4-1-5",
           "title": "Höchster Schulabschluss an allgemein bildenden Schulen nach Zuwanderungsgeschichte und Altersgruppen",
-          "description": "Der Indikator gibt die Anzahl sowie den Anteil ausländischer und deutscher Berufsschulabgängerinnen und Berufsschulabgänger nach der Schulart und dem erreichten Schulabschluss wieder. Er kann Aussagen über die strukturelle Teilhabe und die Chancengleichheit im Bildungssystem machen. Die Über- bzw. Unterrepräsentation von ausländischen Schulabgängerinnen und Schulabgängern bei den verschiedenen Kombinationen aus Schulart und Abschlussart zeigt an, ob diese vergleichbare Bildungschancen wie deutsche Schulabgängerinnen und-abgänger haben. Je höher der erreichte Schulabschluss ist, desto besser auch die weiteren Chancen für eine gleichberechtigte, strukturelle Teilhabe.",
+          "description": "Der Indikator gibt den Anteil von Menschen mit und ohne Zuwanderungsgeschichte nach höchstem Schulabschluss wieder. Er kann Aussagen über die strukturelle Teilhabe und die Chancengleichheit im Bildungssystem machen. Die Über- bzw. Unterrepräsentation der Bevölkerung mit Zuwanderungsgeschichte bei den verschiedenen Schulabschlüssen zeigt an, ob diese vergleichbare Bildungschancen wie Menschen ohne Zuwanderungsgeschichte haben. Je höher der erreichte Schulabschluss ist, desto besser sind auch die weiteren Chancen für eine gleichberechtigte, strukturelle Teilhabe. Die Betrachtung der jüngeren Altersgruppe gibt Hinweise darauf, wie sich die Bildungsstruktur künftig entwickeln wird. Die Angleichung der Bildungsstruktur der Bevölkerung mit Zuwanderungsgeschichte an die, ohne Zuwanderungsgeschichte, kann als Voraussetzung für die Angleichung der Beschäftigungsstruktur beider Gruppen angesehen werden.",
           "keywords": "",
           "href": "/IM_Site/4-1-5",
           "status": "complete"
         },
         {
           "id": "4-1-6",
-          "title": "Frühe Schulabgängerinnen und Schulabgänger nach Geschlecht, Zuwanderungsgeschichte und eigener Migrationserfahrung",
+          "title": "Frühe Schulabgängerinnen und Schulabgänger nach Geschlecht, Zuwanderungsgeschichte und eigener Migrationserfahrung (in Prozent)",
           "description": "Der Indikator gibt den Anteil der 18- bis unter 25-Jährigen ohne beruflichen Abschluss und ohne (Fach-)Hochschulreife (maximal ISCED 2) wieder, die sich weder in schulischer oder beruflicher Ausbildung befinden noch an einer Weiterbildung teilnehmen, an der Bevölkerung der entsprechenden Altersgruppe an. Grundwehr- und Zivildienstleistende werden aus der Berechnung ausgeschlossen. Der Indikator fasst Personen zusammen, die maximal die Sekundarstufe I abgeschlossen haben, also maximal über einen Haupt- oder Realschulabschluss verfügen beziehungsweise maximal die 10. Klasse des Gymnasiums oder ein Berufsvorbereitungsjahr abgeschlossen haben.",
           "keywords": "",
           "href": "/IM_Site/4-1-6",
