@@ -121,11 +121,12 @@ frontpage_cards:
       Lediglich im Jahr 2015 überstieg die Fluchtmigration die Arbeitsmigration...
     button_label: Mehr erfahren
     button_link: https://wohnungnds.github.io/IM_Site/11-2-3/
-  - title: Kurz erklärt...
+  - title: Frühere Berichte
+    path: /previous_reports/
     content: |
-      ... das Integrationsmonitoring
-    button_label: Film ab!
-    button_link: https://wolke.kreativgeschoss.de/index.php/s/WWQpKRGPBifmQgp
+      Ätere Ausgaben des Berichts Integration und Teilhabe in Niedersachsen
+    button_label: Frühere Berichte
+    button_link: /previous_reports/
 
 # Pages
 collections:
