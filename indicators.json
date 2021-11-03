@@ -135,11 +135,11 @@
         },
         {
           "id": "1-4-2",
-          "title": "Fortzüge über die Bundesgrenze aus Niedersachsen (A19)",
-          "description": "Der Indikator gibt ...",
+          "title": "Fortzüge über die Bundesgrenze aus Niedersachsen",
+          "description": "Der Indikator stellt die Anzahl der jährlichen Fortzüge aus Niedersachsen in das Ausland (=über die Bundesgrenzen) nach dem Land des Wanderungsziels dar.",
           "keywords": "",
           "href": "/IM_Site/1-4-2",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "1-4-3",
