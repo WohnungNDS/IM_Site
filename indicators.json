@@ -408,7 +408,7 @@
         {
           "id": "4-2-1",
           "title": "Ausbildungsbeteiligungsquote im dualen System nach Geschlecht und Nationalität",
-          "description": "Der Indikator gibt die Gesamtzahl der in Niedersachsen durchgeführten Anerkennungsverfahren nach dem Berufsqualifikationsfeststellungsgesetz (BQFG) und dem niedersächsischen Berufsqualifikationsgesetz (NBQFG) sowie die Zahl der davon abgeschlossenen Verfahren nach der getroffenen Entscheidung an. Separat ausgewiesen werden Verfahren in der Berufshauptgruppe der medizinischen Gesundheitsberufe, da diese den überwiegenden Teil der Verfahren darstellten.",
+          "description": "Der Indikator gibt die Ausbildungsbeteiligungsquote im dualen System nach Geschlecht und Nationalität an. Er ermöglicht einen Einblick in die Partizipation an der beruflichen Ausbildung von deutschen und ausländischen Staatsangehörigen.",
           "keywords": "",
           "href": "/IM_Site/4-2-1",
           "status": "complete"
@@ -535,7 +535,7 @@
         },
         {
           "id": "6-2-1",
-          "title": "Empfängerinnen und Empfänger von Mindestsicherungsleistungen (D2)",
+          "title": "Empfängerinnen und Empfänger von Mindestsicherungsleistungen",
           "description": "Staatliche Transferleistungen der sozialen Mindestsicherungssysteme werden zur Sicherung des Lebensunterhaltes gezahlt. Die Empfängerquote bzw. Mindestsicherungsquote beschreibt die Anzahl der Empfängerinnen und Empfänger von Leistungen je 1 000 Einwohnerinnen und Einwohner (Promille) nach  Nationalität und Kreisen. Sie ist ein Indikator für die „bekämpfte Armut“ in der Gesellschaft.",
           "keywords": "",
           "href": "/IM_Site/6-2-1",
