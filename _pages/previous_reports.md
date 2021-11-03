@@ -12,7 +12,7 @@ Ein kurzer Text de rerläutert, dass man hier ältere Berichte runterladen kann.
 
 <table>
   <tr>
-    <td><img src="https://github.com/WohnungNDS/IM_Site/blob/develop/assets/prevoius_reports/2009.png" alt="Selfhtml"></td><td>Inhalt 2</td>
+    <td><img src="https://wohnungnds.github.io/IM_Site/assets/prevoius_reports/2009.png" alt="2009"></td><td><a href="https://wohnungnds.github.io/IM_Site/assets/prevoius_reports/IntegrationsberichtNiedersachsen2009.pdf" target="_blank">Handlungsbericht Migration 2009</a> 2</td>
   </tr>
   
 </table>
