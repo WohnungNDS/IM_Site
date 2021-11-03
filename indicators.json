@@ -127,11 +127,11 @@
         },
         {
           "id": "1-4-1",
-          "title": "Zuzüge über die Bundesgrenze nach Niedersachsen (A18)",
-          "description": "Der Indikator gibt ...",
+          "title": "Zuzüge über die Bundesgrenze nach Niedersachsen",
+          "description": "Der Indikator stellt die Anzahl der jährlichen Zuzüge nach Niedersachsen aus dem Ausland (=über die Bundesgrenzen) nach dem Land der Wanderungsherkunft dar.",
           "keywords": "",
           "href": "/IM_Site/1-4-1",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "1-4-2",
@@ -144,7 +144,7 @@
         {
           "id": "1-4-3",
           "title": "Saldo der Zu- und Fortzüge über die Bundesgrenzen von und nach Niedersachsen nach ausgewählten Staatsangehörigkeiten",
-          "description": "Der Indikator gibt ...",
+          "description": "Der Indikator stellt die Anzahl der jährlichen Fortzüge aus Niedersachsen in das Ausland (=über die Bundesgrenzen) nach dem Land des Wanderungsziels dar.",
           "keywords": "",
           "href": "/IM_Site/1-4-3",
           "status": "complete"
