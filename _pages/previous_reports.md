@@ -16,11 +16,6 @@ Ein kurzer Text de rerläutert, dass man hier ältere Berichte runterladen kann.
   </tr>
   
 </table>
-<div id='DivIdToPrint'>
-    <p>This is a sample text for printing purpose.</p>
-</div>
-<p>Do not print.</p>
-<button id="btnSave" title="Ausdrucken" class="btn btn-primary btn-download">
-          Grafik herunterladen
-        </button>
-<input type='button' id='btn' value='Print' onclick='printDiv();'>
+
+
+<input type='button' id='btnSave' value='Print' class="btn btn-primary btn-download" onclick='printDiv();'>
