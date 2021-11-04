@@ -19,3 +19,5 @@ Ein kurzer Text de rerläutert, dass man hier ältere Berichte runterladen kann.
 
 
 <input type='button' id='btnSave' value='Print' class="btn btn-primary btn-download" onclick='printDiv();'>
+<br>
+<input type='button' id='btnSave' value='Print in the same Window' class="btn btn-primary btn-download" onclick='printingDiv();'>
