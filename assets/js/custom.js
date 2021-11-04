@@ -8,7 +8,7 @@ opensdg.tableConfigAlter(function(config) {
 function printDiv() 
 {
 
-  var divToPrint=document.getElementById('DivIdToPrint');
+  var divToPrint=document.getElementById('main-content');
 
   var newWin=window.open('','Print-Window');
 
