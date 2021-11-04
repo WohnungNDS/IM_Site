@@ -21,3 +21,12 @@ function printDiv()
   setTimeout(function(){newWin.close();},10);
 
 }
+
+
+function printingDiv(){
+        var printContents = document.getElementById("main-content").innerHTML;
+        var originalContents = document.body.innerHTML;
+        document.body.innerHTML = printContents;
+        window.print();
+        document.body.innerHTML = originalContents;
+}
