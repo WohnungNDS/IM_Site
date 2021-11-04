@@ -16,3 +16,8 @@ Ein kurzer Text de rerläutert, dass man hier ältere Berichte runterladen kann.
   </tr>
   
 </table>
+<div id='DivIdToPrint'>
+    <p>This is a sample text for printing purpose.</p>
+</div>
+<p>Do not print.</p>
+<input type='button' id='btn' value='Print' onclick='printDiv();'>
