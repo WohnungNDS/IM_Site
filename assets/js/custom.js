@@ -20,7 +20,7 @@ function printDiv()
 
   setTimeout(function(){newWin.close();},10);
 
-}
+};
 
 
 function printingDiv(){
@@ -29,7 +29,7 @@ function printingDiv(){
         document.body.innerHTML = printContents;
         window.print();
         document.body.innerHTML = originalContents;
-}
+};
 
 
 
