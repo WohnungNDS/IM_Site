@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20211105115705">
+        <link rel="stylesheet" href="/IM_Site/assets/css/style.css?v=20211105115915">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -796,7 +796,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd><br>1) Integrierte Gesamtschule: einschließlich Freie Waldorfschule u. ä.; die verschiedenen Zweige der Kooperativen   Gesamtschule werden den Schulformen Hauptschule, Realschule und Gymnasium zugeordnet. <br>2) Oberschule: Schulform in Niedersachsen zum Schuljahr 2011/2012 eingeführt</dd>
         
     <dl>
-      Some Text
+      <input type='button' id='btnSave' value='Print' class="btn btn-primary btn-download" onclick='printDiv();'>
+<br>
+<input type='button' id='btnSave' value='Print in the same Window' class="btn btn-primary btn-download" onclick='printingDiv();'>
 </div>
 
         </div>
@@ -838,7 +840,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd><br>1) Integrierte Gesamtschule: einschließlich Freie Waldorfschule u. ä.; die verschiedenen Zweige der Kooperativen   Gesamtschule werden den Schulformen Hauptschule, Realschule und Gymnasium zugeordnet. <br>2) Oberschule: Schulform in Niedersachsen zum Schuljahr 2011/2012 eingeführt</dd>
         
     <dl>
-      Some Text
+      <input type='button' id='btnSave' value='Print' class="btn btn-primary btn-download" onclick='printDiv();'>
+<br>
+<input type='button' id='btnSave' value='Print in the same Window' class="btn btn-primary btn-download" onclick='printingDiv();'>
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
@@ -871,7 +875,9 @@ opensdg.chartConfigAlter(function(config, info) {
         <dd><br>1) Integrierte Gesamtschule: einschließlich Freie Waldorfschule u. ä.; die verschiedenen Zweige der Kooperativen   Gesamtschule werden den Schulformen Hauptschule, Realschule und Gymnasium zugeordnet. <br>2) Oberschule: Schulform in Niedersachsen zum Schuljahr 2011/2012 eingeführt</dd>
         
     <dl>
-      Some Text
+      <input type='button' id='btnSave' value='Print' class="btn btn-primary btn-download" onclick='printDiv();'>
+<br>
+<input type='button' id='btnSave' value='Print in the same Window' class="btn btn-primary btn-download" onclick='printingDiv();'>
 </div>
 
 
@@ -1291,12 +1297,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/IM_Site/assets/js/sdg.js?v=20211105115705'></script>
+<script src='/IM_Site/assets/js/sdg.js?v=20211105115915'></script>
 
 
     
     
-    <script src="/IM_Site/assets/js/custom.js?v=20211105115705"></script><script>
+    <script src="/IM_Site/assets/js/custom.js?v=20211105115915"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
