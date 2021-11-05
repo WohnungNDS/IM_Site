@@ -31,15 +31,13 @@ function printingDiv(){
         document.body.innerHTML = originalContents;
 }
 
-  var myApp = new function () {
-        this.printCanvas = function () {
-            // Store DIV contents in the variable.
-            var div = document.getElementById('chart-canvas');
-
-            // Create a window object.
-            var win = window.open('', '', 'height=700,width=700'); // Open the window. Its a popup window.
-            win.document.write(div.outerHTML);     // Write contents in the new window.
-            win.document.close();
-            win.print();       // Finally, print the contents.
+function printCanvas(){
+     // Store DIV contents in the variable.
+        var div = document.getElementById('chart-canvas');
+      // Create a window object.
+        var win = window.open('', '', 'height=700,width=700'); // Open the window. Its a popup window.
+        win.document.write(div.outerHTML);     // Write contents in the new window.
+        win.document.close();
+        win.print();       // Finally, print the contents.
         }
-    }
+ 
