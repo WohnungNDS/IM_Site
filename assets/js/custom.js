@@ -8,7 +8,7 @@ opensdg.tableConfigAlter(function(config) {
 function printDiv() 
 {
 
-  var divToPrint=document.getElementById('main-content');
+  var divToPrint=document.getElementById('chart-canvas');
 
   var newWin=window.open('','Print-Window');
 
@@ -24,7 +24,7 @@ function printDiv()
 
 
 function printingDiv(){
-        var printContents = document.getElementById("main-content").innerHTML;
+        var printContents = document.getElementById("chart-canvas").innerHTML;
         var originalContents = document.body.innerHTML;
         document.body.innerHTML = printContents;
         window.print();
