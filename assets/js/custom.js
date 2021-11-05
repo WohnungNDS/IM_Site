@@ -32,7 +32,7 @@ function printingDiv(){
 }
 
   var myApp = new function () {
-        this.printDiv = function () {
+        this.printCanvas = function () {
             // Store DIV contents in the variable.
             var div = document.getElementById('chart-canvas');
 
