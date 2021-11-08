@@ -29,3 +29,26 @@ Darüber hinaus können Zahlen zur ausländischen Bevölkerung sehr detailliert 
 Darüber hinaus fließen weitere amtliche Statistiken in den Bericht ein. Sie können größtenteils in den einschlägigen Datenbanken, teilweise bis auf Gemeindeebene, abgerufen werden: Die LSN-Online-Datenbank ist unter www.statistik.niedersachsen.de zu erreichen und die Regionaldatenbank Deutschland unter www.regionalstatistik.de. Auch die Statistischen Berichte Niedersachsen und weitere Veröffentlichungen des LSN stehen unter www.statistik.niedersachsen.de bereit. Zusätzliche Informationen stellt die Internetseite www.statistikportal.de (mit Gemeinschaftsveröffentlichungen der Statistischen Ämter des Bundes und der Länder, u.a. zur amtlichen Sozialberichterstattung) zur Verfügung. Näheres erläutern jeweils die Indikatoren. Für eine übergeordnete Sicht auf das Migrationsgeschehen in Deutschland wird auf das [Integrationsmonitoring der Länder](https://www.integrationsmonitoring-laender.de/) verwiesen.
 <br>
 Die zwei Teile des Berichtes sind auf den Internetseiten des [Niedersächsischen Ministeriums für Soziales, Gesundheit und Gleichstellung verfügbar](https://www.ms.niedersachsen.de) verfügbar.
+
+<b>Zeichenerklärung</b>		
+<br>		
+<br>–	=	Nichts vorhanden
+<br>0	=	Mehr als nichts, aber weniger als die Hälfte der kleinsten dargestellten Einheit.
+<br>.	=	Zahlenwert unbekannt oder aus Geheimhaltungsgründen nicht veröffentlicht.
+<br>x	=	Nachweis ist nicht sinnvoll, unmöglich oder Fragestellung trifft nicht zu.
+<br>/	=	Nicht veröffentlicht, weil nicht ausreichend genau oder nicht repräsentativ.
+<br>()	=	Aussagewert eingeschränkt, da der Zahlenwert statistisch relativ unsicher ist.
+<br>dav.	=	davon. Mit diesem Wort wird die Aufgliederung einer Gesamtmasse in sämtliche Teilmassen eingeleitet.
+<br>dar.	=	darunter. Mit diesem Wort wird die Ausgliederung einzelner Teilmassen angekündigt.
+€	=	Euro
+<br>		
+<b>Abkürzungsverzeichnis</b>		
+<br>		
+<br>AZR	=	Ausländerzentralregister
+<br>EP	=	Erwerbspersonen
+<br>EU	=	Europäische Union
+<br>EWR	=	Europäischer Wirtschaftsraum
+<br>IntMK	=	Konferenz der für Integration zuständigen Ministerinnen und Minister / Senatorinnen und Senatoren der Länder
+<br>NUTS	=	Systematik der Gebietseinheiten für die Statistik (Nomenclature des unités territoriales statistiques, NUTS)
+<br>OECD	=	Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (Organisation for Economic Co-operation and Development, OECD)
+<br>SGB	=	Sozialgesetzbuch
