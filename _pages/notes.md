@@ -29,7 +29,7 @@ Darüber hinaus können Zahlen zur ausländischen Bevölkerung sehr detailliert 
 Darüber hinaus fließen weitere amtliche Statistiken in den Bericht ein. Sie können größtenteils in den einschlägigen Datenbanken, teilweise bis auf Gemeindeebene, abgerufen werden: Die LSN-Online-Datenbank ist unter www.statistik.niedersachsen.de zu erreichen und die Regionaldatenbank Deutschland unter www.regionalstatistik.de. Auch die Statistischen Berichte Niedersachsen und weitere Veröffentlichungen des LSN stehen unter www.statistik.niedersachsen.de bereit. Zusätzliche Informationen stellt die Internetseite www.statistikportal.de (mit Gemeinschaftsveröffentlichungen der Statistischen Ämter des Bundes und der Länder, u.a. zur amtlichen Sozialberichterstattung) zur Verfügung. Näheres erläutern jeweils die Indikatoren. Für eine übergeordnete Sicht auf das Migrationsgeschehen in Deutschland wird auf das [Integrationsmonitoring der Länder](https://www.integrationsmonitoring-laender.de/) verwiesen.
 <br>
 Die zwei Teile des Berichtes sind auf den Internetseiten des [Niedersächsischen Ministeriums für Soziales, Gesundheit und Gleichstellung verfügbar](https://www.ms.niedersachsen.de) verfügbar.
-
+<br>
 <b>Zeichenerklärung</b>		
 <br>		
 <br>–	=	Nichts vorhanden
@@ -41,6 +41,7 @@ Die zwei Teile des Berichtes sind auf den Internetseiten des [Niedersächsischen
 <br>dav.	=	davon. Mit diesem Wort wird die Aufgliederung einer Gesamtmasse in sämtliche Teilmassen eingeleitet.
 <br>dar.	=	darunter. Mit diesem Wort wird die Ausgliederung einzelner Teilmassen angekündigt.
 €	=	Euro
+<br>
 <br>		
 <b>Abkürzungsverzeichnis</b>		
 <br>		
