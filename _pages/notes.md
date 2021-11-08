@@ -40,7 +40,7 @@ Die zwei Teile des Berichtes sind auf den Internetseiten des [Niedersächsischen
 <br>()	=	Aussagewert eingeschränkt, da der Zahlenwert statistisch relativ unsicher ist.
 <br>dav.	=	davon. Mit diesem Wort wird die Aufgliederung einer Gesamtmasse in sämtliche Teilmassen eingeleitet.
 <br>dar.	=	darunter. Mit diesem Wort wird die Ausgliederung einzelner Teilmassen angekündigt.
-€	=	Euro
+<br>€	=	Euro
 <br>
 <br>		
 <b>Abkürzungsverzeichnis</b>		
