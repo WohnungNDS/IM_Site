@@ -1,6 +1,5 @@
 ---
 title: Methodische Vorbemerkungen
-language: de
 permalink: /notes/
 layout: page
 ---
