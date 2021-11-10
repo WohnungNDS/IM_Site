@@ -1,8 +1,10 @@
 ---
 title: Methodische Vorbemerkungen
+language: de
 permalink: /notes/
 layout: page
 ---
+
 Der vorliegende Bericht liefert eine Bestandsaufnahme zur Teilhabe von Migrantinnen und Migranten im Land Niedersachsen in Form eines datengestützten Monitorings. Auf Basis von Tabellen der amtlichen Statistik und der Bundesagentur für Arbeit schaffen 48 Indikatoren einen Überblick zu den Themenbereichen Bevölkerung (A), Bildung und Qualifikation (B), Erwerbstätigkeit und Arbeitsmarkt (C) sowie Soziales (D).
 <br>
 <br>
