@@ -183,7 +183,7 @@
         },
         {
           "id": "2-1-2",
-          "title": "Geflüchtete und geduldete Personen in Niedersachsen (A9)",
+          "title": "Zeitlich befristete und zeitlich unbefristete Aufenthalstitel",
           "description": "Zu den in Deutschland lebenden Ausländerinnen und Ausländern zählen alle Personen, die nicht die deutsche Staatsangehörigkeit besitzen und die sich nicht nur für einen kurzen Zeitraum in Deutschland aufhalten. Dazu gehören auch Staatenlose und Personen mit ungeklärter Staatsangehörigkeit.<br> Deutsche, die zugleich eine fremde Staatsangehörigkeit besitzen, zählen nicht zur ausländischen Bevölkerung. Ausländerinnen und Ausländer leben in Deutschland mit einem bestimmten Aufenthaltstitel (z.B. Aufenthaltserlaubnis oder Niederlassungserlaubnis), zur Durchführung eines Asylverfahrens (Aufenthaltsgestattung) oder bei nicht rechtmäßigem Aufenthalt mit einer Duldung (Aussetzung der Abschiebung). Die Bedingungen der rechtmäßigen Einreise und des rechtmäßigen Aufenthalts werden durch unterschiedliche Aufenthaltstitel geregelt. Die nach dem Aufenthaltstitel gegliederten Daten sind ein Indikator, der die gesellschaftliche Teilhabe anhand rechtlicher Aufenthaltsbedingungen und den damit verbundenen Möglichkeiten z.B. zur Aufnahme einer Ausbildung oder Erwerbstätigkeit beschreibt.",
           "keywords": "",
           "href": "/IM_Site/2-1-2",
@@ -191,7 +191,7 @@
         },
         {
           "id": "2-1-3",
-          "title": "Asylberechtigte und GfK-Flüchtlinge",
+          "title": "Zeitlich befristete Aufenthaltstitel nach Grund der Befristung",
           "description": "Zu den in Deutschland lebenden Ausländerinnen und Ausländern zählen alle Personen, die nicht die deutsche Staatsangehörigkeit besitzen und die sich nicht nur für einen kurzen Zeitraum in Deutschland aufhalten. Dazu gehören auch Staatenlose und Personen mit ungeklärter Staatsangehörigkeit. Deutsche, die zugleich eine fremde Staatsangehörigkeit besitzen, zählen nicht zur ausländischen Bevölkerung. Ausländerinnen und Ausländer leben in Deutschland mit einem bestimmten Aufenthaltstitel (z.B. Aufenthaltserlaubnis oder Niederlassungserlaubnis), zur Durchführung eines Asylverfahrens (Aufenthaltsgestattung) oder bei nicht rechtmäßigem Aufenthalt mit einer Duldung (Aussetzung der Abschiebung). Die Bedingungen der rechtmäßigen Einreise und des rechtmäßigen Aufenthalts werden durch unterschiedliche Aufenthaltstitel geregelt. Die nach dem Aufenthaltstitel gegliederten Daten sind ein Indikator, der die gesellschaftliche Teilhabe anhand rechtlicher Aufenthaltsbedingungen und den damit verbundenen Möglichkeiten z.B. zur Aufnahme einer Ausbildung oder Erwerbstätigkeit beschreibt.",
           "keywords": "",
           "href": "/IM_Site/2-1-3",
@@ -199,7 +199,7 @@
         },
         {
           "id": "2-1-4",
-          "title": "Aufenthaltsgestattung zum Asylverfahren",
+          "title": "Menschen ohne Aufenthaltstitel Duldung Aufenthaltsgestattung Ohne Duldung oder Gestattung",
           "description": "Zu den in Deutschland lebenden Ausländerinnen und Ausländern zählen alle Personen, die nicht die deutsche Staatsangehörigkeit besitzen und die sich nicht nur für einen kurzen Zeitraum in Deutschland aufhalten. Dazu gehören auch Staatenlose und Personen mit ungeklärter Staatsangehörigkeit. Deutsche, die zugleich eine fremde Staatsangehörigkeit besitzen, zählen nicht zur ausländischen Bevölkerung. Ausländerinnen und Ausländer leben in Deutschland mit einem bestimmten Aufenthaltstitel (z.B. Aufenthaltserlaubnis oder Niederlassungserlaubnis), zur Durchführung eines Asylverfahrens (Aufenthaltsgestattung) oder bei nicht rechtmäßigem Aufenthalt mit einer Duldung (Aussetzung der Abschiebung). Die Bedingungen der rechtmäßigen Einreise und des rechtmäßigen Aufenthalts werden durch unterschiedliche Aufenthaltstitel geregelt. Die nach dem Aufenthaltstitel gegliederten Daten sind ein Indikator, der die gesellschaftliche Teilhabe anhand rechtlicher Aufenthaltsbedingungen und den damit verbundenen Möglichkeiten z.B. zur Aufnahme einer Ausbildung oder Erwerbstätigkeit beschreibt.",
           "keywords": "",
           "href": "/IM_Site/2-1-4",
@@ -587,7 +587,7 @@
           "description": "Der Indikator gibt die Anzahl sowie den Anteil....",
           "keywords": "",
           "href": "/IM_Site/7-1-2",
-          "status": "inprogress"
+          "status": "complete"
         },
         {
           "id": "7-2-1",
